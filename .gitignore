@@ -1,0 +1,24 @@
+# Environment variables (SECURITY RISK)
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node/Vite UI Cache
+web_ui/node_modules/
+web_ui/dist/
+web_ui/.npm/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

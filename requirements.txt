@@ -1,0 +1,11 @@
+fastapi>=0.111.0
+litellm>=1.40.0
+routellm
+sentence-transformers
+anthropic
+google-generativeai
+tiktoken
+aiosqlite
+python-dotenv
+uvicorn
+scikit-learn

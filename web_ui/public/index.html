@@ -3,153 +3,239 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Router Platform</title>
+    <title>To-Path | Zero-Cost API Routing Engine</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <!-- Add some custom styling for animations and scrollbars -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
     <style>
-        body { background-color: #0f172a; color: #e2e8f0; font-family: 'Inter', sans-serif; }
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #1e293b; }
-        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
-        .glass-panel { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .typing-indicator span { display: inline-block; width: 6px; height: 6px; background-color: #60a5fa; border-radius: 50%; margin: 0 2px; animation: bounce 1.4s infinite ease-in-out both; }
+        body { 
+            background-color: #0b0f19; 
+            color: #e2e8f0; 
+            font-family: 'Inter', sans-serif;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(96, 165, 250, 0.05), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(167, 139, 250, 0.05), transparent 25%);
+        }
+        
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(71, 85, 105, 0.5); border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(100, 116, 139, 0.8); }
+        
+        .glass-panel { 
+            background: rgba(15, 23, 42, 0.6); 
+            backdrop-filter: blur(16px); 
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.05); 
+        }
+        
+        .glowing-border {
+            position: relative;
+        }
+        .glowing-border::before {
+            content: "";
+            position: absolute;
+            inset: -1px;
+            border-radius: inherit;
+            padding: 1px;
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.5), rgba(167, 139, 250, 0.1));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+
+        .typing-indicator span { 
+            display: inline-block; width: 5px; height: 5px; 
+            background-color: #60a5fa; border-radius: 50%; margin: 0 3px; 
+            animation: bounce 1.4s infinite ease-in-out both; 
+        }
         .typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
         .typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
-        @keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
-        .markdown-body pre { background: #1e293b; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; margin-top: 0.5rem; margin-bottom: 0.5rem; }
-        .markdown-body code { font-family: 'Courier New', Courier, monospace; background: rgba(0,0,0,0.3); padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-size: 0.9em; }
-        .markdown-body p { margin-bottom: 0.75rem; }
+        @keyframes bounce { 0%, 80%, 100% { transform: scale(0); opacity: 0.5; } 40% { transform: scale(1); opacity: 1; } }
+        
+        .pulse-text {
+            background: linear-gradient(90deg, #60a5fa, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 4s linear infinite;
+        }
+        @keyframes shine { to { background-position: 200% center; } }
+        
+        .markdown-body pre { background: #0f172a; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; margin-top: 0.5rem; margin-bottom: 0.5rem; border: 1px solid rgba(255,255,255,0.05); }
+        .markdown-body code { font-family: 'Fira Code', monospace; background: rgba(0,0,0,0.4); padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-size: 0.85em; color: #93c5fd; }
+        .markdown-body p { margin-bottom: 0.75rem; line-height: 1.6; }
     </style>
 </head>
-<body class="h-screen flex hidden bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]">
+<body class="h-screen flex hidden overflow-hidden">
     
     <!-- Sidebar -->
-    <div class="w-80 glass-panel h-full flex flex-col pt-6 pb-4 px-4 z-10 border-r" id="sidebar">
-        <div class="flex items-center gap-3 mb-8 px-2">
-            <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-blue-500/50">
-                <i class="fa-solid fa-network-wired"></i>
+    <div class="w-80 glass-panel h-full flex flex-col pt-8 pb-6 px-5 z-10 border-r border-slate-800/50" id="sidebar">
+        <div class="flex items-center gap-4 mb-10 px-2 cursor-pointer group">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-white font-bold text-2xl shadow-lg shadow-blue-500/20 group-hover:shadow-blue-500/40 transition-all duration-300 transform group-hover:-translate-y-1">
+                <i class="fa-solid fa-bolt"></i>
             </div>
             <div>
-                <h1 class="text-xl font-bold text-white tracking-wide">To-Path</h1>
-                <p class="text-xs text-blue-400">Zero-Cost Distillation</p>
+                <h1 class="text-2xl font-extrabold text-white tracking-tight pulse-text">To-Path</h1>
+                <p class="text-xs text-slate-400 font-medium tracking-wide uppercase mt-0.5">Enterprise Router</p>
             </div>
         </div>
 
-        <div class="flex-1 overflow-y-auto">
-            <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3 px-2">Diagnostics</h3>
-            <div class="space-y-3">
-                <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700/50 transition-all hover:border-blue-500/30">
-                    <p class="text-sm text-slate-400 mb-1">Savings vs Cloud</p>
-                    <div class="flex items-end gap-2">
-                        <h2 class="text-2xl font-bold text-green-400" id="ui-savings">$0.00</h2>
-                        <span class="text-xs text-green-500/80 mb-1 font-mono">(100%)</span>
+        <div class="flex-1 overflow-y-auto pr-1">
+            <h3 class="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em] mb-4 px-2">Live Telemetry</h3>
+            
+            <div class="space-y-4">
+                <!-- Savings Card -->
+                <div class="bg-slate-800/40 p-5 rounded-2xl glowing-border relative overflow-hidden group hover:bg-slate-800/60 transition-colors">
+                    <div class="absolute top-0 right-0 p-3 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <i class="fa-solid fa-chart-line text-4xl text-green-400"></i>
+                    </div>
+                    <p class="text-xs font-semibold text-slate-400 mb-2">SAVINGS VS CLOUD</p>
+                    <div class="flex items-baseline gap-2">
+                        <h2 class="text-3xl font-black text-green-400 tracking-tight" id="ui-savings">$0.00</h2>
+                        <span class="text-xs text-green-500/80 mb-1.5 font-mono bg-green-500/10 px-2 py-0.5 rounded pl-1">(100%)</span>
                     </div>
                 </div>
                 
-                <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700/50">
-                    <p class="text-sm text-slate-400 mb-3">Traffic Routing</p>
-                    <div class="space-y-2">
-                        <div class="flex justify-between text-xs">
-                            <span class="flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-green-500"></div>Local (P1)</span>
-                            <span id="ui-p1" class="font-mono">0</span>
+                <!-- Routing Card -->
+                <div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/30">
+                    <p class="text-xs font-semibold text-slate-400 mb-4">TRAFFIC DISTRIBUTION</p>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center group">
+                            <span class="flex items-center gap-3 text-xs font-medium text-slate-300">
+                                <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.6)]"></div>Local (P1)
+                            </span>
+                            <span id="ui-p1" class="font-mono text-sm font-bold text-white bg-slate-800 px-2.5 py-1 rounded-md">0</span>
                         </div>
-                        <div class="flex justify-between text-xs">
-                            <span class="flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-blue-500"></div>Executor (P2)</span>
-                            <span id="ui-p2" class="font-mono">0</span>
+                        <div class="flex justify-between items-center group">
+                            <span class="flex items-center gap-3 text-xs font-medium text-slate-300">
+                                <div class="w-2.5 h-2.5 rounded-full bg-blue-400 shadow-[0_0_8px_rgba(96,165,250,0.6)]"></div>Executor (P2)
+                            </span>
+                            <span id="ui-p2" class="font-mono text-sm font-bold text-white bg-slate-800 px-2.5 py-1 rounded-md">0</span>
                         </div>
-                        <div class="flex justify-between text-xs">
-                            <span class="flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-purple-500"></div>Planner (P3)</span>
-                            <span id="ui-p3" class="font-mono">0</span>
+                        <div class="flex justify-between items-center group">
+                            <span class="flex items-center gap-3 text-xs font-medium text-slate-300">
+                                <div class="w-2.5 h-2.5 rounded-full bg-purple-400 shadow-[0_0_8px_rgba(192,132,252,0.6)]"></div>Distilled (P3)
+                            </span>
+                            <span id="ui-p3" class="font-mono text-sm font-bold text-white bg-slate-800 px-2.5 py-1 rounded-md">0</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="pt-4 mt-auto border-t border-slate-700/50">
-            <button onclick="clearSession()" class="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-sm font-medium transition-colors flex items-center justify-center gap-2">
-                <i class="fa-solid fa-trash-can"></i> Reset Session
+        <div class="pt-6 mt-auto border-t border-slate-800/80">
+            <button onclick="clearSession()" class="w-full py-3 rounded-xl bg-slate-800/50 hover:bg-red-500/10 hover:text-red-400 text-slate-400 text-sm font-semibold transition-all duration-300 flex items-center justify-center gap-2 border border-transparent hover:border-red-500/20">
+                <i class="fa-solid fa-power-off"></i> Purge Session Context
             </button>
         </div>
     </div>
 
     <!-- Main Chat Area -->
-    <div class="flex-1 flex flex-col relative">
+    <div class="flex-1 flex flex-col relative h-full">
         <!-- Header -->
-        <header class="h-16 glass-panel border-b flex items-center px-6 justify-between z-10 sticky top-0">
-            <div class="flex items-center gap-4">
-                <div class="flex items-center gap-2">
-                    <span class="relative flex h-3 w-3">
-                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                      <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+        <header class="h-20 glass-panel border-b border-slate-800/50 flex items-center px-8 justify-between z-10">
+            <div class="flex items-center gap-5">
+                <div class="flex items-center gap-2.5 bg-emerald-500/10 px-3 py-1.5 rounded-full border border-emerald-500/20">
+                    <span class="relative flex h-2.5 w-2.5">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
                     </span>
-                    <span class="text-sm font-medium text-slate-300">FastAPI Proxy Online</span>
+                    <span class="text-[11px] font-bold text-emerald-400 tracking-wider uppercase">API Sync Active</span>
                 </div>
             </div>
-            <div class="text-xs font-mono text-slate-500 bg-slate-800 px-3 py-1 rounded-full">
-                Session: <span id="session-id-display">Generating...</span>
+            <div class="flex items-center gap-3">
+                <span class="text-[10px] text-slate-500 font-bold uppercase tracking-widest">Session ID</span>
+                <div class="font-mono text-xs text-blue-300 bg-blue-900/20 px-3 py-1.5 rounded-lg border border-blue-800/50" id="session-id-display">Gen...</div>
             </div>
         </header>
 
         <!-- Chat Container -->
-        <div class="flex-1 overflow-y-auto p-6 scroll-smooth" id="chat-container">
+        <div class="flex-1 overflow-y-auto p-8 scroll-smooth" id="chat-container">
             <!-- Welcome Message -->
-            <div class="flex gap-4 mb-6 chat-message animate-fade-up">
-                <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 shadow-lg shadow-blue-500/30">
-                    <i class="fa-solid fa-robot text-white"></i>
+            <div class="flex gap-5 mb-8 chat-message animate-fade-up max-w-3xl mx-auto">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 shadow-lg shadow-indigo-500/20">
+                    <i class="fa-solid fa-bolt text-white text-lg"></i>
                 </div>
-                <div class="flex-1 bg-slate-800/80 border border-slate-700 rounded-2xl rounded-tl-none p-5 shadow-sm">
-                    <p class="text-slate-200">Welcome to To-Path.</p>
-                    <p class="text-slate-400 text-sm mt-2">I am implementing <strong>Prompt-Based Knowledge Distillation</strong> across multiple LLM families. How can I assist you today?</p>
+                <div class="flex-1 bg-slate-800/60 border border-slate-700/50 rounded-3xl rounded-tl-none p-6 shadow-xl backdrop-blur-sm">
+                    <h3 class="text-lg font-bold text-white mb-2">System initialized.</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        You are currently connected to the <span class="font-bold text-blue-400">To-Path</span> local reasoning core. 
+                        I will automatically evaluate the cryptographic complexity of your prompts and route them across 3 distinct engine tiers to slash computing overhead.
+                    </p>
+                    <div class="bg-indigo-900/20 border border-indigo-500/20 rounded-xl p-3 text-xs text-indigo-200 flex gap-3">
+                        <i class="fa-solid fa-circle-info mt-0.5"></i>
+                        <p>Ask a trivial question to trigger local Path 1, or input a complex coding architecture problem to trigger Path 3 Distillation.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Input Area -->
-        <div class="p-6 pt-0 mt-auto">
-            <form id="chat-form" class="relative group">
-                <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur opacity-20 transition-opacity group-hover:opacity-40"></div>
-                <div class="relative glass-panel rounded-2xl flex items-end p-2 bg-slate-800 focus-within:bg-slate-800 transition-colors">
+        <div class="p-8 pt-4">
+            <form id="chat-form" class="relative max-w-4xl mx-auto">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl blur opacity-20 transition-opacity duration-500 group-hover:opacity-40" id="glow-ring"></div>
+                <div class="relative glass-panel rounded-3xl flex items-end p-2 bg-slate-900 focus-within:bg-slate-800 transition-colors border border-slate-700 shadow-2xl">
+                    <button type="button" class="p-4 text-slate-500 hover:text-blue-400 transition-colors tooltip-trigger relative">
+                        <i class="fa-solid fa-paperclip text-lg"></i>
+                    </button>
                     <textarea 
                         id="user-input" 
                         rows="1"
-                        class="flex-1 bg-transparent text-slate-200 placeholder-slate-500 px-4 py-3 outline-none resize-none max-h-32"
-                        placeholder="Type a complex prompt to trigger the planner..."
+                        class="flex-1 bg-transparent text-slate-100 placeholder-slate-500 px-2 py-4 outline-none resize-none max-h-48 text-[15px] font-medium leading-relaxed"
+                        placeholder="Define the task..."
                         autocomplete="off"
                     ></textarea>
-                    <button type="submit" id="send-btn" class="p-3 bg-blue-600 hover:bg-blue-500 text-white rounded-xl transition-all shadow-lg mb-1 mr-1">
-                        <i class="fa-solid fa-paper-plane"></i>
+                    <button type="submit" id="send-btn" class="m-2 p-3 px-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white rounded-2xl transition-all shadow-lg transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2 font-semibold text-sm">
+                        <span>Send</span>
+                        <i class="fa-solid fa-arrow-up text-xs"></i>
                     </button>
                 </div>
             </form>
         </div>
     </div>
 
-    <!-- Metadata Overlay Panel (Hidden by default) -->
-    <div id="metadata-panel" class="fixed inset-0 bg-slate-900/80 backdrop-blur-sm z-50 hidden flex-col items-center justify-center opacity-0">
-        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 w-full max-w-2xl transform scale-95 shadow-2xl transition-transform" id="metadata-content">
-            <div class="flex justify-between items-center mb-4">
-                <h3 class="text-lg font-bold text-white"><i class="fa-solid fa-code-merge text-blue-400 mr-2"></i> Routing Execution Data</h3>
-                <button onclick="closeMetadata()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-xl"></i></button>
+    <!-- Metadata Overlay Panel -->
+    <div id="metadata-panel" class="fixed inset-0 bg-slate-950/80 backdrop-blur-md z-50 hidden flex-col items-center justify-center opacity-0">
+        <div class="bg-slate-900 border border-slate-700/50 rounded-3xl w-full max-w-3xl transform scale-95 shadow-[0_0_50px_rgba(0,0,0,0.5)] transition-transform overflow-hidden" id="metadata-content">
+            
+            <div class="bg-slate-800/80 px-8 py-5 border-b border-slate-700/50 flex justify-between items-center relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent"></div>
+                <div class="relative z-10">
+                    <h3 class="text-xl font-black text-white flex items-center gap-3">
+                        <i class="fa-solid fa-microchip text-blue-400"></i> Execution Telemetry
+                    </h3>
+                    <p class="text-[11px] text-slate-400 font-mono mt-1">INSPECTION TRACE SECURED</p>
+                </div>
+                <button onclick="closeMetadata()" class="relative z-10 w-8 h-8 flex items-center justify-center rounded-full bg-slate-700 hover:bg-slate-600 text-white transition-colors">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
             </div>
-            <div id="metadata-body" class="space-y-4 font-mono text-sm text-slate-300 max-h-96 overflow-y-auto p-4 bg-slate-900 rounded-xl">
+
+            <div id="metadata-body" class="p-8 max-h-[60vh] overflow-y-auto">
                 <!-- Dynamically populated -->
             </div>
         </div>
     </div>
 
     <script>
-        // Start Animations
+        // Init Animations
         document.body.classList.remove('hidden');
-        gsap.from("#sidebar", { x: -50, opacity: 0, duration: 0.6, ease: "power3.out" });
-        gsap.from(".chat-message", { y: 20, opacity: 0, duration: 0.5, ease: "power2.out", delay: 0.3 });
+        gsap.from("#sidebar", { x: -50, opacity: 0, duration: 0.8, ease: "power4.out" });
+        gsap.from("header", { y: -20, opacity: 0, duration: 0.6, ease: "power3.out", delay: 0.2 });
+        gsap.from(".chat-message", { y: 30, opacity: 0, duration: 0.7, ease: "power3.out", delay: 0.4 });
+        gsap.from("#chat-form", { y: 20, opacity: 0, duration: 0.7, ease: "back.out(1.2)", delay: 0.6 });
 
         // Auto-resize textarea
         const textarea = document.getElementById('user-input');
+        const glowRing = document.getElementById('glow-ring');
+        
+        textarea.addEventListener('focus', () => gsap.to(glowRing, {opacity: 0.6, duration: 0.3}));
+        textarea.addEventListener('blur', () => gsap.to(glowRing, {opacity: 0.2, duration: 0.3}));
+        
         textarea.addEventListener('input', function() {
             this.style.height = 'auto';
             this.style.height = (this.scrollHeight) + 'px';
@@ -164,8 +250,7 @@
         });
 
         // App Logic
-        const API_URL = 'http://localhost:8000';
-        // Generate consistent Session ID
+        const API_URL = 'https://to-path.onrender.com';
         const sessionId = localStorage.getItem('sessionId') || Math.random().toString(36).substring(2, 10);
         localStorage.setItem('sessionId', sessionId);
         document.getElementById('session-id-display').textContent = sessionId;
@@ -181,20 +266,26 @@
                 if(res.ok) {
                     const data = await res.json();
                     if(data.savings_usd !== undefined) {
-                        document.getElementById('ui-savings').textContent = `$${data.savings_usd.toFixed(4)}`;
+                        const usdAmount = data.savings_usd.toFixed(4);
+                        
+                        // Animate number change
+                        const savingsEl = document.getElementById('ui-savings');
+                        if(savingsEl.textContent !== `$${usdAmount}`) {
+                            savingsEl.textContent = `$${usdAmount}`;
+                            gsap.from(savingsEl, {scale: 1.2, color: '#fff', duration: 0.5});
+                        }
+                        
                         document.getElementById('ui-p1').textContent = data.path1_calls;
                         document.getElementById('ui-p2').textContent = data.path2_calls;
                         document.getElementById('ui-p3').textContent = data.path3_calls;
                     }
                 }
-            } catch(e) {
-                console.log("Stats fetch failed, API might be offline.");
-            }
+            } catch(e) { console.log("Stats fetch failed."); }
         }
 
         function appendMessage(role, content, metadata=null) {
             const wrapper = document.createElement('div');
-            wrapper.className = `flex gap-4 mb-6 chat-message opacity-0`;
+            wrapper.className = `flex gap-5 mb-8 chat-message opacity-0 max-w-4xl mx-auto w-full`;
             
             let iconBox = '';
             let msgBox = '';
@@ -202,47 +293,51 @@
             if(role === 'user') {
                 wrapper.classList.add('flex-row-reverse');
                 iconBox = `
-                <div class="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center flex-shrink-0">
-                    <i class="fa-solid fa-user text-slate-300"></i>
+                <div class="w-10 h-10 rounded-2xl bg-slate-700 flex items-center justify-center flex-shrink-0 mt-1">
+                    <i class="fa-solid fa-user text-slate-300 text-sm"></i>
                 </div>`;
                 msgBox = `
-                <div class="flex-1 bg-blue-600/90 text-white rounded-2xl rounded-tr-none p-5 shadow-sm max-w-[85%] ml-auto">
+                <div class="bg-blue-600 text-white rounded-3xl rounded-tr-none py-4 px-6 shadow-md max-w-[80%] text-[15px] leading-relaxed relative">
                     ${content}
                 </div>`;
             } else {
                 iconBox = `
-                <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 shadow-lg shadow-blue-500/30">
-                    <i class="fa-solid fa-robot text-white"></i>
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 shadow-lg shadow-indigo-500/30 ring-2 ring-indigo-500/20">
+                    <i class="fa-solid fa-bolt text-white text-lg"></i>
                 </div>`;
 
                 let metadataHtml = '';
                 if(metadata) {
                     const metadataId = 'meta-' + Math.random().toString(36).substring(2,8);
-                    window[metadataId] = metadata; // store globally for onclick
+                    window[metadataId] = metadata; 
                     
-                    let pathColor = metadata.path_used === 1 ? 'text-green-400' : (metadata.path_used === 2 ? 'text-blue-400' : 'text-purple-400');
-                    let badge = metadata.fallback_triggered ? `<span class="bg-red-500/20 text-red-400 px-2 py-0.5 rounded text-[10px] ml-2 font-bold">FALLBACK</span>` : '';
+                    let pathColor = metadata.path_used === 1 ? 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10' : 
+                                   (metadata.path_used === 2 ? 'text-blue-400 border-blue-500/30 bg-blue-500/10' : 
+                                                              'text-purple-400 border-purple-500/30 bg-purple-500/10');
+                    
+                    let badge = metadata.fallback_triggered ? `<span class="bg-red-500/20 text-red-500 border border-red-500/30 px-2 py-0.5 rounded text-[9px] font-black uppercase tracking-wider">FAILOVER</span>` : '';
 
                     metadataHtml = `
-                    <div class="mt-4 pt-3 border-t border-slate-700/50 flex items-center justify-between">
-                        <div class="flex items-center gap-3 text-xs">
-                            <span class="${pathColor} font-bold"><i class="fa-solid fa-route mr-1"></i> Path ${metadata.path_used} (${metadata.routing_tier})</span>
-                            <span class="text-slate-500"><i class="fa-solid fa-microchip mr-1"></i> ${metadata.model_used}</span>
-                            <span class="text-slate-500"><i class="fa-solid fa-coins mr-1"></i> $${metadata.total_cost_usd.toFixed(5)}</span>
+                    <div class="mt-5 pt-4 border-t border-slate-700/50 flex flex-wrap items-center justify-between gap-3">
+                        <div class="flex items-center gap-2">
+                            <div class="px-2.5 py-1 rounded text-[11px] font-bold uppercase tracking-wider border ${pathColor} flex items-center gap-1.5">
+                                <i class="fa-solid fa-route"></i> Path ${metadata.path_used}
+                            </div>
+                            <span class="text-slate-400 text-xs font-mono bg-slate-800 px-2 py-1 rounded border border-slate-700"><i class="fa-solid fa-server mr-1 hidden sm:inline"></i>${metadata.model_used}</span>
+                            <span class="text-slate-400 text-xs font-mono bg-slate-800 px-2 py-1 rounded border border-slate-700"><i class="fa-solid fa-sack-dollar text-green-500/70 mr-1 hidden sm:inline"></i>$${metadata.total_cost_usd.toFixed(5)}</span>
                             ${badge}
                         </div>
-                        <button onclick="showMetadata(window['${metadataId}'])" class="text-slate-400 hover:text-blue-400 text-xs transition-colors">
-                            <i class="fa-solid fa-code mr-1"></i> Inspect
+                        <button onclick="showMetadata(window['${metadataId}'])" class="text-xs font-semibold text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg border border-slate-700 transition-all duration-200">
+                            View Trace <i class="fa-solid fa-arrow-right-long ml-1 opacity-50"></i>
                         </button>
                     </div>`;
                 }
 
-                // Use marked.js for markdown rendering
                 const parsedContent = metadata ? marked.parse(content) : content;
 
                 msgBox = `
-                <div class="flex-1 bg-slate-800/80 border border-slate-700 rounded-2xl rounded-tl-none p-5 shadow-sm w-full max-w-[85%]">
-                    <div class="text-slate-200 markdown-body">${parsedContent}</div>
+                <div class="flex-1 bg-slate-800/40 border border-slate-700/50 rounded-3xl rounded-tl-none p-6 shadow-xl backdrop-blur-sm w-full max-w-[85%]">
+                    <div class="text-slate-200 markdown-body text-[15px]">${parsedContent}</div>
                     ${metadataHtml}
                 </div>`;
             }
@@ -250,10 +345,10 @@
             wrapper.innerHTML = iconBox + msgBox;
             chatContainer.appendChild(wrapper);
             
-            // Animate in
-            gsap.to(wrapper, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out", onStart: () => {
-                chatContainer.scrollTop = chatContainer.scrollHeight;
-            }});
+            gsap.fromTo(wrapper, 
+                { opacity: 0, y: 20 }, 
+                { opacity: 1, y: 0, duration: 0.5, ease: "power2.out", onStart: () => { chatContainer.scrollTop = chatContainer.scrollHeight; }}
+            );
 
             return wrapper;
         }
@@ -261,24 +356,26 @@
         function showTypingIndicator() {
             const wrapper = document.createElement('div');
             wrapper.id = 'typing-indicator';
-            wrapper.className = `flex gap-4 mb-6 chat-message opacity-0`;
+            wrapper.className = `flex gap-5 mb-8 chat-message opacity-0 max-w-4xl mx-auto w-full`;
             wrapper.innerHTML = `
-                <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0">
-                    <i class="fa-solid fa-robot text-white"></i>
+                <div class="w-12 h-12 rounded-2xl bg-slate-800 flex items-center justify-center flex-shrink-0 border border-slate-700">
+                    <i class="fa-solid fa-bolt pl-0.5 text-slate-500 animate-pulse"></i>
                 </div>
-                <div class="bg-slate-800/80 border border-slate-700 rounded-2xl rounded-tl-none p-5 shadow-sm">
+                <div class="bg-slate-800/40 border border-slate-700/50 rounded-3xl rounded-tl-none px-6 py-5 shadow-sm">
                     <div class="typing-indicator flex items-center h-full">
                         <span></span><span></span><span></span>
                     </div>
                 </div>`;
             chatContainer.appendChild(wrapper);
-            gsap.to(wrapper, { opacity: 1, duration: 0.3 });
+            gsap.to(wrapper, { opacity: 1, y: 0, duration: 0.3 });
             chatContainer.scrollTop = chatContainer.scrollHeight;
         }
 
         function removeTypingIndicator() {
             const el = document.getElementById('typing-indicator');
-            if(el) el.remove();
+            if(el) {
+                gsap.to(el, {opacity: 0, duration: 0.2, onComplete: () => el.remove()});
+            }
         }
 
         form.addEventListener('submit', async (e) => {
@@ -289,13 +386,12 @@
             textarea.value = '';
             textarea.style.height = 'auto';
             isWaiting = true;
-            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin text-lg"></i>';
 
             appendMessage('user', text);
-            showTypingIndicator();
+            setTimeout(showTypingIndicator, 300);
 
             try {
-                // Hitting the FastAPI native endpoint
                 const response = await fetch(`${API_URL}/chat`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -306,14 +402,14 @@
                 
                 const data = await response.json();
                 removeTypingIndicator();
-                appendMessage('assistant', data.response, data);
+                setTimeout(() => appendMessage('assistant', data.response, data), 100);
             } catch (err) {
                 removeTypingIndicator();
-                appendMessage('assistant', `⚠️ **Connection Error**: ${err.message}. Is FastAPI running on port 8000?`);
+                appendMessage('assistant', `⚠️ **Connection Error**: ${err.message}`);
             }
 
             isWaiting = false;
-            submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i>';
+            submitBtn.innerHTML = `<span>Send</span><i class="fa-solid fa-arrow-up text-xs"></i>`;
             updateStats();
         });
 
@@ -324,34 +420,39 @@
             const body = document.getElementById('metadata-body');
             
             body.innerHTML = `
-                <div class="grid grid-cols-2 gap-4 mb-4">
-                    <div class="bg-slate-800 p-3 rounded">
-                        <span class="block text-slate-500 text-xs mb-1">ROUTING TIER</span>
-                        <span class="text-blue-400 font-bold">${data.routing_tier}</span>
+                <div class="grid grid-cols-2 gap-4 mb-6">
+                    <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-700/50">
+                        <span class="block text-slate-500 text-[10px] font-bold uppercase tracking-wider mb-1.5">Selected Tier</span>
+                        <span class="text-blue-400 font-bold text-lg">${data.routing_tier}</span>
                     </div>
-                    <div class="bg-slate-800 p-3 rounded">
-                        <span class="block text-slate-500 text-xs mb-1">MODEL</span>
-                        <span class="text-green-400 font-bold">${data.model_used}</span>
+                    <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-700/50">
+                        <span class="block text-slate-500 text-[10px] font-bold uppercase tracking-wider mb-1.5">Execution Engine</span>
+                        <span class="text-emerald-400 font-bold text-sm font-mono truncate block">${data.model_used}</span>
                     </div>
                 </div>
-                <div class="bg-slate-800 p-3 rounded mb-4">
-                    <span class="block text-slate-500 text-xs mb-1">REASONING LOGIC</span>
-                    <span>${data.routing_reason}</span>
+                
+                <div class="bg-indigo-900/10 border border-indigo-500/20 p-5 rounded-xl mb-6">
+                    <span class="block text-indigo-400/80 text-[10px] font-bold uppercase tracking-wider mb-2">Cognitive Routing Logic</span>
+                    <p class="text-indigo-100 text-sm leading-relaxed">${data.routing_reason}</p>
                 </div>
-                <pre class="text-xs text-green-300 bg-black/50 p-4 rounded overflow-auto mt-2">
+                
+                <div class="space-y-2">
+                    <span class="text-slate-500 text-[10px] font-bold uppercase tracking-wider ml-1">Raw API Payload</span>
+                    <pre class="text-xs text-emerald-300/80 font-mono bg-black/60 p-5 rounded-xl overflow-auto border border-white/5">
 ${JSON.stringify(data, null, 2)}
-                </pre>
+                    </pre>
+                </div>
             `;
             
             panel.classList.remove('hidden');
-            gsap.to(panel, { opacity: 1, duration: 0.2 });
-            gsap.to(content, { scale: 1, duration: 0.3, ease: 'back.out(1.7)' });
+            gsap.to(panel, { opacity: 1, duration: 0.3 });
+            gsap.fromTo(content, { scale: 0.9, y: 20 }, { scale: 1, y: 0, duration: 0.4, ease: 'back.out(1.5)' });
         }
 
         function closeMetadata() {
             const panel = document.getElementById('metadata-panel');
             const content = document.getElementById('metadata-content');
-            gsap.to(content, { scale: 0.95, duration: 0.2 });
+            gsap.to(content, { scale: 0.95, y: -10, duration: 0.2 });
             gsap.to(panel, { opacity: 0, duration: 0.2, onComplete: () => panel.classList.add('hidden') });
         }
 

@@ -14,19 +14,18 @@ logger = logging.getLogger(__name__)
 LOCAL_MODEL = os.getenv("LOCAL_MODEL", "ollama/mistral:7b")
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 
-async def _local_call(prompt: str) -> str:
-    """Helper wrapper for calling the local model directly (e.g., for memory compression)."""
+async def _compression_call(prompt: str) -> str:
+    """Helper wrapper for calling Groq to perform fast, cheap memory compression."""
     try:
         resp = await acompletion(
-            model=LOCAL_MODEL,
+            model="groq/llama-3.1-8b-instant",
             messages=[{"role": "user", "content": prompt}],
-            api_base=OLLAMA_BASE_URL,
             max_tokens=150
         )
         return resp.choices[0].message.content
     except Exception as e:
-        logger.error(f"Local model call failed: {e}")
-        return "Summary failed due to local model unavailability."
+        logger.error(f"Compression model call failed: {e}")
+        return "Summary failed due to model unavailability."
 
 async def route_request(message: str, session_id: str) -> Dict[str, Any]:
     """
@@ -178,7 +177,7 @@ async def route_request(message: str, session_id: str) -> Dict[str, Any]:
     if await should_compress(session_id):
         # We spawn compression directly without blocking standard execution time length
         import asyncio
-        asyncio.create_task(compress_session(session_id, _local_call))
+        asyncio.create_task(compress_session(session_id, _compression_call))
 
     return {
         "response": final_response,

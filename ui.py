@@ -64,6 +64,17 @@ if stats:
     st.sidebar.subheader("Live ROI Tracking")
     st.sidebar.metric(label="Actual Total Cost", value=f"${stats['total_cost_usd']:.5f}")
     st.sidebar.metric(label="Total Savings vs Cloud", value=f"${stats['savings_usd']:.5f} ({stats['savings_percent']}%)")
+    
+    st.sidebar.divider()
+    st.sidebar.subheader("ROI Visual Proof")
+    # Massive bar chart comparing Claude alone vs Our Routing Cost
+    st.sidebar.bar_chart({
+        "Cost Comparison": {
+            "If using Claude Sonnet": stats['cost_if_all_claude_sonnet'],
+            "Actual Routed Cost": stats['total_cost_usd']
+        }
+    }, height=200, color="#17fc03")
+
     st.sidebar.caption("Where your prompts went:")
     st.sidebar.text(f"Path 1 (Local): {stats.get('path1_calls', 0)}")
     st.sidebar.text(f"Path 2 (Direct): {stats.get('path2_calls', 0)}")

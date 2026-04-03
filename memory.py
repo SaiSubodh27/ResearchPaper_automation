@@ -11,8 +11,9 @@ MAX_WINDOW = int(os.getenv("MAX_WINDOW", "5"))
 COMPRESSION_TRIGGER = int(os.getenv("COMPRESSION_TRIGGER", "10"))
 
 COMPRESSION_PROMPT = """Summarize this conversation in under 100 words.
-Keep: user's goal, technical terms used, key decisions made, errors seen.
-Remove: greetings, filler, repeated questions. Be factual only."""
+Keep: user's goal, technical terms used, key decisions made, errors seen, and exact function names.
+Remove: greetings, filler, repeated questions. Be factual only.
+CRITICAL: Do not generalize specific technical constraints. If a specific framework or parameter is mentioned, retain it."""
 
 async def _init_db():
     async with aiosqlite.connect(DB_PATH) as db:

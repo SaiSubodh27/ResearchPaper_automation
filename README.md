@@ -11,7 +11,7 @@ If a prompt is complex, we pay a tiny amount for the "Brain" (`Gemini Flash`) to
 ## 1. What's Included?
 1. **The Core Router (`main.py`):** A FastAPI backend that hosts the embedding classifier, cost estimators, and routing logic. 
 2. **The Proxy API (`/v1/chat/completions`):** A native drop-in replacement for OpenAI. Any tool (Cursor, VS Code, Chat UIs) can point here instead of OpenAI.
-3. **The Web UI (`/web_ui`):** A beautiful Node.js/React-style frontend to visualize your routing diagnostics and cost savings in real-time.
+3. **The Web UI (`/web_ui` & Streamlit):** A clean Python UI featuring real-time logic routing dashboards and ROI Math Proof graphs, plus an alternative Node.js visualizer.
 4. **Docker Deployment:** Fully containerized setup.
 
 ---
@@ -82,7 +82,7 @@ We built an API endpoint that exactly mimics OpenAI. This means you do **NOT** n
 5. **Execution - Path 3 (Complex Distillation):** 
    - *Planner Phase:* `Gemini` generates a 150-token strict JSON output detailing reasoning chains, constraints, and failure modes.
    - *Executor Phase:* That logic JSON is injected into `Groq Llama-3.3`, which executes the heavy lifting.
-6. **Cost Tracking & Memory Compression:** The session metrics (Cost saved, tokens used) are saved to an async `SQLite` database. Once the DB sees the token context getting too large, Path 1 quietly compresses the old memory history to prevent bloat.
+6. **Cost Tracking & Memory Compression:** The session metrics (Cost saved, tokens used) are saved to an async `SQLite` database. Once the DB sees the token context getting too large, our system quietly compresses the old memory history using Groq (`llama-3.1-8b-instant`) to prevent bloat instantly while preserving strict technical constraints.
 
 ---
 

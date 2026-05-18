@@ -58,18 +58,24 @@ class OpenAIChatRequest(BaseModel):
     stream: Optional[bool] = False
 
 @app.post("/v1/chat/completions")
-async def openai_compatible_chat(request: OpenAIChatRequest):
+async def openai_compatible_chat(request: Request, body: OpenAIChatRequest):
     """
     OpenAI-compatible endpoint. Allows ANY LLM tool (Cursor, Cline, Continue)
     to point to http://localhost:8000/v1 and instantly get the power of the router.
     """
     try:
         # Extract the last user message
-        if not request.messages:
+        if not body.messages:
             raise HTTPException(status_code=400, detail="No messages provided.")
             
-        last_message = request.messages[-1].content
-        session_id = "default-proxy-session" # Could extract from headers if needed
+        last_message = body.messages[-1].content
+        
+        # Extract session ID from headers or body
+        session_id = request.headers.get("X-Session-ID", "default-proxy-session")
+        if session_id == "default-proxy-session":
+            # Generate a random session ID if none provided to avoid bleeding context
+            import uuid
+            session_id = str(uuid.uuid4())
         
         # Internally map through our router (Planner + Executor + Cost saving)
         result = await route_request(last_message, session_id)
@@ -79,7 +85,7 @@ async def openai_compatible_chat(request: OpenAIChatRequest):
             "id": f"chatcmpl-{int(time.time())}",
             "object": "chat.completion",
             "created": int(time.time()),
-            "model": result.get("model_used", request.model),
+            "model": result.get("model_used", body.model),
             "choices": [{
                 "index": 0,
                 "message": {

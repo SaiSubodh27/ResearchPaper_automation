@@ -81,8 +81,17 @@ We built an API endpoint that exactly mimics OpenAI. This means you do **NOT** n
 4. **Execution - Path 2 (Simple Cloud):** Routes to `Groq Llama-3.3`. The prompt is mathematically clamped to prevent "Yapping" and output only the required data.
 5. **Execution - Path 3 (Complex Distillation):** 
    - *Planner Phase:* `Gemini` generates a 150-token strict JSON output detailing reasoning chains, constraints, and failure modes.
-   - *Executor Phase:* That logic JSON is injected into `Groq Llama-3.3`, which executes the heavy lifting.
-6. **Cost Tracking & Memory Compression:** The session metrics (Cost saved, tokens used) are saved to an async `SQLite` database. Once the DB sees the token context getting too large, our system quietly compresses the old memory history using Groq (`llama-3.1-8b-instant`) to prevent bloat instantly while preserving strict technical constraints.
+   - *Executor Phase:* That logic JSON is injected into `Groq Llama-3.3` as a tight system state capsule, which executes the heavy lifting.
+6. **Cost Tracking & Memory Compression:** The session metrics (Cost saved, tokens used) are saved to an async `SQLite` database. To prevent context bloat, a generational rolling compression algorithm quietly summarizes old context histories using Groq (`llama-3.1-8b-instant`) without blocking the main event loop.
+
+---
+
+## Recent Architectural Updates (v1.1)
+
+- **Session Isolation:** The `/v1/chat/completions` proxy now correctly tracks users via the `X-Session-ID` header and mints UUIDs to prevent context bleed between concurrent callers.
+- **State Capsule Injection:** The executor loop no longer dumps full history into the user prompt. It now injects the Planner's output exclusively as a constrained system directive, greatly improving constraint adherence.
+- **Rolling Memory Compression:** Fixed the infinite SQLite bloat bug. The system now uses a generational tracking algorithm to continually compress older context limits instead of freezing permanently after the first 10 messages.
+- **Native JSON Enforcement:** The planner now leverages native OpenAI-compatible `json_object` enforcement to prevent silent decode failures or token starvation.
 
 ---
 

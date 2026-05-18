@@ -26,27 +26,37 @@ async def execute(message: str, context: List[Dict[str, str]], plan: Optional[Di
     
     if plan and "reasoning_chain" in plan:
         # PATH 3: Execute via Plan Execution Strategy (Strong Knowledge Distillation)
-        reasoning_str = "\n".join(plan.get("reasoning_chain", []))
-        constraints_str = "\n".join(plan.get("constraints", []))
-        failures_str = "\n".join(plan.get("failure_modes", []))
+        # Fix: Extract only the last user message from context for grounding
+        last_user_content = next(
+            (m["content"] for m in reversed(context) if m["role"] == "user"), ""
+        )
+
+        reasoning_str = "\n".join(f"{i+1}. {step}" for i, step in enumerate(plan.get("reasoning_chain", [])))
+        constraints_str = "\n".join(f"- {c}" for c in plan.get("constraints", []))
+        failures_str = "\n".join(f"- {f}" for f in plan.get("failure_modes", []))
         
-        enhanced_prompt = f"""Task: {message}
+        system_directive = f"""You are a precise code/answer generator.
 
-You are executing a plan designed by an expert reasoning system. Follow the reasoning chain exactly. Do not deviate.
+TASK GOAL: {plan.get('goal', 'Complete the task')}
 
-Reasoning Chain:
+EXECUTION STEPS (follow exactly, in order):
 {reasoning_str}
 
-Hard Constraints:
+OUTPUT FORMAT: {plan.get('expected_output_format', 'N/A')}
+
+HARD CONSTRAINTS:
 {constraints_str}
 
-Your output must match exactly:
-{plan.get('expected_output_format', 'N/A')}
+KNOWN FAILURE MODES TO AVOID:
+{failures_str}
 
-These are common mistakes this task has — avoid them:
-{failures_str}"""
+Prior context summary: {last_user_content[:200]}"""
         
-        messages.append({"role": "user", "content": enhanced_prompt})
+        # We replace the raw context entirely with just the system directive and current message
+        messages = [
+            {"role": "system", "content": system_directive},
+            {"role": "user", "content": message}
+        ]
     else:
         # PATH 2: Direct Execution Strategy (with Max-Output Clamping)
         clamped_prompt = f"{message}\n\n[SYSTEM CONSTRAINT: Output ONLY the requested code or direct answer. Omit all greetings, explanations, pleasantries, and unnecessary markdown wrappers. Be extremely concise.]"

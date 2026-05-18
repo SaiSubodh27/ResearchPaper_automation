@@ -21,7 +21,7 @@ async def _init_db():
             CREATE TABLE IF NOT EXISTS sessions (
                 session_id TEXT PRIMARY KEY,
                 summary TEXT,
-                summary_frozen BOOLEAN DEFAULT 0
+                generation_counter INTEGER DEFAULT 0
             )
         ''')
         await db.execute('''
@@ -52,7 +52,7 @@ async def add_message(session_id: str, role: str, content: str) -> None:
         async with aiosqlite.connect(DB_PATH) as db:
             # Ensure session exists
             await db.execute(
-                'INSERT OR IGNORE INTO sessions (session_id, summary_frozen) VALUES (?, 0)', 
+                'INSERT OR IGNORE INTO sessions (session_id, generation_counter) VALUES (?, 0)', 
                 (session_id,)
             )
             # Add message
@@ -69,10 +69,10 @@ async def get_context(session_id: str) -> List[Dict[str, str]]:
     Retrieves the current context window for an LLM prompt.
     
     WHAT IT DOES:
-    Fetches the frozen summary (if it exists) and appends the last MAX_WINDOW messages.
+    Fetches the rolling summary (if it exists) and appends the last MAX_WINDOW messages.
     
     WHY IT DOES IT:
-    Prevents context window bloat and excessive token costs. By prepending a frozen summary, 
+    Prevents context window bloat and excessive token costs. By prepending a rolling summary, 
     we maintain long-term goal awareness without the token penalty of the full history.
     """
     context = []
@@ -107,47 +107,46 @@ async def should_compress(session_id: str) -> bool:
     Checks if the session is eligible for compression.
     
     WHAT IT DOES:
-    Returns True if the session has NOT been frozen AND has reached the COMPRESSION_TRIGGER threshold.
-    
-    WHY IT DOES IT:
-    Triggers the one-time local compression event. The anti-drift rule mandates we only do this once
-    to prevent summaries of summaries from losing technical fidelity.
+    Returns True if the session has reached the COMPRESSION_TRIGGER threshold
+    beyond the currently summarized messages.
     """
     try:
         await _init_db()
         async with aiosqlite.connect(DB_PATH) as db:
-            # Check if already frozen
-            async with db.execute('SELECT summary_frozen FROM sessions WHERE session_id = ?', (session_id,)) as cursor:
-                row = await cursor.fetchone()
-                if row and row[0]:
-                    return False
-            
             # Check message count
             async with db.execute('SELECT COUNT(*) FROM messages WHERE session_id = ?', (session_id,)) as cursor:
                 row = await cursor.fetchone()
                 count = row[0] if row else 0
-                return count >= COMPRESSION_TRIGGER
+            
+            # Check generation counter to correctly trigger rolling compression
+            async with db.execute('SELECT generation_counter FROM sessions WHERE session_id = ?', (session_id,)) as cursor:
+                row = await cursor.fetchone()
+                generation = row[0] if row else 0
+                
+            return count >= (generation + 1) * COMPRESSION_TRIGGER
     except Exception as e:
         logger.error(f"Failed to check compression status for {session_id}: {e}")
         return False
 
 async def compress_session(session_id: str, local_call_fn: Callable[[str], Awaitable[str]]) -> str:
     """
-    Executes the one-time summarization of the session using a local LLM.
+    Executes a rolling summarization of the session using a local LLM.
     
     WHAT IT DOES:
-    Gathers all current messages, formats them, and passes them to the provided local_call_fn 
-    (which wraps Ollama/Mistral) with the strict COMPRESSION_PROMPT. Saves the result and 
-    freezes the summary.
-    
-    WHY IT DOES IT:
-    Compresses history locally (free of charge) and freezes it to implement the anti-drift rule.
+    Gathers unsummarized messages + previous summary, formatting them to creating a rolling summary
+    Updates the session with the new summary and increments the generation counter
     """
     if not await should_compress(session_id):
         return ""
         
     try:
         async with aiosqlite.connect(DB_PATH) as db:
+            # Get current summary
+            async with db.execute('SELECT summary FROM sessions WHERE session_id = ?', (session_id,)) as cursor:
+                row = await cursor.fetchone()
+                current_summary = row[0] if row and row[0] else ""
+
+            # Get new messages to compress
             async with db.execute(
                 'SELECT role, content FROM messages WHERE session_id = ? ORDER BY timestamp ASC', 
                 (session_id,)
@@ -155,14 +154,14 @@ async def compress_session(session_id: str, local_call_fn: Callable[[str], Await
                 rows = await cursor.fetchall()
                 
             conversation_text = "\n".join([f"{role.upper()}: {content}" for role, content in rows])
-            prompt = f"{COMPRESSION_PROMPT}\n\nCONVERSATION:\n{conversation_text}"
+            prompt = f"{COMPRESSION_PROMPT}\n\nPREVIOUS SUMMARY:\n{current_summary}\n\nNEW CONVERSATION:\n{conversation_text}"
             
             # Call local model (injected dependency)
             summary = await local_call_fn(prompt)
             
-            # Save and freeze
+            # Save and update generation counter
             await db.execute(
-                'UPDATE sessions SET summary = ?, summary_frozen = 1 WHERE session_id = ?',
+                'UPDATE sessions SET summary = ?, generation_counter = generation_counter + 1 WHERE session_id = ?',
                 (summary, session_id)
             )
             await db.commit()

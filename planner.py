@@ -20,8 +20,7 @@ PLANNER_SYSTEM_PROMPT = """Output ONLY this JSON, nothing else:
   "constraints": ["must avoid X", "output must be Y format"],
   "failure_modes": ["common mistake 1", "common mistake 2"],
   "expected_output_format": "describe exact output shape"
-}
-Max 150 tokens total."""
+}"""
 
 def _parse_plan(content: str) -> Dict[str, Any]:
     """
@@ -73,8 +72,9 @@ async def plan(message: str, context: List[Dict[str, str]]) -> Dict[str, Any]:
         response = await acompletion(
             model=PLANNER_MODEL,
             messages=messages,
-            max_tokens=250, # Keep output strictly limited to the plan length
-            temperature=0.2 # Lower temperature for stable formatting
+            max_tokens=500, # Increased budget for valid structured reasoning
+            temperature=0.2, # Lower temperature for stable formatting
+            response_format={ "type": "json_object" } # Forces valid JSON output natively
         )
         
         content = response.choices[0].message.content

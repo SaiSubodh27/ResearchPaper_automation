@@ -22,7 +22,7 @@ import localBackupFeed from "../data/daily_material_papers.json";
 
 // --- Configuration: GitHub Raw Feed & Local API URLs ---
 const GITHUB_USERNAME = "SaiSubodh27";
-const GITHUB_REPO = "Researchpaperautomation";
+const GITHUB_REPO = "ResearchPaper_automation";
 const RAW_GITHUB_FEED_URL = `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO}/main/data/daily_material_papers.json`;
 const LOCAL_API_URL = "http://localhost:8000/api/material-science/daily";
 

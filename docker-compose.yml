@@ -6,20 +6,23 @@ services:
     ports:
       - "8000:8000"
     environment:
-      # These keys should be passed securely in production or via a physical .env file
+      # Pass API keys via .env file or environment variables
       - GROQ_API_KEY=${GROQ_API_KEY}
       - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
       - GOOGLE_API_KEY=${GOOGLE_API_KEY}
-      - OLLAMA_BASE_URL=http://host.docker.internal:11434 # To connect back to local host's Ollama if running locally
+      - DB_PATH=/app/data/sessions.db
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
     volumes:
-      - sqlite_data:/app
-    
+      - sqlite_data:/app/data
+    restart: always
+
   router-frontend:
     build: ./web_ui
     ports:
       - "3000:3000"
     depends_on:
       - router-backend
+    restart: always
 
 volumes:
   sqlite_data:

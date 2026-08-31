@@ -8,6 +8,9 @@ from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 from litellm import acompletion
 from router import route_request, LOCAL_MODEL, OLLAMA_BASE_URL
+from paper_extractor import search_all_sources
+from material_paper_store import init_paper_db, get_today_material_papers, query_paper_history, save_material_papers
+from daily_scheduler import run_daily_material_ingestion, start_background_scheduler
 from contextlib import asynccontextmanager
 
 logger = logging.getLogger(__name__)
@@ -16,6 +19,13 @@ DB_PATH = os.getenv("DB_PATH", "sessions.db")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    # Initialize SQLite paper store and start daily automated Material Science scheduler
+    try:
+        await init_paper_db()
+        start_background_scheduler()
+    except Exception as e:
+        logger.warning(f"Could not initialize Material Science scheduler: {e}")
+
     # Pre-warm Ollama on startup to decrease latency
     try:
         logger.info(f"Pre-warming local model: {LOCAL_MODEL}")
@@ -56,6 +66,22 @@ class OpenAIChatRequest(BaseModel):
     messages: List[OpenAIMessage]
     temperature: Optional[float] = 0.7
     stream: Optional[bool] = False
+
+# --- Paper Extraction & Quality Schemas ---
+class PaperSearchRequest(BaseModel):
+    query: str
+    limit: Optional[int] = 10
+    min_year: Optional[int] = None
+    min_citations: Optional[int] = 0
+    quartiles: Optional[List[str]] = None  # e.g., ["Q1", "Q2"]
+    sources: Optional[List[str]] = None    # e.g., ["openalex", "semantic_scholar", "arxiv"]
+
+class PaperSummarizeRequest(BaseModel):
+    title: str
+    abstract: str
+    journal_name: Optional[str] = "Academic Publication"
+    quartile: Optional[str] = "Q1"
+    session_id: Optional[str] = "paper-summary-session"
 
 @app.post("/v1/chat/completions")
 async def openai_compatible_chat(request: Request, body: OpenAIChatRequest):
@@ -118,6 +144,153 @@ async def chat_endpoint(req: ChatRequest):
         response = await route_request(req.message, req.session_id)
         return response
     except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/search-papers")
+async def search_papers_endpoint(req: PaperSearchRequest):
+    """
+    Multi-source paper extraction endpoint.
+    Searches OpenAlex, Semantic Scholar, and arXiv concurrently.
+    Returns paper metadata enriched with journal name, citation metrics, and Q1-Q4 quartiles.
+    """
+    try:
+        papers = await search_all_sources(
+            query=req.query,
+            limit=req.limit or 10,
+            min_year=req.min_year,
+            min_citations=req.min_citations or 0,
+            quartiles=req.quartiles,
+            sources=req.sources
+        )
+        return {
+            "query": req.query,
+            "count": len(papers),
+            "papers": papers
+        }
+    except Exception as e:
+        logger.error(f"Error in search_papers_endpoint: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/summarize-paper")
+async def summarize_paper_endpoint(req: PaperSummarizeRequest):
+    """
+    Paper summarization endpoint. Passes paper title & abstract through the To-Path router
+    to produce structured executive summaries at minimal LLM API cost.
+    """
+    try:
+        prompt = (
+            f"Analyze and summarize this paper from '{req.journal_name}' ({req.quartile}):\n"
+            f"Title: {req.title}\n"
+            f"Abstract: {req.abstract}\n\n"
+            f"Provide a structured summary with: 1. Main Objective, 2. Key Methodologies, 3. Core Findings, 4. Significance."
+        )
+        result = await route_request(prompt, req.session_id or "paper-summary-session")
+        return {
+            "title": req.title,
+            "journal_name": req.journal_name,
+            "quartile": req.quartile,
+            "summary": result.get("response"),
+            "routing_metadata": {
+                "path_used": result.get("path_used"),
+                "tier": result.get("routing_tier"),
+                "cost_usd": result.get("total_cost_usd")
+            }
+        }
+    except Exception as e:
+        logger.error(f"Error in summarize_paper_endpoint: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+# --- Material Science Automated Endpoints ---
+class MaterialScrapeRequest(BaseModel):
+    query: str = "perovskite solar cells"
+    limit: Optional[int] = 10
+    min_year: Optional[int] = None
+    min_citations: Optional[int] = 0
+    quartiles: Optional[List[str]] = None
+    sources: Optional[List[str]] = None
+
+@app.get("/api/material-science/daily")
+async def get_daily_material_papers_endpoint(limit: int = 20):
+    """
+    Returns today's (and recent) automatically ingested Material Science papers,
+    complete with Q1-Q4 quartiles, journal details, and AI summaries for your website.
+    """
+    try:
+        papers = await get_today_material_papers(limit=limit)
+        if not papers:
+            # If DB is empty, trigger an immediate light ingestion to populate papers
+            await run_daily_material_ingestion(limit_per_query=2)
+            papers = await get_today_material_papers(limit=limit)
+        return {
+            "status": "success",
+            "count": len(papers),
+            "papers": papers
+        }
+    except Exception as e:
+        logger.error(f"Error in get_daily_material_papers_endpoint: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/material-science/history")
+async def get_material_paper_history_endpoint(
+    keyword: Optional[str] = None,
+    quartile: Optional[str] = None,
+    min_year: Optional[int] = None,
+    min_citations: int = 0,
+    limit: int = 30
+):
+    """
+    Queries past historical Material Science paper archive with filters for date, keyword, and Q1-Q4 rank.
+    """
+    try:
+        papers = await query_paper_history(
+            keyword=keyword,
+            quartile=quartile,
+            min_year=min_year,
+            min_citations=min_citations,
+            limit=limit
+        )
+        return {
+            "status": "success",
+            "count": len(papers),
+            "filters": {
+                "keyword": keyword,
+                "quartile": quartile,
+                "min_year": min_year,
+                "min_citations": min_citations
+            },
+            "papers": papers
+        }
+    except Exception as e:
+        logger.error(f"Error in get_material_paper_history_endpoint: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/material-science/scrape")
+async def scrape_material_papers_endpoint(req: MaterialScrapeRequest):
+    """
+    On-demand scraping trigger endpoint for scraping past or specific Material Science topics.
+    Enriches papers with Q1-Q4 ranks and saves them into the persistent archive.
+    """
+    try:
+        extracted = await search_all_sources(
+            query=req.query,
+            limit=req.limit or 10,
+            min_year=req.min_year,
+            min_citations=req.min_citations or 0,
+            quartiles=req.quartiles,
+            sources=req.sources
+        )
+        for p in extracted:
+            p["subfield"] = req.query
+        saved_count = await save_material_papers(extracted)
+        return {
+            "status": "success",
+            "query": req.query,
+            "extracted_count": len(extracted),
+            "saved_new_count": saved_count,
+            "papers": extracted
+        }
+    except Exception as e:
+        logger.error(f"Error in scrape_material_papers_endpoint: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/session/{session_id}/stats")

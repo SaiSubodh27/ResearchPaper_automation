@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Material Science Daily Research Feed</title>
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --accent-color: #38bdf8;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --q1-bg: #064e3b; --q1-text: #34d399;
+      --q2-bg: #1e3a8a; --q2-text: #60a5fa;
+      --q3-bg: #78350f; --q3-text: #fbbf24;
+      --q4-bg: #7c2d12; --q4-text: #f97316;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      color: var(--accent-color);
+      margin-bottom: 8px;
+    }
+    header p {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+    .controls {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
+    }
+    input, select, button {
+      padding: 10px 14px;
+      border-radius: 8px;
+      border: 1px solid #334155;
+      background-color: #1e293b;
+      color: var(--text-main);
+      font-size: 0.95rem;
+    }
+    input { flex: 1; }
+    button {
+      background-color: var(--accent-color);
+      color: #0f172a;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: opacity 0.2s;
+    }
+    button:hover { opacity: 0.9; }
+    .paper-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+    .paper-card {
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #334155;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+    .paper-card:hover {
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin: 0;
+      line-height: 1.4;
+    }
+    .badge {
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .badge-Q1 { background-color: var(--q1-bg); color: var(--q1-text); }
+    .badge-Q2 { background-color: var(--q2-bg); color: var(--q2-text); }
+    .badge-Q3 { background-color: var(--q3-bg); color: var(--q3-text); }
+    .badge-Q4 { background-color: var(--q4-bg); color: var(--q4-text); }
+    .authors {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    .journal-info {
+      font-size: 0.88rem;
+      color: var(--accent-color);
+      margin-bottom: 12px;
+    }
+    .summary {
+      font-size: 0.92rem;
+      color: #cbd5e1;
+      line-height: 1.5;
+      background-color: #0f172a;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .card-footer {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .btn-link {
+      padding: 6px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-doi { background-color: #334155; color: #f8fafc; }
+    .btn-pdf { background-color: #0284c7; color: #ffffff; }
+    .btn-link:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>🔬 Material Science Daily Papers</h1>
+    <p>Automated Daily Extractions with Q1–Q4 Journal Quality Rankings & AI Summaries</p>
+  </header>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Search keywords (e.g. perovskite, battery, alloy)..." onkeyup="filterPapers()" />
+    <select id="quartileFilter" onchange="filterPapers()">
+      <option value="ALL">All Quality Quartiles</option>
+      <option value="Q1">Q1 (Top-Tier Only)</option>
+      <option value="Q2">Q2 (High Quality)</option>
+      <option value="Q3">Q3 (Moderate Quality)</option>
+      <option value="Q4">Q4 (Indexed)</option>
+    </select>
+  </div>
+
+  <div id="paperGrid" class="paper-grid">
+    <p style="text-align: center; color: var(--text-muted);">Loading daily papers...</p>
+  </div>
+</div>
+
+<script>
+  let allPapers = [];
+
+  async function loadPapers() {
+    try {
+      // Primary source: Local API backend
+      let response = await fetch("http://localhost:8000/api/material-science/daily");
+      if (!response.ok) {
+        // Fallback source: GitHub Raw static JSON feed
+        response = await fetch("./data/daily_material_papers.json");
+      }
+      const data = await response.json();
+      allPapers = data.papers || [];
+      renderPapers(allPapers);
+    } catch (err) {
+      console.error("Error loading papers:", err);
+      document.getElementById("paperGrid").innerHTML = "<p style='color:#ef4444; text-align:center;'>Could not connect to API server. Ensure python backend is running.</p>";
+    }
+  }
+
+  function renderPapers(papers) {
+    const grid = document.getElementById("paperGrid");
+    if (!papers || papers.length === 0) {
+      grid.innerHTML = "<p style='text-align: center; color: var(--text-muted);'>No matching papers found.</p>";
+      return;
+    }
+
+    grid.innerHTML = papers.map(p => {
+      const j = p.journal || {};
+      const quartile = j.quartile || "Q2";
+      const doiUrl = p.doi || "#";
+      const pdfUrl = p.pdf_url || "";
+      const authorsStr = Array.isArray(p.authors) ? p.authors.join(", ") : (p.authors || "Unknown Authors");
+
+      return `
+        <div class="paper-card">
+          <div class="card-header">
+            <h3 class="title">${p.title}</h3>
+            <span class="badge badge-${quartile}">${j.quality_tier || quartile}</span>
+          </div>
+          <div class="authors">👥 ${authorsStr}</div>
+          <div class="journal-info">🏛️ <strong>${j.journal_name || 'Academic Journal'}</strong> • Ingestion Year: ${p.year || 2026} • Citations: ${p.citation_count || 0}</div>
+          ${p.abstract ? `<div class="summary"><strong>AI Summary:</strong> ${p.ai_summary || p.abstract.substring(0, 300) + '...'}</div>` : ''}
+          <div class="card-footer">
+            ${doiUrl !== '#' ? `<a href="${doiUrl}" target="_blank" class="btn-link btn-doi">🔗 DOI Link</a>` : ''}
+            ${pdfUrl ? `<a href="${pdfUrl}" target="_blank" class="btn-link btn-pdf">📥 Download PDF</a>` : ''}
+          </div>
+        </div>
+      `;
+    }).join("");
+  }
+
+  function filterPapers() {
+    const q = document.getElementById("searchInput").value.toLowerCase();
+    const quartile = document.getElementById("quartileFilter").value;
+
+    const filtered = allPapers.filter(p => {
+      const matchText = (p.title + " " + (p.abstract || "") + " " + (p.journal?.journal_name || "")).toLowerCase().includes(q);
+      const matchQuartile = (quartile === "ALL") || (p.journal?.quartile === quartile);
+      return matchText && matchQuartile;
+    });
+
+    renderPapers(filtered);
+  }
+
+  window.onload = loadPapers;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,620 @@
+[
+  {
+    "id": "10.33612/diss.688527261",
+    "title": "Functionalized molecules via MCRs: applications in drug discovery and material science",
+    "abstract": "",
+    "authors": [
+      "Xiaofang Lei"
+    ],
+    "year": null,
+    "doi": "https://doi.org/10.33612/diss.688527261",
+    "pdf_url": "",
+    "citation_count": 1,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Academic Journal",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "University of Groningen Press"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "42630677",
+    "title": "Interpretable data-driven discovery of high-performance multielement metal oxide electrocatalysts for oxygen evolution reaction from a small hybrid dataset",
+    "abstract": "",
+    "authors": [
+      "Peng W",
+      "Hayashi S",
+      "Castro Garcia A",
+      "Fang L",
+      "Takeguchi M"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1080/14686996.2026.2713992",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Sci Technol Adv Mater",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "42631350",
+    "title": "Data-Driven Accelerated Discovery of LNMCO Cathodes Materials via 37-Dimensional Parameter Space Mining With a Cascaded Neural Network",
+    "abstract": "",
+    "authors": [
+      "Wang C",
+      "Li Q",
+      "Zhang L",
+      "Liu F",
+      "Yang N"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/adma.74750",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Adv Mater",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "42647636",
+    "title": "Lignin-degrading-inspired dehydrogenative photocatalysis via reductive quenching of donor-acceptor covalent organic framework",
+    "abstract": "",
+    "authors": [
+      "Lin X",
+      "Umar AB",
+      "Zheng J",
+      "Zheng H",
+      "Sang W"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1126/sciadv.aef6109",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Sci Adv",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "42618780",
+    "title": "Electronic-resonance enhanced molecule for perovskite solar cells",
+    "abstract": "",
+    "authors": [
+      "Wu X",
+      "Kou W",
+      "Li Z",
+      "Zhang T",
+      "Xu G"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1038/s41586-026-10919-4",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Nature",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q1",
+      "quality_tier": "Top-Tier (Q1)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "PMC13291779",
+    "title": "Editorial: Functional materials and device design in perovskite solar cells",
+    "abstract": "",
+    "authors": [
+      "Wang Y."
+    ],
+    "year": null,
+    "doi": "",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13291779&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Front Chem",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42605836",
+    "title": "Synergistic Bidirectional Crystallization for High-Performance Perovskite Solar Cells",
+    "abstract": "",
+    "authors": [
+      "Yan S",
+      "Li Q",
+      "Liu W",
+      "Yang P",
+      "Li J"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/adma.74653",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Adv Mater",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42578313",
+    "title": "Orchestrating thiol chemistry toward durable perovskite solar cells",
+    "abstract": "",
+    "authors": [
+      "Zhao M",
+      "Haris MPU",
+      "Lv W",
+      "Guo C",
+      "Zheng Q"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6cc03627a",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Chem Commun (Camb)",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42527611",
+    "title": "Author Correction: A ductile solid electrolyte interphase for solid-state batteries",
+    "abstract": "",
+    "authors": [
+      "Mi J",
+      "Yang J",
+      "Chen L",
+      "Cui W",
+      "Li Y"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1038/s41586-026-10945-2",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Nature",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q1",
+      "quality_tier": "Top-Tier (Q1)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "41189429",
+    "title": "Non-Equilibrium Manufacturing for High-Energy-Input Solid-State Battery Materials",
+    "abstract": "",
+    "authors": [
+      "Shen H",
+      "Jia Z",
+      "Zhang Y",
+      "Chen S",
+      "Huang Z"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/adma.202515467",
+    "pdf_url": "",
+    "citation_count": 2,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Adv Mater",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "39769809",
+    "title": "Advanced Characterization of Solid-State Battery Materials Using Neutron Scattering Techniques",
+    "abstract": "",
+    "authors": [
+      "Novak E",
+      "Daemen L",
+      "Jalarvo N."
+    ],
+    "year": 2024,
+    "doi": "https://doi.org/10.3390/ma17246209",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11677385&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Materials (Basel)",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "42548304",
+    "title": "Multidimensional Nanostructure Engineering in Practical Lithium-sulfur Batteries",
+    "abstract": "",
+    "authors": [
+      "Chen X",
+      "Hu Z",
+      "Shi J",
+      "Pan Z",
+      "Geng C"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/smtd.70932",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Small Methods",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "10.1088/2053-1583/2/3/032004",
+    "title": "Graphene and graphene-like 2D materials for optical biosensing and bioimaging: a review",
+    "abstract": "",
+    "authors": [
+      "Chengzhou Zhu",
+      "Dan Du",
+      "Yuehe Lin"
+    ],
+    "year": 2015,
+    "doi": "https://doi.org/10.1088/2053-1583/2/3/032004",
+    "pdf_url": "",
+    "citation_count": 172,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "2D Materials",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "IOP Publishing"
+    },
+    "subfield": "graphene 2D materials"
+  },
+  {
+    "id": "37955406",
+    "title": "Post-Graphene 2D Materials: Structures, Properties, and Cancer Therapy Applications",
+    "abstract": "",
+    "authors": [
+      "Kuang F",
+      "Hui T",
+      "Chen Y",
+      "Qiu M",
+      "Gao X."
+    ],
+    "year": 2024,
+    "doi": "https://doi.org/10.1002/adhm.202302604",
+    "pdf_url": "",
+    "citation_count": 5,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Adv Healthc Mater",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "graphene 2D materials"
+  },
+  {
+    "id": "32435844",
+    "title": "Using Post-graphene 2D Materials to Detect and Remove Pesticides: Recent Advances and Future Recommendations",
+    "abstract": "",
+    "authors": [
+      "Yang Q",
+      "Lu L",
+      "Xu Q",
+      "Tang S",
+      "Yu Y."
+    ],
+    "year": 2021,
+    "doi": "https://doi.org/10.1007/s00128-020-02868-z",
+    "pdf_url": "",
+    "citation_count": 4,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Bull Environ Contam Toxicol",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "graphene 2D materials"
+  },
+  {
+    "id": "42649625",
+    "title": "Graphene as a Synthetic Platform for Post-Graphene 2D Materials and Heterostructures",
+    "abstract": "",
+    "authors": [
+      "Wen J",
+      "Yin B",
+      "Shen J",
+      "Li J",
+      "Liu S"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/anie.9317311",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Angew Chem Int Ed Engl",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "graphene 2D materials"
+  },
+  {
+    "id": "10.1016/b978-0-12-800251-3.00002-x",
+    "title": "High-Entropy Alloys",
+    "abstract": "",
+    "authors": [
+      "B.S. Murty",
+      "J.W. Yeh",
+      "S. Ranganathan"
+    ],
+    "year": 2014,
+    "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
+    "pdf_url": "",
+    "citation_count": 303,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "High Entropy Alloys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Elsevier"
+    },
+    "subfield": "high entropy alloys"
+  },
+  {
+    "id": "10.1007/978-3-319-27013-5_1",
+    "title": "Overview of High-Entropy Alloys",
+    "abstract": "",
+    "authors": [
+      "Jien-Wei Yeh"
+    ],
+    "year": 2016,
+    "doi": "https://doi.org/10.1007/978-3-319-27013-5_1",
+    "pdf_url": "",
+    "citation_count": 35,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "High-Entropy Alloys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Springer International Publishing"
+    },
+    "subfield": "high entropy alloys"
+  },
+  {
+    "id": "10.1007/978-3-319-27013-5_11",
+    "title": "Design of High-Entropy Alloys",
+    "abstract": "",
+    "authors": [
+      "Michael C. Gao"
+    ],
+    "year": 2016,
+    "doi": "https://doi.org/10.1007/978-3-319-27013-5_11",
+    "pdf_url": "",
+    "citation_count": 31,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "High-Entropy Alloys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Springer International Publishing"
+    },
+    "subfield": "high entropy alloys"
+  },
+  {
+    "id": "10.1007/s44210-025-00076-0",
+    "title": "FORGEall: A Deep Learning Framework to Reliably Predict High Yield Strength High-Entropy Alloys for Hypersonic Engines",
+    "abstract": "",
+    "authors": [
+      "Avni Iyer"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1007/s44210-025-00076-0",
+    "pdf_url": "",
+    "citation_count": 1,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "High Entropy Alloys &amp; Materials",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Springer Science and Business Media LLC"
+    },
+    "subfield": "high entropy alloys"
+  },
+  {
+    "id": "42579186",
+    "title": "Substituent engineering of pyrazolo-tetrazine N-oxide (PTZO) derivatives toward high-energy low-sensitivity energetic materials: A DFT study",
+    "abstract": "",
+    "authors": [
+      "Chu Y",
+      "Gao Z",
+      "Ma P."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1007/s00894-026-06886-2",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "J Mol Model",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "42653971",
+    "title": "Vibrational Spectra Modeling of Cellulose Nitrate During Initial Photodegradation Stage by Density Functional Theory: The Case of Ketone Formation",
+    "abstract": "",
+    "authors": [
+      "Pankin D",
+      "Moskovskiy M",
+      "Povolotckaia A."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.3390/molecules31162890",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Molecules",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "42543741",
+    "title": "Machine-Learning-Assisted Discovery and Accelerated Synthesis of Metal Phosphosulfides",
+    "abstract": "",
+    "authors": [
+      "Sanz Rodrigo J",
+      "Kryger-Nelson NA",
+      "Mittmann LA",
+      "Bertin E",
+      "Castelli IE"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/smll.74742",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Small",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "42653834",
+    "title": "Review of the Applications of Density Functional Theory Calculations in Lithium-Sulfur Batteries",
+    "abstract": "",
+    "authors": [
+      "Yu A",
+      "Ji Y",
+      "Hu G",
+      "Zhang Q",
+      "Wang Z"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.3390/molecules31162750",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Molecules",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  }
+]

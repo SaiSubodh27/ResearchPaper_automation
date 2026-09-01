@@ -1,7 +1,85 @@
 {
-  "updated_at": "2026-08-31T08:09:47.100641Z",
+  "updated_at": "2026-09-01T02:31:11.777555Z",
   "count": 24,
   "papers": [
+    {
+      "id": "https://openalex.org/W3035965352",
+      "title": "Array programming with NumPy",
+      "abstract": "Abstract Array programming provides a powerful, compact and expressive syntax for accessing, manipulating and operating on data in vectors, matrices and higher-dimensional arrays. NumPy is the primary array programming library for the Python language. It has an essential role in research analysis pipelines in fields as diverse as physics, chemistry, astronomy, geoscience, biology, psychology, materials science, engineering, finance and economics. For example, in astronomy, NumPy was an important part of the software stack used in the discovery of gravitational waves 1 and in the first imaging of a black hole 2 . Here we review how a few fundamental array concepts lead to a simple and powerful programming paradigm for organizing, exploring and analysing scientific data. NumPy is the foundation upon which the scientific Python ecosystem is constructed. It is so pervasive that several projects, targeting audiences with specialized needs, have developed their own NumPy-like interfaces and array objects. Owing to its central position in the ecosystem, NumPy increasingly acts as an interoperability layer between such array computation libraries and, together with its application programming interface (API), provides a flexible framework to support the next decade of scientific and industrial analysis.",
+      "authors": [
+        "Charles R. Harris",
+        "K. Jarrod Millman",
+        "Stéfan J. van der Walt",
+        "Ralf Gommers",
+        "Pauli Virtanen"
+      ],
+      "year": 2020,
+      "doi": "https://doi.org/10.1038/s41586-020-2649-2",
+      "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
+      "citation_count": 23463,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Nature",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "https://openalex.org/W2053328406",
+      "title": "Materials for electrochemical capacitors",
+      "abstract": "",
+      "authors": [
+        "Patrice Simon",
+        "Yury Gogotsi"
+      ],
+      "year": 2008,
+      "doi": "https://doi.org/10.1038/nmat2297",
+      "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
+      "citation_count": 16315,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Nature Materials",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "https://openalex.org/W1992985800",
+      "title": "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation",
+      "abstract": "Accelerating the discovery of advanced materials is essential for human welfare and sustainable, clean energy. In this paper, we introduce the Materials Project (www.materialsproject.org), a core program of the Materials Genome Initiative that uses high-throughput computing to uncover the properties of all known inorganic materials. This open dataset can be accessed through multiple channels for both interactive exploration and data mining. The Materials Project also seeks to create open-source platforms for developing robust, sophisticated materials analyses. Future efforts will enable users to perform ‘‘rapid-prototyping’’ of new materials in silico, and provide researchers with new avenues for cost-effective, data-driven materials design.",
+      "authors": [
+        "Anubhav Jain",
+        "Shyue Ping Ong",
+        "Geoffroy Hautier",
+        "Wei Chen",
+        "William D. Richards"
+      ],
+      "year": 2013,
+      "doi": "https://doi.org/10.1063/1.4812323",
+      "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
+      "citation_count": 13109,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "APL Materials",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
     {
       "id": "10.33612/diss.688527261",
       "title": "Functionalized molecules via MCRs: applications in drug discovery and material science",
@@ -26,85 +104,56 @@
       "subfield": "material science discovery"
     },
     {
-      "id": "42630677",
-      "title": "Interpretable data-driven discovery of high-performance multielement metal oxide electrocatalysts for oxygen evolution reaction from a small hybrid dataset",
+      "id": "https://openalex.org/W2144574847",
+      "title": "Efficient planar heterojunction perovskite solar cells by vapour deposition",
       "abstract": "",
       "authors": [
-        "Peng W",
-        "Hayashi S",
-        "Castro Garcia A",
-        "Fang L",
-        "Takeguchi M"
+        "Mingzhen Liu",
+        "Michael B. Johnston",
+        "Henry J. Snaith"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1080/14686996.2026.2713992",
+      "year": 2013,
+      "doi": "https://doi.org/10.1038/nature12509",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 7949,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Sci Technol Adv Mater",
+        "journal_name": "Nature",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
         "publisher": "Academic Publisher"
       },
-      "subfield": "material science discovery"
+      "subfield": "perovskite solar cells"
     },
     {
-      "id": "42631350",
-      "title": "Data-Driven Accelerated Discovery of LNMCO Cathodes Materials via 37-Dimensional Parameter Space Mining With a Cascaded Neural Network",
-      "abstract": "",
+      "id": "https://openalex.org/W1998343415",
+      "title": "Interface engineering of highly efficient perovskite solar cells",
+      "abstract": "Advancing perovskite solar cell technologies toward their theoretical power conversion efficiency (PCE) requires delicate control over the carrier dynamics throughout the entire device. By controlling the formation of the perovskite layer and careful choices of other materials, we suppressed carrier recombination in the absorber, facilitated carrier injection into the carrier transport layers, and maintained good carrier extraction at the electrodes. When measured via reverse bias scan, cell PCE is typically boosted to 16.6% on average, with the highest efficiency of ~19.3% in a planar geometry without antireflective coating. The fabrication of our perovskite solar cells was conducted in air and from solution at low temperatures, which should simplify manufacturing of large-area perovskite devices that are inexpensive and perform at high levels.",
       "authors": [
-        "Wang C",
-        "Li Q",
-        "Zhang L",
-        "Liu F",
-        "Yang N"
+        "Huanping Zhou",
+        "Qi Chen",
+        "Gang Li",
+        "Song Luo",
+        "Tze‐Bin Song"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1002/adma.74750",
+      "year": 2014,
+      "doi": "https://doi.org/10.1126/science.1254050",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 6619,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Adv Mater",
+        "journal_name": "Science",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
         "publisher": "Academic Publisher"
       },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "42647636",
-      "title": "Lignin-degrading-inspired dehydrogenative photocatalysis via reductive quenching of donor-acceptor covalent organic framework",
-      "abstract": "",
-      "authors": [
-        "Lin X",
-        "Umar AB",
-        "Zheng J",
-        "Zheng H",
-        "Sang W"
-      ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1126/sciadv.aef6109",
-      "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Sci Adv",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
+      "subfield": "perovskite solar cells"
     },
     {
       "id": "42618780",
@@ -134,78 +183,26 @@
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "PMC13291779",
-      "title": "Editorial: Functional materials and device design in perovskite solar cells",
+      "id": "https://openalex.org/W1999717631",
+      "title": "The emergence of perovskite solar cells",
       "abstract": "",
       "authors": [
-        "Wang Y."
+        "Martin A. Green",
+        "Anita Ho‐Baillie",
+        "Henry J. Snaith"
       ],
-      "year": null,
-      "doi": "",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13291779&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Front Chem",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "perovskite solar cells"
-    },
-    {
-      "id": "42605836",
-      "title": "Synergistic Bidirectional Crystallization for High-Performance Perovskite Solar Cells",
-      "abstract": "",
-      "authors": [
-        "Yan S",
-        "Li Q",
-        "Liu W",
-        "Yang P",
-        "Li J"
-      ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1002/adma.74653",
+      "year": 2014,
+      "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 7397,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Adv Mater",
+        "journal_name": "Nature Photonics",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "perovskite solar cells"
-    },
-    {
-      "id": "42578313",
-      "title": "Orchestrating thiol chemistry toward durable perovskite solar cells",
-      "abstract": "",
-      "authors": [
-        "Zhao M",
-        "Haris MPU",
-        "Lv W",
-        "Guo C",
-        "Zheng Q"
-      ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1039/d6cc03627a",
-      "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Chem Commun (Camb)",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
@@ -238,384 +235,386 @@
       "subfield": "solid state battery materials"
     },
     {
-      "id": "41189429",
-      "title": "Non-Equilibrium Manufacturing for High-Energy-Input Solid-State Battery Materials",
+      "id": "https://openalex.org/W2587767928",
+      "title": "Lithium battery chemistries enabled by solid-state electrolytes",
       "abstract": "",
       "authors": [
-        "Shen H",
-        "Jia Z",
-        "Zhang Y",
-        "Chen S",
-        "Huang Z"
+        "Arumugam Manthiram",
+        "Xingwen Yu",
+        "Shaofei Wang"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1002/adma.202515467",
+      "year": 2017,
+      "doi": "https://doi.org/10.1038/natrevmats.2016.103",
       "pdf_url": "",
-      "citation_count": 2,
-      "source_api": "Europe PMC",
+      "citation_count": 4683,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Adv Mater",
+        "journal_name": "Nature Reviews Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "solid state battery materials"
     },
     {
-      "id": "39769809",
-      "title": "Advanced Characterization of Solid-State Battery Materials Using Neutron Scattering Techniques",
-      "abstract": "",
+      "id": "https://openalex.org/W3015452587",
+      "title": "Garnet-Type Solid-State Electrolytes: Materials, Interfaces, and Batteries",
+      "abstract": "Solid-state batteries with desirable advantages, including high-energy density, wide temperature tolerance, and fewer safety-concerns, have been considered as a promising energy storage technology to replace organic liquid electrolyte-dominated Li-ion batteries. Solid-state electrolytes (SSEs) as the most critical component in solid-state batteries largely lead the future battery development. Among different types of solid-state electrolytes, garnet-type Li 7 La 3 Zr 2 O 12 (LLZO) solid-state electrolytes have particularly high ionic conductivity (10 –3 to 10 –4 S/cm) and good chemical stability against Li metal, offering a great opportunity for solid-state Li-metal batteries. Since the discovery of garnet-type LLZO in 2007, there has been an increasing interest in the development of garnet-type solid-state electrolytes and all solid-state batteries. Garnet-type electrolyte has been considered one of the most promising and important solid-state electrolytes for batteries with potential benefits in energy density, electrochemical stability, high temperature stability, and safety. In this Review, we will survey recent development of garnet-type LLZO electrolytes with discussions of experimental studies and theoretical results in parallel, LLZO electrolyte synthesis strategies and modifications, stability of garnet solid electrolytes/electrodes, emerging nanostructure designs, degradation mechanisms and mitigations, and battery architectures and integrations. We will also provide a target-oriented research overview of garnet-type LLZO electrolyte and its application in various types of solid-state battery concepts (e.g., Li-ion, Li–S, and Li–air), and we will show opportunities and perspectives as guides for future development of solid electrolytes and solid-state batteries.",
       "authors": [
-        "Novak E",
-        "Daemen L",
-        "Jalarvo N."
+        "Chengwei Wang",
+        "Kun Fu",
+        "Sanoop Palakkathodi Kammampata",
+        "Dennis W. McOwen",
+        "Alfred Junio Samson"
       ],
-      "year": 2024,
-      "doi": "https://doi.org/10.3390/ma17246209",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11677385&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "year": 2020,
+      "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
+      "pdf_url": "https://www.osti.gov/biblio/1608936",
+      "citation_count": 1218,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Materials (Basel)",
+        "journal_name": "Chemical Reviews",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "solid state battery materials"
     },
     {
-      "id": "42548304",
-      "title": "Multidimensional Nanostructure Engineering in Practical Lithium-sulfur Batteries",
-      "abstract": "",
+      "id": "https://openalex.org/W2009717712",
+      "title": "Solid polymer electrolytes: materials designing and all-solid-state battery applications: an overview",
+      "abstract": "Polymer electrolytes are promising materials for electrochemical device applications, namely, high energy density rechargeable batteries, fuel cells, supercapacitors, electrochromic displays, etc.The area of polymer electrolytes has gone through various developmental stages, i.e. from dry solid polymer electrolyte (SPE) systems to plasticized, gels, rubbery to micro/nano-composite polymer electrolytes.The polymer gel electrolytes, incorporating organic solvents, exhibit room temperature conductivity as high as ∼10 -3 S cm -1 , while dry SPEs still suffer from poor ionic conductivity lower than 10 -5 S cm -1 .Several approaches have been adopted to enhance the room temperature conductivity in the vicinity of 10 -4 S cm -1 as well as to improve the mechanical stability and interfacial activity of SPEs.In this review, the criteria of an ideal polymer electrolyte for electrochemical device applications have been discussed in brief along with presenting an overall glimpse of the progress made in polymer electrolyte materials designing, their broad classification and the recent advancements made in this branch of materials science.The characteristic advantages of employing polymer electrolyte membranes in all-solid-state battery applications have also been discussed.",
       "authors": [
-        "Chen X",
-        "Hu Z",
-        "Shi J",
-        "Pan Z",
-        "Geng C"
+        "Rishabh Agrawal",
+        "Gaind P. Pandey"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1002/smtd.70932",
+      "year": 2008,
+      "doi": "https://doi.org/10.1088/0022-3727/41/22/223001",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/0022-3727/41/22/223001/pdf",
+      "citation_count": 1068,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Journal of Physics D Applied Physics",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "solid state battery materials"
+    },
+    {
+      "id": "https://openalex.org/W2105685140",
+      "title": "The electronic properties of graphene",
+      "abstract": "This article reviews the basic theoretical aspects of graphene, a one-atom-thick allotrope of carbon, with unusual two-dimensional Dirac-like electronic excitations. The Dirac electrons can be controlled by application of external electric and magnetic fields, or by altering sample geometry and/or topology. The Dirac electrons behave in unusual ways in tunneling, confinement, and the integer quantum Hall effect. The electronic properties of graphene stacks are discussed and vary with stacking order and number of layers. Edge (surface) states in graphene depend on the edge termination (zigzag or armchair) and affect the physical properties of nanoribbons. Different types of disorder modify the Dirac equation leading to unusual spectroscopic and transport properties. The effects of electron-electron and electron-phonon interactions in single layer and multilayer graphene are also presented.",
+      "authors": [
+        "A. H. Castro Neto",
+        "F. Guinea",
+        "N. M. R. Peres",
+        "Kostya S. Novoselov",
+        "A. K. Geǐm"
+      ],
+      "year": 2009,
+      "doi": "https://doi.org/10.1103/revmodphys.81.109",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
+      "citation_count": 24841,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Reviews of Modern Physics",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "graphene 2D materials"
+    },
+    {
+      "id": "https://openalex.org/W2056280638",
+      "title": "2D materials: to graphene and beyond",
+      "abstract": "This review is an attempt to illustrate the different alternatives in the field of 2D materials. Graphene seems to be just the tip of the iceberg and we show how the discovery of alternative 2D materials is starting to show the rest of this iceberg. The review comprises the current state-of-the-art of the vast literature in concepts and methods already known for isolation and characterization of graphene, and rationalizes the quite disperse literature in other 2D materials such as metal oxides, hydroxides and chalcogenides, and metal-organic frameworks.",
+      "authors": [
+        "Rubén Mas‐Ballesté",
+        "Cristina Gómez‐Navarro",
+        "Julio Gómez‐Herrero",
+        "Félix Zamora"
+      ],
+      "year": 2010,
+      "doi": "https://doi.org/10.1039/c0nr00323a",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 1684,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Small Methods",
+        "journal_name": "Nanoscale",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
-      "subfield": "solid state battery materials"
+      "subfield": "graphene 2D materials"
     },
     {
-      "id": "10.1088/2053-1583/2/3/032004",
-      "title": "Graphene and graphene-like 2D materials for optical biosensing and bioimaging: a review",
+      "id": "https://openalex.org/W1974551342",
+      "title": "Recent development in 2D materials beyond graphene",
       "abstract": "",
       "authors": [
-        "Chengzhou Zhu",
-        "Dan Du",
-        "Yuehe Lin"
+        "Ankur Gupta",
+        "Tamilselvan Sakthivel",
+        "Sudipta Seal"
       ],
       "year": 2015,
-      "doi": "https://doi.org/10.1088/2053-1583/2/3/032004",
-      "pdf_url": "",
-      "citation_count": 172,
-      "source_api": "Crossref",
+      "doi": "https://doi.org/10.1016/j.pmatsci.2015.02.002",
+      "pdf_url": "https://stars.library.ucf.edu/scopus2015/2201",
+      "citation_count": 1555,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "2D Materials",
+        "journal_name": "Progress in Materials Science",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "IOP Publishing"
-      },
-      "subfield": "graphene 2D materials"
-    },
-    {
-      "id": "37955406",
-      "title": "Post-Graphene 2D Materials: Structures, Properties, and Cancer Therapy Applications",
-      "abstract": "",
-      "authors": [
-        "Kuang F",
-        "Hui T",
-        "Chen Y",
-        "Qiu M",
-        "Gao X."
-      ],
-      "year": 2024,
-      "doi": "https://doi.org/10.1002/adhm.202302604",
-      "pdf_url": "",
-      "citation_count": 5,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Adv Healthc Mater",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "32435844",
-      "title": "Using Post-graphene 2D Materials to Detect and Remove Pesticides: Recent Advances and Future Recommendations",
+      "id": "https://openalex.org/W2553169220",
+      "title": "A review on mechanics and mechanical properties of 2D materials—Graphene and beyond",
       "abstract": "",
       "authors": [
-        "Yang Q",
-        "Lu L",
-        "Xu Q",
-        "Tang S",
-        "Yu Y."
+        "Deji Akinwande",
+        "Christopher J. Brennan",
+        "J. Scott Bunch",
+        "Philip Egberts",
+        "Jonathan R. Felts"
       ],
-      "year": 2021,
-      "doi": "https://doi.org/10.1007/s00128-020-02868-z",
+      "year": 2017,
+      "doi": "https://doi.org/10.1016/j.eml.2017.01.008",
       "pdf_url": "",
-      "citation_count": 4,
-      "source_api": "Europe PMC",
+      "citation_count": 1361,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Bull Environ Contam Toxicol",
+        "journal_name": "Extreme Mechanics Letters",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "42649625",
-      "title": "Graphene as a Synthetic Platform for Post-Graphene 2D Materials and Heterostructures",
-      "abstract": "",
+      "id": "https://openalex.org/W2058085399",
+      "title": "Nanostructured High‐Entropy Alloys with Multiple Principal Elements: Novel Alloy Design Concepts and Outcomes",
+      "abstract": "A new approach for the design of alloys is presented in this study. These “high‐entropy alloys” with multi‐principal elements were synthesized using well‐developed processing technologies. Preliminary results demonstrate examples of the alloys with simple crystal structures, nanostructures, and promising mechanical properties. This approach may be opening a new era in materials science and engineering.",
       "authors": [
-        "Wen J",
-        "Yin B",
-        "Shen J",
-        "Li J",
-        "Liu S"
+        "J.‐W. Yeh",
+        "Swe-Kai Chen",
+        "Sung‐Jan Lin",
+        "Jie Gan",
+        "T.S. Chin"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1002/anie.9317311",
+      "year": 2004,
+      "doi": "https://doi.org/10.1002/adem.200300567",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 15130,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Angew Chem Int Ed Engl",
+        "journal_name": "Advanced Engineering Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
-      },
-      "subfield": "graphene 2D materials"
-    },
-    {
-      "id": "10.1016/b978-0-12-800251-3.00002-x",
-      "title": "High-Entropy Alloys",
-      "abstract": "",
-      "authors": [
-        "B.S. Murty",
-        "J.W. Yeh",
-        "S. Ranganathan"
-      ],
-      "year": 2014,
-      "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
-      "pdf_url": "",
-      "citation_count": 303,
-      "source_api": "Crossref",
-      "journal": {
-        "journal_name": "High Entropy Alloys",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Elsevier"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1007/978-3-319-27013-5_1",
-      "title": "Overview of High-Entropy Alloys",
-      "abstract": "",
+      "id": "https://openalex.org/W2534691303",
+      "title": "A critical review of high entropy alloys and related concepts",
+      "abstract": "High entropy alloys (HEAs) are barely 12 years old. The field has stimulated new ideas and has inspired the exploration of the vast composition space offered by multi-principal element alloys (MPEAs). Here we present a critical review of this field, with the intent of summarizing key findings, uncovering major trends and providing guidance for future efforts. Major themes in this assessment include definition of terms; thermodynamic analysis of complex, concentrated alloys (CCAs); taxonomy of current alloy families; microstructures; mechanical properties; potential applications; and future efforts. Based on detailed analyses, the following major results emerge. Although classical thermodynamic concepts are unchanged, trends in MPEAs can be different than in simpler alloys. Common thermodynamic perceptions can be misleading and new trends are described. From a strong focus on 3d transition metal alloys, there are now seven distinct CCA families. A new theme of designing alloy families by selecting elements to achieve a specific, intended purpose is starting to emerge. A comprehensive microstructural assessment is performed using three datasets: experimental data drawn from 408 different alloys and two computational datasets generated using the CALculated PHAse Diagram (CALPHAD) method. Each dataset emphasizes different elements and shows different microstructural trends. Trends in these three datasets are all predicted by a ‘structure in – structure out’ (SISO) analysis developed here that uses the weighted fractions of the constituent element crystal structures in each dataset. A total of 13 distinct multi-principal element single-phase fields are found in this microstructural assessment. Relationships between composition, microstructure and properties are established for 3d transition metal MPEAs, including the roles of Al, Cr and Cu. Critical evaluation shows that commercial austenitic stainless steels and nickel alloys with 3 or more principal elements are MPEAs, as well as some established functional materials. Mechanical properties of 3d transition metal CCAs are equivalent to commercial austenitic stainless steels and nickel alloys, while some refractory metal CCAs show potential to extend the service strength and/or temperature of nickel superalloys. Detailed analyses of microstructures and properties allow two major HEA hypotheses to be resolved. Although the ‘entropy effect’ is not supported by the present data, it has nevertheless made an enduring contribution by inspiring a clearer understanding of the importance of configurational entropy on phase stability. The ‘sluggish diffusion’ hypothesis is also not supported by available data, but it motivates re-evaluation of a classical concept of metallic diffusion. Building on recent published work, the CCA field has expanded to include materials with metallic, ionic or covalent bonding. It also includes microstructures with any number of phases and any type of phases. Finally, the MPEA field is shown to include both structural and functional materials applications. A significant number of future efforts are recommended, with an emphasis on developing high-throughput experiments and computations for structural materials. The review concludes with a brief description of major accomplishments of the field and insights gained from the first 12 years of research. The field has lost none of its potency and continues to pose new questions and offer new possibilities. The vast range of complex compositions and microstructures remains the most compelling motivation for future studies.",
       "authors": [
-        "Jien-Wei Yeh"
+        "D.B. Miracle",
+        "O.N. Senkov"
       ],
       "year": 2016,
-      "doi": "https://doi.org/10.1007/978-3-319-27013-5_1",
-      "pdf_url": "",
-      "citation_count": 35,
-      "source_api": "Crossref",
+      "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
+      "citation_count": 8945,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High-Entropy Alloys",
+        "journal_name": "Acta Materialia",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer International Publishing"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1007/978-3-319-27013-5_11",
-      "title": "Design of High-Entropy Alloys",
+      "id": "https://openalex.org/W2039061417",
+      "title": "Microstructures and properties of high-entropy alloys",
       "abstract": "",
       "authors": [
-        "Michael C. Gao"
+        "Yong Zhang",
+        "Ting Ting Zuo",
+        "Zhi Tang",
+        "Michael C. Gao",
+        "Karin A. Dahmen"
       ],
-      "year": 2016,
-      "doi": "https://doi.org/10.1007/978-3-319-27013-5_11",
+      "year": 2013,
+      "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
       "pdf_url": "",
-      "citation_count": 31,
-      "source_api": "Crossref",
+      "citation_count": 7131,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High-Entropy Alloys",
+        "journal_name": "Progress in Materials Science",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer International Publishing"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1007/s44210-025-00076-0",
-      "title": "FORGEall: A Deep Learning Framework to Reliably Predict High Yield Strength High-Entropy Alloys for Hypersonic Engines",
+      "id": "https://openalex.org/W2951539866",
+      "title": "High-entropy alloys",
       "abstract": "",
       "authors": [
-        "Avni Iyer"
+        "E.P. George",
+        "Dierk Raabe",
+        "Robert O. Ritchie"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1007/s44210-025-00076-0",
-      "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "Crossref",
+      "year": 2019,
+      "doi": "https://doi.org/10.1038/s41578-019-0121-4",
+      "pdf_url": "https://www.osti.gov/biblio/1550755",
+      "citation_count": 4924,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High Entropy Alloys &amp; Materials",
+        "journal_name": "Nature Reviews Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer Science and Business Media LLC"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "42579186",
-      "title": "Substituent engineering of pyrazolo-tetrazine N-oxide (PTZO) derivatives toward high-energy low-sensitivity energetic materials: A DFT study",
-      "abstract": "",
+      "id": "https://openalex.org/W1550186202",
+      "title": "Phonons and related crystal properties from density-functional perturbation theory",
+      "abstract": "This article reviews the current status of lattice-dynamical calculations in crystals, using density-functional perturbation theory, with emphasis on the plane-wave pseudopotential method. Several specialized topics are treated, including the implementation for metals, the calculation of the response to macroscopic electric fields and their relevance to long-wavelength vibrations in polar materials, the response to strain deformations, and higher-order responses. The success of this methodology is demonstrated with a number of applications existing in the literature.",
       "authors": [
-        "Chu Y",
-        "Gao Z",
-        "Ma P."
+        "Stefano Baroni",
+        "Stefano de Gironcoli",
+        "Andrea Dal Corso",
+        "Paolo Giannozzi"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1007/s00894-026-06886-2",
-      "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "year": 2001,
+      "doi": "https://doi.org/10.1103/revmodphys.73.515",
+      "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
+      "citation_count": 10013,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "J Mol Model",
+        "journal_name": "Reviews of Modern Physics",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"
     },
     {
-      "id": "42653971",
-      "title": "Vibrational Spectra Modeling of Cellulose Nitrate During Initial Photodegradation Stage by Density Functional Theory: The Case of Ketone Formation",
-      "abstract": "",
+      "id": "https://openalex.org/W2121817924",
+      "title": "Ab‐initio simulations of materials using VASP: Density‐functional theory and beyond",
+      "abstract": "During the past decade, computer simulations based on a quantum-mechanical description of the interactions between electrons and between electrons and atomic nuclei have developed an increasingly important impact on solid-state physics and chemistry and on materials science-promoting not only a deeper understanding, but also the possibility to contribute significantly to materials design for future technologies. This development is based on two important columns: (i) The improved description of electronic many-body effects within density-functional theory (DFT) and the upcoming post-DFT methods. (ii) The implementation of the new functionals and many-body techniques within highly efficient, stable, and versatile computer codes, which allow to exploit the potential of modern computer architectures. In this review, I discuss the implementation of various DFT functionals [local-density approximation (LDA), generalized gradient approximation (GGA), meta-GGA, hybrid functional mixing DFT, and exact (Hartree-Fock) exchange] and post-DFT approaches [DFT + U for strong electronic correlations in narrow bands, many-body perturbation theory (GW) for quasiparticle spectra, dynamical correlation effects via the adiabatic-connection fluctuation-dissipation theorem (AC-FDT)] in the Vienna ab initio simulation package VASP. VASP is a plane-wave all-electron code using the projector-augmented wave method to describe the electron-core interaction. The code uses fast iterative techniques for the diagonalization of the DFT Hamiltonian and allows to perform total-energy calculations and structural optimizations for systems with thousands of atoms and ab initio molecular dynamics simulations for ensembles with a few hundred atoms extending over several tens of ps. Applications in many different areas (structure and phase stability, mechanical and dynamical properties, liquids, glasses and quasicrystals, magnetism and magnetic nanostructures, semiconductors and insulators, surfaces, interfaces and thin films, chemical reactions, and catalysis) are reviewed.",
       "authors": [
-        "Pankin D",
-        "Moskovskiy M",
-        "Povolotckaia A."
+        "Jürgen Häfner"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.3390/molecules31162890",
+      "year": 2008,
+      "doi": "https://doi.org/10.1002/jcc.21057",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 5127,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Molecules",
+        "journal_name": "Journal of Computational Chemistry",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"
     },
     {
-      "id": "42543741",
-      "title": "Machine-Learning-Assisted Discovery and Accelerated Synthesis of Metal Phosphosulfides",
+      "id": "https://openalex.org/W1976492731",
+      "title": "Materials Design and Discovery with High-Throughput Density Functional Theory: The Open Quantum Materials Database (OQMD)",
       "abstract": "",
       "authors": [
-        "Sanz Rodrigo J",
-        "Kryger-Nelson NA",
-        "Mittmann LA",
-        "Bertin E",
-        "Castelli IE"
+        "James E. Saal",
+        "Scott Kirklin",
+        "Muratahan Aykol",
+        "Bryce Meredig",
+        "Chris Wolverton"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1002/smll.74742",
+      "year": 2013,
+      "doi": "https://doi.org/10.1007/s11837-013-0755-4",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 2578,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Small",
+        "journal_name": "JOM",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"
     },
     {
-      "id": "42653834",
-      "title": "Review of the Applications of Density Functional Theory Calculations in Lithium-Sulfur Batteries",
+      "id": "https://openalex.org/W2065608088",
+      "title": "Density functional theory methods for characterization of porous materials",
       "abstract": "",
       "authors": [
-        "Yu A",
-        "Ji Y",
-        "Hu G",
-        "Zhang Q",
-        "Wang Z"
+        "John Landers",
+        "Gennady Y. Gor",
+        "Alexander V. Neimark"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.3390/molecules31162750",
+      "year": 2013,
+      "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 1233,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Molecules",
+        "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"

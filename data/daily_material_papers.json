@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T01:48:32.778487Z",
+  "updated_at": "2026-09-07T01:45:35.337994Z",
   "count": 24,
   "papers": [
     {
@@ -16,7 +16,7 @@
       "year": 2020,
       "doi": "https://doi.org/10.1038/s41586-020-2649-2",
       "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-      "citation_count": 23565,
+      "citation_count": 23572,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature",
@@ -40,7 +40,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1038/nmat2297",
       "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-      "citation_count": 16335,
+      "citation_count": 16336,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Materials",
@@ -67,7 +67,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1063/1.4812323",
       "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-      "citation_count": 13166,
+      "citation_count": 13168,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "APL Materials",
@@ -297,7 +297,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1088/0022-3727/41/22/223001",
       "pdf_url": "https://iopscience.iop.org/article/10.1088/0022-3727/41/22/223001/pdf",
-      "citation_count": 1068,
+      "citation_count": 1069,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Journal of Physics D Applied Physics",
@@ -324,7 +324,7 @@
       "year": 2009,
       "doi": "https://doi.org/10.1103/revmodphys.81.109",
       "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-      "citation_count": 24862,
+      "citation_count": 24863,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -402,7 +402,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1016/j.eml.2017.01.008",
       "pdf_url": "",
-      "citation_count": 1361,
+      "citation_count": 1362,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Extreme Mechanics Letters",
@@ -429,7 +429,7 @@
       "year": 2004,
       "doi": "https://doi.org/10.1002/adem.200300567",
       "pdf_url": "",
-      "citation_count": 15170,
+      "citation_count": 15175,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Engineering Materials",
@@ -453,7 +453,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
       "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
-      "citation_count": 8969,
+      "citation_count": 8974,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Acta Materialia",
@@ -480,7 +480,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
       "pdf_url": "",
-      "citation_count": 7146,
+      "citation_count": 7148,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Progress in Materials Science",
@@ -505,7 +505,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "https://www.osti.gov/biblio/1550755",
-      "citation_count": 4954,
+      "citation_count": 4957,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -531,7 +531,7 @@
       "year": 2001,
       "doi": "https://doi.org/10.1103/revmodphys.73.515",
       "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-      "citation_count": 10035,
+      "citation_count": 10037,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -554,7 +554,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1002/jcc.21057",
       "pdf_url": "",
-      "citation_count": 5141,
+      "citation_count": 5142,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Journal of Computational Chemistry",

@@ -420,27 +420,27 @@
     "subfield": "graphene 2D materials"
   },
   {
-    "id": "https://openalex.org/W2951539866",
-    "title": "High-entropy alloys",
+    "id": "10.1016/b978-0-12-800251-3.00002-x",
+    "title": "High-Entropy Alloys",
     "abstract": "",
     "authors": [
-      "E.P. George",
-      "Dierk Raabe",
-      "Robert O. Ritchie"
+      "B.S. Murty",
+      "J.W. Yeh",
+      "S. Ranganathan"
     ],
-    "year": 2019,
-    "doi": "https://doi.org/10.1038/s41578-019-0121-4",
-    "pdf_url": "https://www.osti.gov/biblio/1550755",
-    "citation_count": 4967,
-    "source_api": "OpenAlex",
+    "year": 2014,
+    "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
+    "pdf_url": "",
+    "citation_count": 303,
+    "source_api": "Crossref",
     "journal": {
-      "journal_name": "Nature Reviews Materials",
+      "journal_name": "High Entropy Alloys",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,
-      "quartile": "Q2",
-      "quality_tier": "High Quality (Q2)",
-      "publisher": "Academic Publisher"
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Elsevier"
     },
     "subfield": "high entropy alloys"
   },
@@ -631,7 +631,7 @@
     "year": 2020,
     "doi": "https://doi.org/10.1038/s41586-020-2649-2",
     "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-    "citation_count": 23619,
+    "citation_count": 23646,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -682,7 +682,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1063/1.4812323",
     "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-    "citation_count": 13187,
+    "citation_count": 13195,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "APL Materials",
@@ -784,7 +784,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/natrevmats.2016.103",
     "pdf_url": "",
-    "citation_count": 4695,
+    "citation_count": 4697,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -811,7 +811,7 @@
     "year": 2020,
     "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
     "pdf_url": "https://www.osti.gov/biblio/1608936",
-    "citation_count": 1224,
+    "citation_count": 1225,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Chemical Reviews",
@@ -862,7 +862,7 @@
     "year": 2009,
     "doi": "https://doi.org/10.1103/revmodphys.81.109",
     "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-    "citation_count": 24876,
+    "citation_count": 24878,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -1158,5 +1158,130 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42714180",
+    "title": "Interfacial Energetics in Metal Halide Perovskite Solar Cells",
+    "abstract": "",
+    "authors": [
+      "Molenda Z",
+      "Scalon L",
+      "Singh S",
+      "Vaynzof Y."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1021/acs.chemrev.5c00782",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Chem Rev",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42707721",
+    "title": "Strategies toward efficient tin-based perovskite solar cells",
+    "abstract": "",
+    "authors": [
+      "Nakamura T",
+      "Chen CY",
+      "Wakamiya A."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6sc06089g",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Chem Sci",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42708674",
+    "title": "Determination of Density Functional Tight Binding Models for Cerium-Containing Materials",
+    "abstract": "",
+    "authors": [
+      "Goldman N",
+      "Samtsevych A",
+      "Panosetti C."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1021/acs.jctc.6c00892",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "J Chem Theory Comput",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "42720225",
+    "title": "Predicting methane and nitrogen adsorption in ZSM-5 and FAU-13X zeolites with a SAFT-VR-Mie classical density functional theory",
+    "abstract": "",
+    "authors": [
+      "Labeyrie R",
+      "Miqueu C."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1063/5.0346456",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "J Chem Phys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "42557897",
+    "title": "Four-component relativistic density functional theory: grid requirements and small-component contributions",
+    "abstract": "",
+    "authors": [
+      "Bersson JS",
+      "Kovtun M",
+      "Li X."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6cp02182d",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Phys Chem Chem Phys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
   }
 ]

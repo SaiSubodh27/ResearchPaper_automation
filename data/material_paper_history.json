@@ -420,27 +420,27 @@
     "subfield": "graphene 2D materials"
   },
   {
-    "id": "10.1016/b978-0-12-800251-3.00002-x",
-    "title": "High-Entropy Alloys",
+    "id": "https://openalex.org/W2951539866",
+    "title": "High-entropy alloys",
     "abstract": "",
     "authors": [
-      "B.S. Murty",
-      "J.W. Yeh",
-      "S. Ranganathan"
+      "E.P. George",
+      "Dierk Raabe",
+      "Robert O. Ritchie"
     ],
-    "year": 2014,
-    "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
+    "year": 2019,
+    "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 303,
-    "source_api": "Crossref",
+    "citation_count": 4972,
+    "source_api": "OpenAlex",
     "journal": {
-      "journal_name": "High Entropy Alloys",
+      "journal_name": "Nature Reviews Materials",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,
-      "quartile": "Q4",
-      "quality_tier": "Indexed (Q4)",
-      "publisher": "Elsevier"
+      "quartile": "Q2",
+      "quality_tier": "High Quality (Q2)",
+      "publisher": "Academic Publisher"
     },
     "subfield": "high entropy alloys"
   },
@@ -631,7 +631,7 @@
     "year": 2020,
     "doi": "https://doi.org/10.1038/s41586-020-2649-2",
     "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-    "citation_count": 23646,
+    "citation_count": 23668,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -655,7 +655,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1038/nmat2297",
     "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-    "citation_count": 16345,
+    "citation_count": 16346,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Materials",
@@ -682,7 +682,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1063/1.4812323",
     "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-    "citation_count": 13195,
+    "citation_count": 13203,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "APL Materials",
@@ -707,7 +707,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1038/nature12509",
     "pdf_url": "",
-    "citation_count": 7951,
+    "citation_count": 7954,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -734,7 +734,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1126/science.1254050",
     "pdf_url": "",
-    "citation_count": 6620,
+    "citation_count": 6622,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Science",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7419,
+    "citation_count": 7426,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -784,7 +784,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/natrevmats.2016.103",
     "pdf_url": "",
-    "citation_count": 4697,
+    "citation_count": 4699,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -810,7 +810,7 @@
     ],
     "year": 2020,
     "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
-    "pdf_url": "https://www.osti.gov/biblio/1608936",
+    "pdf_url": "",
     "citation_count": 1225,
     "source_api": "OpenAlex",
     "journal": {
@@ -862,7 +862,7 @@
     "year": 2009,
     "doi": "https://doi.org/10.1103/revmodphys.81.109",
     "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-    "citation_count": 24878,
+    "citation_count": 24882,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -967,7 +967,7 @@
     "year": 2004,
     "doi": "https://doi.org/10.1002/adem.200300567",
     "pdf_url": "",
-    "citation_count": 15192,
+    "citation_count": 15204,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Engineering Materials",
@@ -991,7 +991,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
-    "citation_count": 8991,
+    "citation_count": 9000,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Acta Materialia",
@@ -1018,7 +1018,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
     "pdf_url": "",
-    "citation_count": 7160,
+    "citation_count": 7163,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Progress in Materials Science",
@@ -1044,7 +1044,7 @@
     "year": 2001,
     "doi": "https://doi.org/10.1103/revmodphys.73.515",
     "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-    "citation_count": 10043,
+    "citation_count": 10051,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -1067,7 +1067,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1002/jcc.21057",
     "pdf_url": "",
-    "citation_count": 5152,
+    "citation_count": 5160,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Journal of Computational Chemistry",
@@ -1094,7 +1094,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1007/s11837-013-0755-4",
     "pdf_url": "",
-    "citation_count": 2588,
+    "citation_count": 2592,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "JOM",
@@ -1146,7 +1146,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nmat4014",
     "pdf_url": "",
-    "citation_count": 6695,
+    "citation_count": 6698,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Materials",

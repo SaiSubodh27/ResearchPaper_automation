@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T01:57:32.143234Z",
+  "updated_at": "2026-09-12T02:02:30.551731Z",
   "count": 24,
   "papers": [
     {
@@ -16,7 +16,7 @@
       "year": 2020,
       "doi": "https://doi.org/10.1038/s41586-020-2649-2",
       "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-      "citation_count": 23646,
+      "citation_count": 23668,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature",
@@ -40,7 +40,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1038/nmat2297",
       "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-      "citation_count": 16345,
+      "citation_count": 16346,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Materials",
@@ -67,7 +67,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1063/1.4812323",
       "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-      "citation_count": 13195,
+      "citation_count": 13203,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "APL Materials",
@@ -104,102 +104,105 @@
       "subfield": "material science discovery"
     },
     {
-      "id": "42714180",
-      "title": "Interfacial Energetics in Metal Halide Perovskite Solar Cells",
+      "id": "https://openalex.org/W2144574847",
+      "title": "Efficient planar heterojunction perovskite solar cells by vapour deposition",
       "abstract": "",
       "authors": [
-        "Molenda Z",
-        "Scalon L",
-        "Singh S",
-        "Vaynzof Y."
+        "Mingzhen Liu",
+        "Michael B. Johnston",
+        "Henry J. Snaith"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1021/acs.chemrev.5c00782",
+      "year": 2013,
+      "doi": "https://doi.org/10.1038/nature12509",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 7954,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Chem Rev",
+        "journal_name": "Nature",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "42707721",
-      "title": "Strategies toward efficient tin-based perovskite solar cells",
-      "abstract": "",
+      "id": "https://openalex.org/W1998343415",
+      "title": "Interface engineering of highly efficient perovskite solar cells",
+      "abstract": "Advancing perovskite solar cell technologies toward their theoretical power conversion efficiency (PCE) requires delicate control over the carrier dynamics throughout the entire device. By controlling the formation of the perovskite layer and careful choices of other materials, we suppressed carrier recombination in the absorber, facilitated carrier injection into the carrier transport layers, and maintained good carrier extraction at the electrodes. When measured via reverse bias scan, cell PCE is typically boosted to 16.6% on average, with the highest efficiency of ~19.3% in a planar geometry without antireflective coating. The fabrication of our perovskite solar cells was conducted in air and from solution at low temperatures, which should simplify manufacturing of large-area perovskite devices that are inexpensive and perform at high levels.",
       "authors": [
-        "Nakamura T",
-        "Chen CY",
-        "Wakamiya A."
+        "Huanping Zhou",
+        "Qi Chen",
+        "Gang Li",
+        "Song Luo",
+        "Tze‐Bin Song"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1039/d6sc06089g",
+      "year": 2014,
+      "doi": "https://doi.org/10.1126/science.1254050",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 6622,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Chem Sci",
+        "journal_name": "Science",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "42578313",
-      "title": "Orchestrating thiol chemistry toward durable perovskite solar cells",
+      "id": "https://openalex.org/W1999717631",
+      "title": "The emergence of perovskite solar cells",
       "abstract": "",
       "authors": [
-        "Zhao M",
-        "Haris MPU",
-        "Lv W",
-        "Guo C",
-        "Zheng Q"
+        "Martin A. Green",
+        "Anita Ho‐Baillie",
+        "Henry J. Snaith"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1039/d6cc03627a",
+      "year": 2014,
+      "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 7426,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Chem Commun (Camb)",
+        "journal_name": "Nature Photonics",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "PMC13291779",
-      "title": "Editorial: Functional materials and device design in perovskite solar cells",
+      "id": "https://openalex.org/W2011472471",
+      "title": "Solvent engineering for high-performance inorganic–organic hybrid perovskite solar cells",
       "abstract": "",
       "authors": [
-        "Wang Y."
+        "Nam Joong Jeon",
+        "Jun Hong Noh",
+        "Young Chan Kim",
+        "Woon Seok Yang",
+        "Seungchan Ryu"
       ],
-      "year": null,
-      "doi": "",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13291779&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "year": 2014,
+      "doi": "https://doi.org/10.1038/nmat4014",
+      "pdf_url": "",
+      "citation_count": 6698,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Front Chem",
+        "journal_name": "Nature Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
@@ -243,7 +246,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1038/natrevmats.2016.103",
       "pdf_url": "",
-      "citation_count": 4697,
+      "citation_count": 4699,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -269,7 +272,7 @@
       ],
       "year": 2020,
       "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
-      "pdf_url": "https://www.osti.gov/biblio/1608936",
+      "pdf_url": "",
       "citation_count": 1225,
       "source_api": "OpenAlex",
       "journal": {
@@ -321,7 +324,7 @@
       "year": 2009,
       "doi": "https://doi.org/10.1103/revmodphys.81.109",
       "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-      "citation_count": 24878,
+      "citation_count": 24882,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -413,194 +416,205 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "10.1016/b978-0-12-800251-3.00002-x",
-      "title": "High-Entropy Alloys",
-      "abstract": "",
+      "id": "https://openalex.org/W2058085399",
+      "title": "Nanostructured High‐Entropy Alloys with Multiple Principal Elements: Novel Alloy Design Concepts and Outcomes",
+      "abstract": "A new approach for the design of alloys is presented in this study. These “high‐entropy alloys” with multi‐principal elements were synthesized using well‐developed processing technologies. Preliminary results demonstrate examples of the alloys with simple crystal structures, nanostructures, and promising mechanical properties. This approach may be opening a new era in materials science and engineering.",
       "authors": [
-        "B.S. Murty",
-        "J.W. Yeh",
-        "S. Ranganathan"
+        "J.‐W. Yeh",
+        "Swe-Kai Chen",
+        "Sung‐Jan Lin",
+        "Jie Gan",
+        "T.S. Chin"
       ],
-      "year": 2014,
-      "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
+      "year": 2004,
+      "doi": "https://doi.org/10.1002/adem.200300567",
       "pdf_url": "",
-      "citation_count": 303,
-      "source_api": "Crossref",
+      "citation_count": 15204,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High Entropy Alloys",
+        "journal_name": "Advanced Engineering Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Elsevier"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1007/978-3-319-27013-5_1",
-      "title": "Overview of High-Entropy Alloys",
-      "abstract": "",
+      "id": "https://openalex.org/W2534691303",
+      "title": "A critical review of high entropy alloys and related concepts",
+      "abstract": "High entropy alloys (HEAs) are barely 12 years old. The field has stimulated new ideas and has inspired the exploration of the vast composition space offered by multi-principal element alloys (MPEAs). Here we present a critical review of this field, with the intent of summarizing key findings, uncovering major trends and providing guidance for future efforts. Major themes in this assessment include definition of terms; thermodynamic analysis of complex, concentrated alloys (CCAs); taxonomy of current alloy families; microstructures; mechanical properties; potential applications; and future efforts. Based on detailed analyses, the following major results emerge. Although classical thermodynamic concepts are unchanged, trends in MPEAs can be different than in simpler alloys. Common thermodynamic perceptions can be misleading and new trends are described. From a strong focus on 3d transition metal alloys, there are now seven distinct CCA families. A new theme of designing alloy families by selecting elements to achieve a specific, intended purpose is starting to emerge. A comprehensive microstructural assessment is performed using three datasets: experimental data drawn from 408 different alloys and two computational datasets generated using the CALculated PHAse Diagram (CALPHAD) method. Each dataset emphasizes different elements and shows different microstructural trends. Trends in these three datasets are all predicted by a ‘structure in – structure out’ (SISO) analysis developed here that uses the weighted fractions of the constituent element crystal structures in each dataset. A total of 13 distinct multi-principal element single-phase fields are found in this microstructural assessment. Relationships between composition, microstructure and properties are established for 3d transition metal MPEAs, including the roles of Al, Cr and Cu. Critical evaluation shows that commercial austenitic stainless steels and nickel alloys with 3 or more principal elements are MPEAs, as well as some established functional materials. Mechanical properties of 3d transition metal CCAs are equivalent to commercial austenitic stainless steels and nickel alloys, while some refractory metal CCAs show potential to extend the service strength and/or temperature of nickel superalloys. Detailed analyses of microstructures and properties allow two major HEA hypotheses to be resolved. Although the ‘entropy effect’ is not supported by the present data, it has nevertheless made an enduring contribution by inspiring a clearer understanding of the importance of configurational entropy on phase stability. The ‘sluggish diffusion’ hypothesis is also not supported by available data, but it motivates re-evaluation of a classical concept of metallic diffusion. Building on recent published work, the CCA field has expanded to include materials with metallic, ionic or covalent bonding. It also includes microstructures with any number of phases and any type of phases. Finally, the MPEA field is shown to include both structural and functional materials applications. A significant number of future efforts are recommended, with an emphasis on developing high-throughput experiments and computations for structural materials. The review concludes with a brief description of major accomplishments of the field and insights gained from the first 12 years of research. The field has lost none of its potency and continues to pose new questions and offer new possibilities. The vast range of complex compositions and microstructures remains the most compelling motivation for future studies.",
       "authors": [
-        "Jien-Wei Yeh"
+        "D.B. Miracle",
+        "O.N. Senkov"
       ],
       "year": 2016,
-      "doi": "https://doi.org/10.1007/978-3-319-27013-5_1",
-      "pdf_url": "",
-      "citation_count": 35,
-      "source_api": "Crossref",
+      "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
+      "citation_count": 9000,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High-Entropy Alloys",
+        "journal_name": "Acta Materialia",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer International Publishing"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1007/978-3-319-27013-5_11",
-      "title": "Design of High-Entropy Alloys",
+      "id": "https://openalex.org/W2039061417",
+      "title": "Microstructures and properties of high-entropy alloys",
       "abstract": "",
       "authors": [
-        "Michael C. Gao"
+        "Yong Zhang",
+        "Ting Ting Zuo",
+        "Zhi Tang",
+        "Michael C. Gao",
+        "Karin A. Dahmen"
       ],
-      "year": 2016,
-      "doi": "https://doi.org/10.1007/978-3-319-27013-5_11",
+      "year": 2013,
+      "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
       "pdf_url": "",
-      "citation_count": 31,
-      "source_api": "Crossref",
+      "citation_count": 7163,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High-Entropy Alloys",
+        "journal_name": "Progress in Materials Science",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer International Publishing"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1007/s44210-025-00076-0",
-      "title": "FORGEall: A Deep Learning Framework to Reliably Predict High Yield Strength High-Entropy Alloys for Hypersonic Engines",
+      "id": "https://openalex.org/W2951539866",
+      "title": "High-entropy alloys",
       "abstract": "",
       "authors": [
-        "Avni Iyer"
+        "E.P. George",
+        "Dierk Raabe",
+        "Robert O. Ritchie"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1007/s44210-025-00076-0",
+      "year": 2019,
+      "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "Crossref",
+      "citation_count": 4972,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High Entropy Alloys &amp; Materials",
+        "journal_name": "Nature Reviews Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer Science and Business Media LLC"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "42708674",
-      "title": "Determination of Density Functional Tight Binding Models for Cerium-Containing Materials",
-      "abstract": "",
+      "id": "https://openalex.org/W1550186202",
+      "title": "Phonons and related crystal properties from density-functional perturbation theory",
+      "abstract": "This article reviews the current status of lattice-dynamical calculations in crystals, using density-functional perturbation theory, with emphasis on the plane-wave pseudopotential method. Several specialized topics are treated, including the implementation for metals, the calculation of the response to macroscopic electric fields and their relevance to long-wavelength vibrations in polar materials, the response to strain deformations, and higher-order responses. The success of this methodology is demonstrated with a number of applications existing in the literature.",
       "authors": [
-        "Goldman N",
-        "Samtsevych A",
-        "Panosetti C."
+        "Stefano Baroni",
+        "Stefano de Gironcoli",
+        "Andrea Dal Corso",
+        "Paolo Giannozzi"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1021/acs.jctc.6c00892",
-      "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "year": 2001,
+      "doi": "https://doi.org/10.1103/revmodphys.73.515",
+      "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
+      "citation_count": 10051,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "J Chem Theory Comput",
+        "journal_name": "Reviews of Modern Physics",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"
     },
     {
-      "id": "42720225",
-      "title": "Predicting methane and nitrogen adsorption in ZSM-5 and FAU-13X zeolites with a SAFT-VR-Mie classical density functional theory",
-      "abstract": "",
+      "id": "https://openalex.org/W2121817924",
+      "title": "Ab‐initio simulations of materials using VASP: Density‐functional theory and beyond",
+      "abstract": "During the past decade, computer simulations based on a quantum-mechanical description of the interactions between electrons and between electrons and atomic nuclei have developed an increasingly important impact on solid-state physics and chemistry and on materials science-promoting not only a deeper understanding, but also the possibility to contribute significantly to materials design for future technologies. This development is based on two important columns: (i) The improved description of electronic many-body effects within density-functional theory (DFT) and the upcoming post-DFT methods. (ii) The implementation of the new functionals and many-body techniques within highly efficient, stable, and versatile computer codes, which allow to exploit the potential of modern computer architectures. In this review, I discuss the implementation of various DFT functionals [local-density approximation (LDA), generalized gradient approximation (GGA), meta-GGA, hybrid functional mixing DFT, and exact (Hartree-Fock) exchange] and post-DFT approaches [DFT + U for strong electronic correlations in narrow bands, many-body perturbation theory (GW) for quasiparticle spectra, dynamical correlation effects via the adiabatic-connection fluctuation-dissipation theorem (AC-FDT)] in the Vienna ab initio simulation package VASP. VASP is a plane-wave all-electron code using the projector-augmented wave method to describe the electron-core interaction. The code uses fast iterative techniques for the diagonalization of the DFT Hamiltonian and allows to perform total-energy calculations and structural optimizations for systems with thousands of atoms and ab initio molecular dynamics simulations for ensembles with a few hundred atoms extending over several tens of ps. Applications in many different areas (structure and phase stability, mechanical and dynamical properties, liquids, glasses and quasicrystals, magnetism and magnetic nanostructures, semiconductors and insulators, surfaces, interfaces and thin films, chemical reactions, and catalysis) are reviewed.",
       "authors": [
-        "Labeyrie R",
-        "Miqueu C."
+        "Jürgen Häfner"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1063/5.0346456",
+      "year": 2008,
+      "doi": "https://doi.org/10.1002/jcc.21057",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 5160,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "J Chem Phys",
+        "journal_name": "Journal of Computational Chemistry",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"
     },
     {
-      "id": "42579186",
-      "title": "Substituent engineering of pyrazolo-tetrazine N-oxide (PTZO) derivatives toward high-energy low-sensitivity energetic materials: A DFT study",
+      "id": "https://openalex.org/W1976492731",
+      "title": "Materials Design and Discovery with High-Throughput Density Functional Theory: The Open Quantum Materials Database (OQMD)",
       "abstract": "",
       "authors": [
-        "Chu Y",
-        "Gao Z",
-        "Ma P."
+        "James E. Saal",
+        "Scott Kirklin",
+        "Muratahan Aykol",
+        "Bryce Meredig",
+        "Chris Wolverton"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1007/s00894-026-06886-2",
+      "year": 2013,
+      "doi": "https://doi.org/10.1007/s11837-013-0755-4",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 2592,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "J Mol Model",
+        "journal_name": "JOM",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"
     },
     {
-      "id": "42557897",
-      "title": "Four-component relativistic density functional theory: grid requirements and small-component contributions",
+      "id": "https://openalex.org/W2065608088",
+      "title": "Density functional theory methods for characterization of porous materials",
       "abstract": "",
       "authors": [
-        "Bersson JS",
-        "Kovtun M",
-        "Li X."
+        "John Landers",
+        "Gennady Y. Gor",
+        "Alexander V. Neimark"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1039/d6cp02182d",
+      "year": 2013,
+      "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "citation_count": 1236,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Phys Chem Chem Phys",
+        "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"

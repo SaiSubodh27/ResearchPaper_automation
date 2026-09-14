@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:56:50.851456Z",
+  "updated_at": "2026-09-14T02:14:40.843651Z",
   "count": 24,
   "papers": [
     {
@@ -16,7 +16,7 @@
       "year": 2020,
       "doi": "https://doi.org/10.1038/s41586-020-2649-2",
       "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-      "citation_count": 23668,
+      "citation_count": 23693,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature",
@@ -25,6 +25,30 @@
         "h_index": 0,
         "quartile": "Q1",
         "quality_tier": "Top-Tier (Q1)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "https://openalex.org/W1515587369",
+      "title": "The Discovery of Grounded Theory",
+      "abstract": "Most writing on sociological method has been concerned with how accurate facts can be obtained and how theory can thereby be more rigorously tested. In The Discovery of Grounded Theory, Barney Glaser and Anselm Strauss address the equally Important enterprise of how the discovery of theory from data—systematically obtained and analyzed in social research—can be furthered. The discovery of theory from data—grounded theory—is a major task confronting sociology, for such a theory fits empirical situations, and is understandable to sociologists and laymen alike. Most important, it provides relevant predictions, explanations, interpretations, and applications. In Part I of the book, \"Generation Theory by Comparative Analysis,\" the authors present a strategy whereby sociologists can facilitate the discovery of grounded theory, both substantive and formal. This strategy involves the systematic choice and study of several comparison groups. In Part II, The Flexible Use of Data,\" the generation of theory from qualitative, especially documentary, and quantitative data Is considered. In Part III, \"Implications of Grounded Theory,\" Glaser and Strauss examine the credibility of grounded theory. The Discovery of Grounded Theory is directed toward improving social scientists' capacity for generating theory that will be relevant to their research. While aimed primarily at sociologists, it will be useful to anyone Interested In studying social phenomena—political, educational, economic, industrial— especially If their studies are based on qualitative data.",
+      "authors": [
+        "Barney G. Glaser",
+        "Anselm L. Strauss"
+      ],
+      "year": 2017,
+      "doi": "https://doi.org/10.4324/9780203793206",
+      "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203793206&type=googlepdf",
+      "citation_count": 23861,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Unknown Venue",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "material science discovery"
@@ -40,7 +64,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1038/nmat2297",
       "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-      "citation_count": 16346,
+      "citation_count": 16349,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Materials",
@@ -67,7 +91,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1063/1.4812323",
       "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-      "citation_count": 13203,
+      "citation_count": 13209,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "APL Materials",
@@ -77,29 +101,6 @@
         "quartile": "Q2",
         "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "10.33612/diss.688527261",
-      "title": "Functionalized molecules via MCRs: applications in drug discovery and material science",
-      "abstract": "",
-      "authors": [
-        "Xiaofang Lei"
-      ],
-      "year": null,
-      "doi": "https://doi.org/10.33612/diss.688527261",
-      "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "Crossref",
-      "journal": {
-        "journal_name": "Academic Journal",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "University of Groningen Press"
       },
       "subfield": "material science discovery"
     },
@@ -115,7 +116,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1038/nature12509",
       "pdf_url": "",
-      "citation_count": 7954,
+      "citation_count": 7955,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature",
@@ -142,7 +143,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1126/science.1254050",
       "pdf_url": "",
-      "citation_count": 6622,
+      "citation_count": 6623,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Science",
@@ -167,7 +168,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7426,
+      "citation_count": 7429,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -194,7 +195,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nmat4014",
       "pdf_url": "",
-      "citation_count": 6698,
+      "citation_count": 6700,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Materials",
@@ -246,7 +247,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1038/natrevmats.2016.103",
       "pdf_url": "",
-      "citation_count": 4699,
+      "citation_count": 4701,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -273,7 +274,7 @@
       "year": 2020,
       "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
       "pdf_url": "",
-      "citation_count": 1225,
+      "citation_count": 1226,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Chemical Reviews",
@@ -324,7 +325,7 @@
       "year": 2009,
       "doi": "https://doi.org/10.1103/revmodphys.81.109",
       "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-      "citation_count": 24882,
+      "citation_count": 24879,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -350,7 +351,7 @@
       "year": 2010,
       "doi": "https://doi.org/10.1039/c0nr00323a",
       "pdf_url": "",
-      "citation_count": 1685,
+      "citation_count": 1684,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nanoscale",
@@ -429,7 +430,7 @@
       "year": 2004,
       "doi": "https://doi.org/10.1002/adem.200300567",
       "pdf_url": "",
-      "citation_count": 15204,
+      "citation_count": 15215,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Engineering Materials",
@@ -453,7 +454,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
       "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
-      "citation_count": 9000,
+      "citation_count": 9003,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Acta Materialia",
@@ -480,7 +481,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
       "pdf_url": "",
-      "citation_count": 7163,
+      "citation_count": 7167,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Progress in Materials Science",
@@ -505,7 +506,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 4972,
+      "citation_count": 4974,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -531,7 +532,7 @@
       "year": 2001,
       "doi": "https://doi.org/10.1103/revmodphys.73.515",
       "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-      "citation_count": 10051,
+      "citation_count": 10055,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -554,7 +555,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1002/jcc.21057",
       "pdf_url": "",
-      "citation_count": 5160,
+      "citation_count": 5168,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Journal of Computational Chemistry",
@@ -581,7 +582,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1007/s11837-013-0755-4",
       "pdf_url": "",
-      "citation_count": 2592,
+      "citation_count": 2595,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "JOM",
@@ -606,7 +607,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1236,
+      "citation_count": 1238,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",

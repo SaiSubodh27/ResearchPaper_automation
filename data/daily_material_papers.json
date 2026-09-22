@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T02:13:37.253478Z",
+  "updated_at": "2026-09-22T02:19:00.124788Z",
   "count": 24,
   "papers": [
     {
@@ -16,7 +16,7 @@
       "year": 2020,
       "doi": "https://doi.org/10.1038/s41586-020-2649-2",
       "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-      "citation_count": 23829,
+      "citation_count": 23834,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature",
@@ -40,7 +40,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.4324/9780203793206",
       "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203793206&type=googlepdf",
-      "citation_count": 23900,
+      "citation_count": 23903,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Unknown Venue",
@@ -64,7 +64,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1038/nmat2297",
       "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-      "citation_count": 16382,
+      "citation_count": 16394,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Materials",
@@ -91,7 +91,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1063/1.4812323",
       "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-      "citation_count": 13250,
+      "citation_count": 13254,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "APL Materials",
@@ -116,7 +116,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1038/nature12509",
       "pdf_url": "",
-      "citation_count": 7966,
+      "citation_count": 7968,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature",
@@ -143,7 +143,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1126/science.1254050",
       "pdf_url": "",
-      "citation_count": 6631,
+      "citation_count": 6634,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Science",
@@ -168,7 +168,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7444,
+      "citation_count": 7448,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -195,7 +195,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nmat4014",
       "pdf_url": "",
-      "citation_count": 6708,
+      "citation_count": 6713,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Materials",
@@ -247,7 +247,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1038/natrevmats.2016.103",
       "pdf_url": "",
-      "citation_count": 4708,
+      "citation_count": 4709,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -325,7 +325,7 @@
       "year": 2009,
       "doi": "https://doi.org/10.1103/revmodphys.81.109",
       "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-      "citation_count": 24932,
+      "citation_count": 24944,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -430,7 +430,7 @@
       "year": 2004,
       "doi": "https://doi.org/10.1002/adem.200300567",
       "pdf_url": "",
-      "citation_count": 15268,
+      "citation_count": 15269,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Engineering Materials",
@@ -532,7 +532,7 @@
       "year": 2001,
       "doi": "https://doi.org/10.1103/revmodphys.73.515",
       "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-      "citation_count": 10079,
+      "citation_count": 10084,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -555,7 +555,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1002/jcc.21057",
       "pdf_url": "",
-      "citation_count": 5190,
+      "citation_count": 5192,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Journal of Computational Chemistry",
@@ -607,7 +607,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1244,
+      "citation_count": 1246,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",

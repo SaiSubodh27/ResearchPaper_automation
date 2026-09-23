@@ -420,27 +420,27 @@
     "subfield": "graphene 2D materials"
   },
   {
-    "id": "https://openalex.org/W2951539866",
-    "title": "High-entropy alloys",
+    "id": "10.1016/b978-0-12-800251-3.00002-x",
+    "title": "High-Entropy Alloys",
     "abstract": "",
     "authors": [
-      "E.P. George",
-      "Dierk Raabe",
-      "Robert O. Ritchie"
+      "B.S. Murty",
+      "J.W. Yeh",
+      "S. Ranganathan"
     ],
-    "year": 2019,
-    "doi": "https://doi.org/10.1038/s41578-019-0121-4",
+    "year": 2014,
+    "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
     "pdf_url": "",
-    "citation_count": 4996,
-    "source_api": "OpenAlex",
+    "citation_count": 304,
+    "source_api": "Crossref",
     "journal": {
-      "journal_name": "Nature Reviews Materials",
+      "journal_name": "High Entropy Alloys",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,
-      "quartile": "Q2",
-      "quality_tier": "High Quality (Q2)",
-      "publisher": "Academic Publisher"
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Elsevier"
     },
     "subfield": "high entropy alloys"
   },
@@ -784,7 +784,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/natrevmats.2016.103",
     "pdf_url": "",
-    "citation_count": 4709,
+    "citation_count": 4713,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -803,9 +803,9 @@
     "abstract": "Solid-state batteries with desirable advantages, including high-energy density, wide temperature tolerance, and fewer safety-concerns, have been considered as a promising energy storage technology to replace organic liquid electrolyte-dominated Li-ion batteries. Solid-state electrolytes (SSEs) as the most critical component in solid-state batteries largely lead the future battery development. Among different types of solid-state electrolytes, garnet-type Li 7 La 3 Zr 2 O 12 (LLZO) solid-state electrolytes have particularly high ionic conductivity (10 –3 to 10 –4 S/cm) and good chemical stability against Li metal, offering a great opportunity for solid-state Li-metal batteries. Since the discovery of garnet-type LLZO in 2007, there has been an increasing interest in the development of garnet-type solid-state electrolytes and all solid-state batteries. Garnet-type electrolyte has been considered one of the most promising and important solid-state electrolytes for batteries with potential benefits in energy density, electrochemical stability, high temperature stability, and safety. In this Review, we will survey recent development of garnet-type LLZO electrolytes with discussions of experimental studies and theoretical results in parallel, LLZO electrolyte synthesis strategies and modifications, stability of garnet solid electrolytes/electrodes, emerging nanostructure designs, degradation mechanisms and mitigations, and battery architectures and integrations. We will also provide a target-oriented research overview of garnet-type LLZO electrolyte and its application in various types of solid-state battery concepts (e.g., Li-ion, Li–S, and Li–air), and we will show opportunities and perspectives as guides for future development of solid electrolytes and solid-state batteries.",
     "authors": [
       "Chengwei Wang",
-      "Kun Fu",
+      "Kun Kelvin Fu",
       "Sanoop Palakkathodi Kammampata",
-      "Dennis W. McOwen",
+      "Dennis Wayne McOwen",
       "Alfred Junio Samson"
     ],
     "year": 2020,
@@ -853,16 +853,16 @@
     "title": "The electronic properties of graphene",
     "abstract": "This article reviews the basic theoretical aspects of graphene, a one-atom-thick allotrope of carbon, with unusual two-dimensional Dirac-like electronic excitations. The Dirac electrons can be controlled by application of external electric and magnetic fields, or by altering sample geometry and/or topology. The Dirac electrons behave in unusual ways in tunneling, confinement, and the integer quantum Hall effect. The electronic properties of graphene stacks are discussed and vary with stacking order and number of layers. Edge (surface) states in graphene depend on the edge termination (zigzag or armchair) and affect the physical properties of nanoribbons. Different types of disorder modify the Dirac equation leading to unusual spectroscopic and transport properties. The effects of electron-electron and electron-phonon interactions in single layer and multilayer graphene are also presented.",
     "authors": [
-      "A. H. Castro Neto",
-      "F. Guinea",
-      "N. M. R. Peres",
+      "Antonio H. Castro Neto",
+      "Francisco Javier Esteban Guinea",
+      "Nuno M. R. Peres",
       "Kostya S. Novoselov",
-      "A. K. Geǐm"
+      "Andre K. Geim"
     ],
     "year": 2009,
     "doi": "https://doi.org/10.1103/revmodphys.81.109",
     "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-    "citation_count": 24944,
+    "citation_count": 24957,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -935,7 +935,7 @@
       "Christopher J. Brennan",
       "J. Scott Bunch",
       "Philip Egberts",
-      "Jonathan R. Felts"
+      "Jonathan Robert Felts"
     ],
     "year": 2017,
     "doi": "https://doi.org/10.1016/j.eml.2017.01.008",
@@ -1044,7 +1044,7 @@
     "year": 2001,
     "doi": "https://doi.org/10.1103/revmodphys.73.515",
     "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-    "citation_count": 10084,
+    "citation_count": 10093,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -1067,7 +1067,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1002/jcc.21057",
     "pdf_url": "",
-    "citation_count": 5192,
+    "citation_count": 5197,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Journal of Computational Chemistry",
@@ -1086,15 +1086,15 @@
     "abstract": "",
     "authors": [
       "James E. Saal",
-      "Scott Kirklin",
+      "Scott J. Kirklin",
       "Muratahan Aykol",
       "Bryce Meredig",
-      "Chris Wolverton"
+      "Chris M. Wolverton"
     ],
     "year": 2013,
     "doi": "https://doi.org/10.1007/s11837-013-0755-4",
     "pdf_url": "",
-    "citation_count": 2601,
+    "citation_count": 2603,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "JOM",
@@ -1113,13 +1113,13 @@
     "abstract": "",
     "authors": [
       "John Landers",
-      "Gennady Y. Gor",
+      "Gennady Yu. Gor",
       "Alexander V. Neimark"
     ],
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1246,
+    "citation_count": 1248,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -1171,7 +1171,7 @@
     ],
     "year": 2026,
     "doi": "https://doi.org/10.1021/acs.chemrev.5c00782",
-    "pdf_url": "",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13564368&blobtype=pdf",
     "citation_count": 0,
     "source_api": "Europe PMC",
     "journal": {
@@ -1196,7 +1196,7 @@
     ],
     "year": 2026,
     "doi": "https://doi.org/10.1039/d6sc06089g",
-    "pdf_url": "",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13549319&blobtype=pdf",
     "citation_count": 0,
     "source_api": "Europe PMC",
     "journal": {
@@ -1307,5 +1307,134 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "material science discovery"
+  },
+  {
+    "id": "42726844",
+    "title": "Beyond empirical models: Discovering constitutive laws in solids with graph-based equation discovery",
+    "abstract": "",
+    "authors": [
+      "Xu H",
+      "Chen Y",
+      "Zhang D."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1126/sciadv.aec0989",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13564832&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Sci Adv",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "42702848",
+    "title": "High-Throughput Screening for Accelerated Oxide Glass Discovery",
+    "abstract": "",
+    "authors": [
+      "Seibel-Geraschenko I",
+      "Slowik J",
+      "Scheffler F",
+      "Duval A",
+      "Krishnan NMA"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/advs.77590",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13547689&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Adv Sci (Weinh)",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "42666781",
+    "title": "Advances in Porous Materials and Their Applications",
+    "abstract": "",
+    "authors": [
+      "Cohen SM."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1021/acscentsci.6c01286",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13523491&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "ACS Cent Sci",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "PMC13592614",
+    "title": "Defect Passivation Strategies in Halide Perovskite Solar Cells and LEDs",
+    "abstract": "",
+    "authors": [
+      "Singh S",
+      "Sen A",
+      "Aneesha S",
+      "Jeong W",
+      "Ghorai A"
+    ],
+    "year": null,
+    "doi": "",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13592614&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "ACS Energy Lett",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42737046",
+    "title": "Organic and Perovskite Solar Cells with Printed Electrodes",
+    "abstract": "",
+    "authors": [
+      "Kim K",
+      "Kim YH",
+      "Lee J",
+      "Hong S",
+      "Lee JH."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.3390/polym18172037",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13568313&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Polymers (Basel)",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
   }
 ]

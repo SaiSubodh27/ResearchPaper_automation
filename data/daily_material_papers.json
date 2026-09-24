@@ -1,206 +1,209 @@
 {
-  "updated_at": "2026-09-23T02:18:48.001501Z",
+  "updated_at": "2026-09-24T02:05:57.901679Z",
   "count": 24,
   "papers": [
     {
-      "id": "10.33612/diss.688527261",
-      "title": "Functionalized molecules via MCRs: applications in drug discovery and material science",
+      "id": "https://openalex.org/W3035965352",
+      "title": "Array programming with NumPy",
+      "abstract": "Abstract Array programming provides a powerful, compact and expressive syntax for accessing, manipulating and operating on data in vectors, matrices and higher-dimensional arrays. NumPy is the primary array programming library for the Python language. It has an essential role in research analysis pipelines in fields as diverse as physics, chemistry, astronomy, geoscience, biology, psychology, materials science, engineering, finance and economics. For example, in astronomy, NumPy was an important part of the software stack used in the discovery of gravitational waves 1 and in the first imaging of a black hole 2 . Here we review how a few fundamental array concepts lead to a simple and powerful programming paradigm for organizing, exploring and analysing scientific data. NumPy is the foundation upon which the scientific Python ecosystem is constructed. It is so pervasive that several projects, targeting audiences with specialized needs, have developed their own NumPy-like interfaces and array objects. Owing to its central position in the ecosystem, NumPy increasingly acts as an interoperability layer between such array computation libraries and, together with its application programming interface (API), provides a flexible framework to support the next decade of scientific and industrial analysis.",
+      "authors": [
+        "Charles R. Harris",
+        "K. Jarrod Millman",
+        "Stéfan J. van der Walt",
+        "Ralf Gommers",
+        "Pauli Virtanen"
+      ],
+      "year": 2020,
+      "doi": "https://doi.org/10.1038/s41586-020-2649-2",
+      "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
+      "citation_count": 23885,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Nature",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "https://openalex.org/W1515587369",
+      "title": "The Discovery of Grounded Theory",
+      "abstract": "Most writing on sociological method has been concerned with how accurate facts can be obtained and how theory can thereby be more rigorously tested. In The Discovery of Grounded Theory, Barney Glaser and Anselm Strauss address the equally Important enterprise of how the discovery of theory from data—systematically obtained and analyzed in social research—can be furthered. The discovery of theory from data—grounded theory—is a major task confronting sociology, for such a theory fits empirical situations, and is understandable to sociologists and laymen alike. Most important, it provides relevant predictions, explanations, interpretations, and applications. In Part I of the book, \"Generation Theory by Comparative Analysis,\" the authors present a strategy whereby sociologists can facilitate the discovery of grounded theory, both substantive and formal. This strategy involves the systematic choice and study of several comparison groups. In Part II, The Flexible Use of Data,\" the generation of theory from qualitative, especially documentary, and quantitative data Is considered. In Part III, \"Implications of Grounded Theory,\" Glaser and Strauss examine the credibility of grounded theory. The Discovery of Grounded Theory is directed toward improving social scientists' capacity for generating theory that will be relevant to their research. While aimed primarily at sociologists, it will be useful to anyone Interested In studying social phenomena—political, educational, economic, industrial— especially If their studies are based on qualitative data.",
+      "authors": [
+        "Barney G. Glaser",
+        "Anselm L. Strauss"
+      ],
+      "year": 2017,
+      "doi": "https://doi.org/10.4324/9780203793206",
+      "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203793206&type=googlepdf",
+      "citation_count": 23915,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Unknown Venue",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "https://openalex.org/W2053328406",
+      "title": "Materials for electrochemical capacitors",
       "abstract": "",
       "authors": [
-        "Xiaofang Lei"
+        "Patrice Simon",
+        "Yury G. Gogotsi"
       ],
-      "year": null,
-      "doi": "https://doi.org/10.33612/diss.688527261",
+      "year": 2008,
+      "doi": "https://doi.org/10.1038/nmat2297",
+      "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
+      "citation_count": 16410,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Nature Materials",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "https://openalex.org/W1992985800",
+      "title": "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation",
+      "abstract": "Accelerating the discovery of advanced materials is essential for human welfare and sustainable, clean energy. In this paper, we introduce the Materials Project (www.materialsproject.org), a core program of the Materials Genome Initiative that uses high-throughput computing to uncover the properties of all known inorganic materials. This open dataset can be accessed through multiple channels for both interactive exploration and data mining. The Materials Project also seeks to create open-source platforms for developing robust, sophisticated materials analyses. Future efforts will enable users to perform ‘‘rapid-prototyping’’ of new materials in silico, and provide researchers with new avenues for cost-effective, data-driven materials design.",
+      "authors": [
+        "Anubhav Jain",
+        "Shyue Ping Ong",
+        "Geoffroy Hautier",
+        "Wei Chen",
+        "William D. Richards"
+      ],
+      "year": 2013,
+      "doi": "https://doi.org/10.1063/1.4812323",
+      "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
+      "citation_count": 13276,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "APL Materials",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "https://openalex.org/W2144574847",
+      "title": "Efficient planar heterojunction perovskite solar cells by vapour deposition",
+      "abstract": "",
+      "authors": [
+        "Mingzhen Liu",
+        "Michael B. Johnston",
+        "Henry James Snaith"
+      ],
+      "year": 2013,
+      "doi": "https://doi.org/10.1038/nature12509",
       "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "Crossref",
+      "citation_count": 7975,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Academic Journal",
+        "journal_name": "Nature",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "University of Groningen Press"
-      },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "42726844",
-      "title": "Beyond empirical models: Discovering constitutive laws in solids with graph-based equation discovery",
-      "abstract": "",
-      "authors": [
-        "Xu H",
-        "Chen Y",
-        "Zhang D."
-      ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1126/sciadv.aec0989",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13564832&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Sci Adv",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "42702848",
-      "title": "High-Throughput Screening for Accelerated Oxide Glass Discovery",
-      "abstract": "",
-      "authors": [
-        "Seibel-Geraschenko I",
-        "Slowik J",
-        "Scheffler F",
-        "Duval A",
-        "Krishnan NMA"
-      ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1002/advs.77590",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13547689&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Adv Sci (Weinh)",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "42666781",
-      "title": "Advances in Porous Materials and Their Applications",
-      "abstract": "",
-      "authors": [
-        "Cohen SM."
-      ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1021/acscentsci.6c01286",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13523491&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "ACS Cent Sci",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "PMC13592614",
-      "title": "Defect Passivation Strategies in Halide Perovskite Solar Cells and LEDs",
-      "abstract": "",
-      "authors": [
-        "Singh S",
-        "Sen A",
-        "Aneesha S",
-        "Jeong W",
-        "Ghorai A"
-      ],
-      "year": null,
-      "doi": "",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13592614&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "ACS Energy Lett",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "42737046",
-      "title": "Organic and Perovskite Solar Cells with Printed Electrodes",
-      "abstract": "",
+      "id": "https://openalex.org/W1998343415",
+      "title": "Interface engineering of highly efficient perovskite solar cells",
+      "abstract": "Advancing perovskite solar cell technologies toward their theoretical power conversion efficiency (PCE) requires delicate control over the carrier dynamics throughout the entire device. By controlling the formation of the perovskite layer and careful choices of other materials, we suppressed carrier recombination in the absorber, facilitated carrier injection into the carrier transport layers, and maintained good carrier extraction at the electrodes. When measured via reverse bias scan, cell PCE is typically boosted to 16.6% on average, with the highest efficiency of ~19.3% in a planar geometry without antireflective coating. The fabrication of our perovskite solar cells was conducted in air and from solution at low temperatures, which should simplify manufacturing of large-area perovskite devices that are inexpensive and perform at high levels.",
       "authors": [
-        "Kim K",
-        "Kim YH",
-        "Lee J",
-        "Hong S",
-        "Lee JH."
+        "Huanping Zhou",
+        "Qi Henry Chen",
+        "Gang Li",
+        "Song Luo",
+        "Tze‐Bin Song"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.3390/polym18172037",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13568313&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "year": 2014,
+      "doi": "https://doi.org/10.1126/science.1254050",
+      "pdf_url": "",
+      "citation_count": 6637,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Polymers (Basel)",
+        "journal_name": "Science",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "42714180",
-      "title": "Interfacial Energetics in Metal Halide Perovskite Solar Cells",
+      "id": "https://openalex.org/W1999717631",
+      "title": "The emergence of perovskite solar cells",
       "abstract": "",
       "authors": [
-        "Molenda Z",
-        "Scalon L",
-        "Singh S",
-        "Vaynzof Y."
+        "Martin Andrew Green",
+        "Anita W. Y. Ho-Baillie",
+        "Henry James Snaith"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1021/acs.chemrev.5c00782",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13564368&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "year": 2014,
+      "doi": "https://doi.org/10.1038/nphoton.2014.134",
+      "pdf_url": "",
+      "citation_count": 7456,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Chem Rev",
+        "journal_name": "Nature Photonics",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "42707721",
-      "title": "Strategies toward efficient tin-based perovskite solar cells",
+      "id": "https://openalex.org/W2011472471",
+      "title": "Solvent engineering for high-performance inorganic–organic hybrid perovskite solar cells",
       "abstract": "",
       "authors": [
-        "Nakamura T",
-        "Chen CY",
-        "Wakamiya A."
+        "Nam Joong Jeon",
+        "Jun Hong Noh",
+        "Young Chan Kim",
+        "Woon Seok Yang",
+        "Seungchan Ryu"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1039/d6sc06089g",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13549319&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "year": 2014,
+      "doi": "https://doi.org/10.1038/nmat4014",
+      "pdf_url": "",
+      "citation_count": 6715,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Chem Sci",
+        "journal_name": "Nature Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
@@ -233,77 +236,76 @@
       "subfield": "solid state battery materials"
     },
     {
-      "id": "https://openalex.org/W2587767928",
-      "title": "Lithium battery chemistries enabled by solid-state electrolytes",
+      "id": "41189429",
+      "title": "Non-Equilibrium Manufacturing for High-Energy-Input Solid-State Battery Materials",
       "abstract": "",
       "authors": [
-        "Arumugam Manthiram",
-        "Xingwen Yu",
-        "Shaofei Wang"
+        "Shen H",
+        "Jia Z",
+        "Zhang Y",
+        "Chen S",
+        "Huang Z"
       ],
-      "year": 2017,
-      "doi": "https://doi.org/10.1038/natrevmats.2016.103",
+      "year": 2026,
+      "doi": "https://doi.org/10.1002/adma.202515467",
       "pdf_url": "",
-      "citation_count": 4713,
-      "source_api": "OpenAlex",
+      "citation_count": 2,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Nature Reviews Materials",
+        "journal_name": "Adv Mater",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "solid state battery materials"
     },
     {
-      "id": "https://openalex.org/W3015452587",
-      "title": "Garnet-Type Solid-State Electrolytes: Materials, Interfaces, and Batteries",
-      "abstract": "Solid-state batteries with desirable advantages, including high-energy density, wide temperature tolerance, and fewer safety-concerns, have been considered as a promising energy storage technology to replace organic liquid electrolyte-dominated Li-ion batteries. Solid-state electrolytes (SSEs) as the most critical component in solid-state batteries largely lead the future battery development. Among different types of solid-state electrolytes, garnet-type Li 7 La 3 Zr 2 O 12 (LLZO) solid-state electrolytes have particularly high ionic conductivity (10 –3 to 10 –4 S/cm) and good chemical stability against Li metal, offering a great opportunity for solid-state Li-metal batteries. Since the discovery of garnet-type LLZO in 2007, there has been an increasing interest in the development of garnet-type solid-state electrolytes and all solid-state batteries. Garnet-type electrolyte has been considered one of the most promising and important solid-state electrolytes for batteries with potential benefits in energy density, electrochemical stability, high temperature stability, and safety. In this Review, we will survey recent development of garnet-type LLZO electrolytes with discussions of experimental studies and theoretical results in parallel, LLZO electrolyte synthesis strategies and modifications, stability of garnet solid electrolytes/electrodes, emerging nanostructure designs, degradation mechanisms and mitigations, and battery architectures and integrations. We will also provide a target-oriented research overview of garnet-type LLZO electrolyte and its application in various types of solid-state battery concepts (e.g., Li-ion, Li–S, and Li–air), and we will show opportunities and perspectives as guides for future development of solid electrolytes and solid-state batteries.",
+      "id": "39769809",
+      "title": "Advanced Characterization of Solid-State Battery Materials Using Neutron Scattering Techniques",
+      "abstract": "",
       "authors": [
-        "Chengwei Wang",
-        "Kun Kelvin Fu",
-        "Sanoop Palakkathodi Kammampata",
-        "Dennis Wayne McOwen",
-        "Alfred Junio Samson"
+        "Novak E",
+        "Daemen L",
+        "Jalarvo N."
       ],
-      "year": 2020,
-      "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
-      "pdf_url": "",
-      "citation_count": 1228,
-      "source_api": "OpenAlex",
+      "year": 2024,
+      "doi": "https://doi.org/10.3390/ma17246209",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11677385&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Chemical Reviews",
+        "journal_name": "Materials (Basel)",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "solid state battery materials"
     },
     {
-      "id": "https://openalex.org/W2009717712",
-      "title": "Solid polymer electrolytes: materials designing and all-solid-state battery applications: an overview",
-      "abstract": "Polymer electrolytes are promising materials for electrochemical device applications, namely, high energy density rechargeable batteries, fuel cells, supercapacitors, electrochromic displays, etc.The area of polymer electrolytes has gone through various developmental stages, i.e. from dry solid polymer electrolyte (SPE) systems to plasticized, gels, rubbery to micro/nano-composite polymer electrolytes.The polymer gel electrolytes, incorporating organic solvents, exhibit room temperature conductivity as high as ∼10 -3 S cm -1 , while dry SPEs still suffer from poor ionic conductivity lower than 10 -5 S cm -1 .Several approaches have been adopted to enhance the room temperature conductivity in the vicinity of 10 -4 S cm -1 as well as to improve the mechanical stability and interfacial activity of SPEs.In this review, the criteria of an ideal polymer electrolyte for electrochemical device applications have been discussed in brief along with presenting an overall glimpse of the progress made in polymer electrolyte materials designing, their broad classification and the recent advancements made in this branch of materials science.The characteristic advantages of employing polymer electrolyte membranes in all-solid-state battery applications have also been discussed.",
+      "id": "PPR1320181",
+      "title": "The Combustion Cell: A Multidisciplinary Review of the Causes, Mechanisms, and Mitigation Strategies for Lithium-Ion Battery Fires",
+      "abstract": "",
       "authors": [
-        "Rishabh Agrawal",
-        "Gaind P. Pandey"
+        "Haque MM."
       ],
-      "year": 2008,
-      "doi": "https://doi.org/10.1088/0022-3727/41/22/223001",
-      "pdf_url": "https://iopscience.iop.org/article/10.1088/0022-3727/41/22/223001/pdf",
-      "citation_count": 1073,
-      "source_api": "OpenAlex",
+      "year": 2026,
+      "doi": "https://doi.org/10.20944/preprints202609.1233.v1",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Journal of Physics D Applied Physics",
+        "journal_name": "Indexed Scientific Journal",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "solid state battery materials"
@@ -322,7 +324,7 @@
       "year": 2009,
       "doi": "https://doi.org/10.1103/revmodphys.81.109",
       "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-      "citation_count": 24957,
+      "citation_count": 24968,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -348,7 +350,7 @@
       "year": 2010,
       "doi": "https://doi.org/10.1039/c0nr00323a",
       "pdf_url": "",
-      "citation_count": 1684,
+      "citation_count": 1693,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nanoscale",
@@ -373,7 +375,7 @@
       "year": 2015,
       "doi": "https://doi.org/10.1016/j.pmatsci.2015.02.002",
       "pdf_url": "https://stars.library.ucf.edu/scopus2015/2201",
-      "citation_count": 1557,
+      "citation_count": 1567,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Progress in Materials Science",
@@ -400,7 +402,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1016/j.eml.2017.01.008",
       "pdf_url": "https://doi.org/10.1016/j.eml.2017.01.008",
-      "citation_count": 1363,
+      "citation_count": 1369,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Extreme Mechanics Letters",
@@ -414,96 +416,105 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "10.1016/b978-0-12-800251-3.00002-x",
-      "title": "High-Entropy Alloys",
-      "abstract": "",
+      "id": "https://openalex.org/W2058085399",
+      "title": "Nanostructured High‐Entropy Alloys with Multiple Principal Elements: Novel Alloy Design Concepts and Outcomes",
+      "abstract": "A new approach for the design of alloys is presented in this study. These “high‐entropy alloys” with multi‐principal elements were synthesized using well‐developed processing technologies. Preliminary results demonstrate examples of the alloys with simple crystal structures, nanostructures, and promising mechanical properties. This approach may be opening a new era in materials science and engineering.",
       "authors": [
-        "B.S. Murty",
-        "J.W. Yeh",
-        "S. Ranganathan"
+        "J.‐W. Yeh",
+        "Swe-Kai Chen",
+        "Sung‐Jan Lin",
+        "Jie Gan",
+        "T.S. Chin"
       ],
-      "year": 2014,
-      "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
+      "year": 2004,
+      "doi": "https://doi.org/10.1002/adem.200300567",
       "pdf_url": "",
-      "citation_count": 304,
-      "source_api": "Crossref",
+      "citation_count": 15287,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High Entropy Alloys",
+        "journal_name": "Advanced Engineering Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Elsevier"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1007/978-3-319-27013-5_1",
-      "title": "Overview of High-Entropy Alloys",
-      "abstract": "",
+      "id": "https://openalex.org/W2534691303",
+      "title": "A critical review of high entropy alloys and related concepts",
+      "abstract": "High entropy alloys (HEAs) are barely 12 years old. The field has stimulated new ideas and has inspired the exploration of the vast composition space offered by multi-principal element alloys (MPEAs). Here we present a critical review of this field, with the intent of summarizing key findings, uncovering major trends and providing guidance for future efforts. Major themes in this assessment include definition of terms; thermodynamic analysis of complex, concentrated alloys (CCAs); taxonomy of current alloy families; microstructures; mechanical properties; potential applications; and future efforts. Based on detailed analyses, the following major results emerge. Although classical thermodynamic concepts are unchanged, trends in MPEAs can be different than in simpler alloys. Common thermodynamic perceptions can be misleading and new trends are described. From a strong focus on 3d transition metal alloys, there are now seven distinct CCA families. A new theme of designing alloy families by selecting elements to achieve a specific, intended purpose is starting to emerge. A comprehensive microstructural assessment is performed using three datasets: experimental data drawn from 408 different alloys and two computational datasets generated using the CALculated PHAse Diagram (CALPHAD) method. Each dataset emphasizes different elements and shows different microstructural trends. Trends in these three datasets are all predicted by a ‘structure in – structure out’ (SISO) analysis developed here that uses the weighted fractions of the constituent element crystal structures in each dataset. A total of 13 distinct multi-principal element single-phase fields are found in this microstructural assessment. Relationships between composition, microstructure and properties are established for 3d transition metal MPEAs, including the roles of Al, Cr and Cu. Critical evaluation shows that commercial austenitic stainless steels and nickel alloys with 3 or more principal elements are MPEAs, as well as some established functional materials. Mechanical properties of 3d transition metal CCAs are equivalent to commercial austenitic stainless steels and nickel alloys, while some refractory metal CCAs show potential to extend the service strength and/or temperature of nickel superalloys. Detailed analyses of microstructures and properties allow two major HEA hypotheses to be resolved. Although the ‘entropy effect’ is not supported by the present data, it has nevertheless made an enduring contribution by inspiring a clearer understanding of the importance of configurational entropy on phase stability. The ‘sluggish diffusion’ hypothesis is also not supported by available data, but it motivates re-evaluation of a classical concept of metallic diffusion. Building on recent published work, the CCA field has expanded to include materials with metallic, ionic or covalent bonding. It also includes microstructures with any number of phases and any type of phases. Finally, the MPEA field is shown to include both structural and functional materials applications. A significant number of future efforts are recommended, with an emphasis on developing high-throughput experiments and computations for structural materials. The review concludes with a brief description of major accomplishments of the field and insights gained from the first 12 years of research. The field has lost none of its potency and continues to pose new questions and offer new possibilities. The vast range of complex compositions and microstructures remains the most compelling motivation for future studies.",
       "authors": [
-        "Jien-Wei Yeh"
+        "Daniel B. Miracle",
+        "Oleg N. Senkov"
       ],
       "year": 2016,
-      "doi": "https://doi.org/10.1007/978-3-319-27013-5_1",
-      "pdf_url": "",
-      "citation_count": 35,
-      "source_api": "Crossref",
+      "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
+      "citation_count": 9054,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High-Entropy Alloys",
+        "journal_name": "Acta Materialia",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer International Publishing"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1007/978-3-319-27013-5_11",
-      "title": "Design of High-Entropy Alloys",
+      "id": "https://openalex.org/W2039061417",
+      "title": "Microstructures and properties of high-entropy alloys",
       "abstract": "",
       "authors": [
-        "Michael C. Gao"
+        "Yong Zhang",
+        "Ting Ting Zuo",
+        "Zhi Yuan Tang",
+        "Michael C. Gao",
+        "Karin A. Dahmen"
       ],
-      "year": 2016,
-      "doi": "https://doi.org/10.1007/978-3-319-27013-5_11",
+      "year": 2013,
+      "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
       "pdf_url": "",
-      "citation_count": 31,
-      "source_api": "Crossref",
+      "citation_count": 7196,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High-Entropy Alloys",
+        "journal_name": "Progress in Materials Science",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer International Publishing"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1007/s44210-025-00076-0",
-      "title": "FORGEall: A Deep Learning Framework to Reliably Predict High Yield Strength High-Entropy Alloys for Hypersonic Engines",
+      "id": "https://openalex.org/W2951539866",
+      "title": "High-entropy alloys",
       "abstract": "",
       "authors": [
-        "Avni Iyer"
+        "Easo  P. George",
+        "Dierk Raabe",
+        "Robert O. Ritchie"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1007/s44210-025-00076-0",
+      "year": 2019,
+      "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "Crossref",
+      "citation_count": 5011,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "High Entropy Alloys &amp; Materials",
+        "journal_name": "Nature Reviews Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer Science and Business Media LLC"
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
@@ -520,7 +531,7 @@
       "year": 2001,
       "doi": "https://doi.org/10.1103/revmodphys.73.515",
       "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-      "citation_count": 10093,
+      "citation_count": 10098,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -543,7 +554,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1002/jcc.21057",
       "pdf_url": "",
-      "citation_count": 5197,
+      "citation_count": 5198,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Journal of Computational Chemistry",
@@ -570,7 +581,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1007/s11837-013-0755-4",
       "pdf_url": "",
-      "citation_count": 2603,
+      "citation_count": 2604,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "JOM",
@@ -595,7 +606,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1248,
+      "citation_count": 1249,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",

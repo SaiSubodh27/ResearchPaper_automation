@@ -420,27 +420,27 @@
     "subfield": "graphene 2D materials"
   },
   {
-    "id": "10.1016/b978-0-12-800251-3.00002-x",
-    "title": "High-Entropy Alloys",
+    "id": "https://openalex.org/W2951539866",
+    "title": "High-entropy alloys",
     "abstract": "",
     "authors": [
-      "B.S. Murty",
-      "J.W. Yeh",
-      "S. Ranganathan"
+      "Easo  P. George",
+      "Dierk Raabe",
+      "Robert O. Ritchie"
     ],
-    "year": 2014,
-    "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
+    "year": 2019,
+    "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 304,
-    "source_api": "Crossref",
+    "citation_count": 5011,
+    "source_api": "OpenAlex",
     "journal": {
-      "journal_name": "High Entropy Alloys",
+      "journal_name": "Nature Reviews Materials",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,
-      "quartile": "Q4",
-      "quality_tier": "Indexed (Q4)",
-      "publisher": "Elsevier"
+      "quartile": "Q2",
+      "quality_tier": "High Quality (Q2)",
+      "publisher": "Academic Publisher"
     },
     "subfield": "high entropy alloys"
   },
@@ -631,7 +631,7 @@
     "year": 2020,
     "doi": "https://doi.org/10.1038/s41586-020-2649-2",
     "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-    "citation_count": 23834,
+    "citation_count": 23885,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -650,12 +650,12 @@
     "abstract": "",
     "authors": [
       "Patrice Simon",
-      "Yury Gogotsi"
+      "Yury G. Gogotsi"
     ],
     "year": 2008,
     "doi": "https://doi.org/10.1038/nmat2297",
     "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-    "citation_count": 16394,
+    "citation_count": 16410,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Materials",
@@ -682,7 +682,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1063/1.4812323",
     "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-    "citation_count": 13254,
+    "citation_count": 13276,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "APL Materials",
@@ -702,12 +702,12 @@
     "authors": [
       "Mingzhen Liu",
       "Michael B. Johnston",
-      "Henry J. Snaith"
+      "Henry James Snaith"
     ],
     "year": 2013,
     "doi": "https://doi.org/10.1038/nature12509",
     "pdf_url": "",
-    "citation_count": 7968,
+    "citation_count": 7975,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -726,7 +726,7 @@
     "abstract": "Advancing perovskite solar cell technologies toward their theoretical power conversion efficiency (PCE) requires delicate control over the carrier dynamics throughout the entire device. By controlling the formation of the perovskite layer and careful choices of other materials, we suppressed carrier recombination in the absorber, facilitated carrier injection into the carrier transport layers, and maintained good carrier extraction at the electrodes. When measured via reverse bias scan, cell PCE is typically boosted to 16.6% on average, with the highest efficiency of ~19.3% in a planar geometry without antireflective coating. The fabrication of our perovskite solar cells was conducted in air and from solution at low temperatures, which should simplify manufacturing of large-area perovskite devices that are inexpensive and perform at high levels.",
     "authors": [
       "Huanping Zhou",
-      "Qi Chen",
+      "Qi Henry Chen",
       "Gang Li",
       "Song Luo",
       "Tze‐Bin Song"
@@ -734,7 +734,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1126/science.1254050",
     "pdf_url": "",
-    "citation_count": 6634,
+    "citation_count": 6637,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Science",
@@ -752,14 +752,14 @@
     "title": "The emergence of perovskite solar cells",
     "abstract": "",
     "authors": [
-      "Martin A. Green",
-      "Anita Ho‐Baillie",
-      "Henry J. Snaith"
+      "Martin Andrew Green",
+      "Anita W. Y. Ho-Baillie",
+      "Henry James Snaith"
     ],
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7448,
+    "citation_count": 7456,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -862,7 +862,7 @@
     "year": 2009,
     "doi": "https://doi.org/10.1103/revmodphys.81.109",
     "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-    "citation_count": 24957,
+    "citation_count": 24968,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -888,7 +888,7 @@
     "year": 2010,
     "doi": "https://doi.org/10.1039/c0nr00323a",
     "pdf_url": "",
-    "citation_count": 1684,
+    "citation_count": 1693,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nanoscale",
@@ -913,7 +913,7 @@
     "year": 2015,
     "doi": "https://doi.org/10.1016/j.pmatsci.2015.02.002",
     "pdf_url": "https://stars.library.ucf.edu/scopus2015/2201",
-    "citation_count": 1557,
+    "citation_count": 1567,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Progress in Materials Science",
@@ -940,7 +940,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1016/j.eml.2017.01.008",
     "pdf_url": "https://doi.org/10.1016/j.eml.2017.01.008",
-    "citation_count": 1363,
+    "citation_count": 1369,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Extreme Mechanics Letters",
@@ -967,7 +967,7 @@
     "year": 2004,
     "doi": "https://doi.org/10.1002/adem.200300567",
     "pdf_url": "",
-    "citation_count": 15269,
+    "citation_count": 15287,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Engineering Materials",
@@ -985,13 +985,13 @@
     "title": "A critical review of high entropy alloys and related concepts",
     "abstract": "High entropy alloys (HEAs) are barely 12 years old. The field has stimulated new ideas and has inspired the exploration of the vast composition space offered by multi-principal element alloys (MPEAs). Here we present a critical review of this field, with the intent of summarizing key findings, uncovering major trends and providing guidance for future efforts. Major themes in this assessment include definition of terms; thermodynamic analysis of complex, concentrated alloys (CCAs); taxonomy of current alloy families; microstructures; mechanical properties; potential applications; and future efforts. Based on detailed analyses, the following major results emerge. Although classical thermodynamic concepts are unchanged, trends in MPEAs can be different than in simpler alloys. Common thermodynamic perceptions can be misleading and new trends are described. From a strong focus on 3d transition metal alloys, there are now seven distinct CCA families. A new theme of designing alloy families by selecting elements to achieve a specific, intended purpose is starting to emerge. A comprehensive microstructural assessment is performed using three datasets: experimental data drawn from 408 different alloys and two computational datasets generated using the CALculated PHAse Diagram (CALPHAD) method. Each dataset emphasizes different elements and shows different microstructural trends. Trends in these three datasets are all predicted by a ‘structure in – structure out’ (SISO) analysis developed here that uses the weighted fractions of the constituent element crystal structures in each dataset. A total of 13 distinct multi-principal element single-phase fields are found in this microstructural assessment. Relationships between composition, microstructure and properties are established for 3d transition metal MPEAs, including the roles of Al, Cr and Cu. Critical evaluation shows that commercial austenitic stainless steels and nickel alloys with 3 or more principal elements are MPEAs, as well as some established functional materials. Mechanical properties of 3d transition metal CCAs are equivalent to commercial austenitic stainless steels and nickel alloys, while some refractory metal CCAs show potential to extend the service strength and/or temperature of nickel superalloys. Detailed analyses of microstructures and properties allow two major HEA hypotheses to be resolved. Although the ‘entropy effect’ is not supported by the present data, it has nevertheless made an enduring contribution by inspiring a clearer understanding of the importance of configurational entropy on phase stability. The ‘sluggish diffusion’ hypothesis is also not supported by available data, but it motivates re-evaluation of a classical concept of metallic diffusion. Building on recent published work, the CCA field has expanded to include materials with metallic, ionic or covalent bonding. It also includes microstructures with any number of phases and any type of phases. Finally, the MPEA field is shown to include both structural and functional materials applications. A significant number of future efforts are recommended, with an emphasis on developing high-throughput experiments and computations for structural materials. The review concludes with a brief description of major accomplishments of the field and insights gained from the first 12 years of research. The field has lost none of its potency and continues to pose new questions and offer new possibilities. The vast range of complex compositions and microstructures remains the most compelling motivation for future studies.",
     "authors": [
-      "D.B. Miracle",
-      "O.N. Senkov"
+      "Daniel B. Miracle",
+      "Oleg N. Senkov"
     ],
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
-    "citation_count": 9041,
+    "citation_count": 9054,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Acta Materialia",
@@ -1011,14 +1011,14 @@
     "authors": [
       "Yong Zhang",
       "Ting Ting Zuo",
-      "Zhi Tang",
+      "Zhi Yuan Tang",
       "Michael C. Gao",
       "Karin A. Dahmen"
     ],
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
     "pdf_url": "",
-    "citation_count": 7188,
+    "citation_count": 7196,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Progress in Materials Science",
@@ -1044,7 +1044,7 @@
     "year": 2001,
     "doi": "https://doi.org/10.1103/revmodphys.73.515",
     "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-    "citation_count": 10093,
+    "citation_count": 10098,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -1067,7 +1067,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1002/jcc.21057",
     "pdf_url": "",
-    "citation_count": 5197,
+    "citation_count": 5198,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Journal of Computational Chemistry",
@@ -1094,7 +1094,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1007/s11837-013-0755-4",
     "pdf_url": "",
-    "citation_count": 2603,
+    "citation_count": 2604,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "JOM",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1248,
+    "citation_count": 1249,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -1146,7 +1146,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nmat4014",
     "pdf_url": "",
-    "citation_count": 6713,
+    "citation_count": 6715,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Materials",
@@ -1295,7 +1295,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.4324/9780203793206",
     "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203793206&type=googlepdf",
-    "citation_count": 23903,
+    "citation_count": 23915,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Unknown Venue",
@@ -1436,5 +1436,28 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "PPR1320181",
+    "title": "The Combustion Cell: A Multidisciplinary Review of the Causes, Mechanisms, and Mitigation Strategies for Lithium-Ion Battery Fires",
+    "abstract": "",
+    "authors": [
+      "Haque MM."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.20944/preprints202609.1233.v1",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Indexed Scientific Journal",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
   }
 ]

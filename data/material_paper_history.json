@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5011,
+    "citation_count": 5015,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -631,7 +631,7 @@
     "year": 2020,
     "doi": "https://doi.org/10.1038/s41586-020-2649-2",
     "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-    "citation_count": 23885,
+    "citation_count": 23905,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -655,7 +655,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1038/nmat2297",
     "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-    "citation_count": 16410,
+    "citation_count": 16414,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Materials",
@@ -682,7 +682,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1063/1.4812323",
     "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-    "citation_count": 13276,
+    "citation_count": 13280,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "APL Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7456,
+    "citation_count": 7457,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -862,7 +862,7 @@
     "year": 2009,
     "doi": "https://doi.org/10.1103/revmodphys.81.109",
     "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-    "citation_count": 24968,
+    "citation_count": 24970,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -940,7 +940,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1016/j.eml.2017.01.008",
     "pdf_url": "https://doi.org/10.1016/j.eml.2017.01.008",
-    "citation_count": 1369,
+    "citation_count": 1370,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Extreme Mechanics Letters",
@@ -967,7 +967,7 @@
     "year": 2004,
     "doi": "https://doi.org/10.1002/adem.200300567",
     "pdf_url": "",
-    "citation_count": 15287,
+    "citation_count": 15291,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Engineering Materials",
@@ -991,7 +991,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
-    "citation_count": 9054,
+    "citation_count": 9061,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Acta Materialia",
@@ -1018,7 +1018,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
     "pdf_url": "",
-    "citation_count": 7196,
+    "citation_count": 7198,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Progress in Materials Science",
@@ -1044,7 +1044,7 @@
     "year": 2001,
     "doi": "https://doi.org/10.1103/revmodphys.73.515",
     "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-    "citation_count": 10098,
+    "citation_count": 10101,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -1067,7 +1067,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1002/jcc.21057",
     "pdf_url": "",
-    "citation_count": 5198,
+    "citation_count": 5202,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Journal of Computational Chemistry",
@@ -1146,7 +1146,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nmat4014",
     "pdf_url": "",
-    "citation_count": 6715,
+    "citation_count": 6716,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Materials",
@@ -1295,7 +1295,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.4324/9780203793206",
     "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203793206&type=googlepdf",
-    "citation_count": 23915,
+    "citation_count": 23921,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Unknown Venue",

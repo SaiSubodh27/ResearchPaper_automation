@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T02:23:04.560051Z",
+  "updated_at": "2026-09-26T02:27:11.232527Z",
   "count": 24,
   "papers": [
     {
@@ -16,7 +16,7 @@
       "year": 2020,
       "doi": "https://doi.org/10.1038/s41586-020-2649-2",
       "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-      "citation_count": 23905,
+      "citation_count": 23934,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature",
@@ -40,7 +40,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.4324/9780203793206",
       "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203793206&type=googlepdf",
-      "citation_count": 23921,
+      "citation_count": 23913,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Unknown Venue",
@@ -64,7 +64,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1038/nmat2297",
       "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-      "citation_count": 16414,
+      "citation_count": 16422,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Materials",
@@ -91,7 +91,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1063/1.4812323",
       "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-      "citation_count": 13280,
+      "citation_count": 13279,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "APL Materials",
@@ -116,7 +116,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1038/nature12509",
       "pdf_url": "",
-      "citation_count": 7975,
+      "citation_count": 7977,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature",
@@ -143,7 +143,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1126/science.1254050",
       "pdf_url": "",
-      "citation_count": 6637,
+      "citation_count": 6639,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Science",
@@ -168,7 +168,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7457,
+      "citation_count": 7459,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -195,7 +195,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nmat4014",
       "pdf_url": "",
-      "citation_count": 6716,
+      "citation_count": 6722,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Materials",
@@ -236,76 +236,77 @@
       "subfield": "solid state battery materials"
     },
     {
-      "id": "41189429",
-      "title": "Non-Equilibrium Manufacturing for High-Energy-Input Solid-State Battery Materials",
+      "id": "https://openalex.org/W2587767928",
+      "title": "Lithium battery chemistries enabled by solid-state electrolytes",
       "abstract": "",
       "authors": [
-        "Shen H",
-        "Jia Z",
-        "Zhang Y",
-        "Chen S",
-        "Huang Z"
+        "Arumugam Manthiram",
+        "Xingwen Yu",
+        "Shaofei Wang"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1002/adma.202515467",
+      "year": 2017,
+      "doi": "https://doi.org/10.1038/natrevmats.2016.103",
       "pdf_url": "",
-      "citation_count": 2,
-      "source_api": "Europe PMC",
+      "citation_count": 4720,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Adv Mater",
+        "journal_name": "Nature Reviews Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "solid state battery materials"
     },
     {
-      "id": "39769809",
-      "title": "Advanced Characterization of Solid-State Battery Materials Using Neutron Scattering Techniques",
-      "abstract": "",
+      "id": "https://openalex.org/W3015452587",
+      "title": "Garnet-Type Solid-State Electrolytes: Materials, Interfaces, and Batteries",
+      "abstract": "Solid-state batteries with desirable advantages, including high-energy density, wide temperature tolerance, and fewer safety-concerns, have been considered as a promising energy storage technology to replace organic liquid electrolyte-dominated Li-ion batteries. Solid-state electrolytes (SSEs) as the most critical component in solid-state batteries largely lead the future battery development. Among different types of solid-state electrolytes, garnet-type Li 7 La 3 Zr 2 O 12 (LLZO) solid-state electrolytes have particularly high ionic conductivity (10 –3 to 10 –4 S/cm) and good chemical stability against Li metal, offering a great opportunity for solid-state Li-metal batteries. Since the discovery of garnet-type LLZO in 2007, there has been an increasing interest in the development of garnet-type solid-state electrolytes and all solid-state batteries. Garnet-type electrolyte has been considered one of the most promising and important solid-state electrolytes for batteries with potential benefits in energy density, electrochemical stability, high temperature stability, and safety. In this Review, we will survey recent development of garnet-type LLZO electrolytes with discussions of experimental studies and theoretical results in parallel, LLZO electrolyte synthesis strategies and modifications, stability of garnet solid electrolytes/electrodes, emerging nanostructure designs, degradation mechanisms and mitigations, and battery architectures and integrations. We will also provide a target-oriented research overview of garnet-type LLZO electrolyte and its application in various types of solid-state battery concepts (e.g., Li-ion, Li–S, and Li–air), and we will show opportunities and perspectives as guides for future development of solid electrolytes and solid-state batteries.",
       "authors": [
-        "Novak E",
-        "Daemen L",
-        "Jalarvo N."
+        "Chengwei Wang",
+        "Kun Kelvin Fu",
+        "Sanoop Palakkathodi Kammampata",
+        "Dennis Wayne McOwen",
+        "Alfred Junio Samson"
       ],
-      "year": 2024,
-      "doi": "https://doi.org/10.3390/ma17246209",
-      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11677385&blobtype=pdf",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "year": 2020,
+      "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
+      "pdf_url": "",
+      "citation_count": 1231,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Materials (Basel)",
+        "journal_name": "Chemical Reviews",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "solid state battery materials"
     },
     {
-      "id": "PPR1320181",
-      "title": "The Combustion Cell: A Multidisciplinary Review of the Causes, Mechanisms, and Mitigation Strategies for Lithium-Ion Battery Fires",
-      "abstract": "",
+      "id": "https://openalex.org/W2009717712",
+      "title": "Solid polymer electrolytes: materials designing and all-solid-state battery applications: an overview",
+      "abstract": "Polymer electrolytes are promising materials for electrochemical device applications, namely, high energy density rechargeable batteries, fuel cells, supercapacitors, electrochromic displays, etc.The area of polymer electrolytes has gone through various developmental stages, i.e. from dry solid polymer electrolyte (SPE) systems to plasticized, gels, rubbery to micro/nano-composite polymer electrolytes.The polymer gel electrolytes, incorporating organic solvents, exhibit room temperature conductivity as high as ∼10 -3 S cm -1 , while dry SPEs still suffer from poor ionic conductivity lower than 10 -5 S cm -1 .Several approaches have been adopted to enhance the room temperature conductivity in the vicinity of 10 -4 S cm -1 as well as to improve the mechanical stability and interfacial activity of SPEs.In this review, the criteria of an ideal polymer electrolyte for electrochemical device applications have been discussed in brief along with presenting an overall glimpse of the progress made in polymer electrolyte materials designing, their broad classification and the recent advancements made in this branch of materials science.The characteristic advantages of employing polymer electrolyte membranes in all-solid-state battery applications have also been discussed.",
       "authors": [
-        "Haque MM."
+        "Rishabh Agrawal",
+        "Gaind P. Pandey"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.20944/preprints202609.1233.v1",
-      "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
+      "year": 2008,
+      "doi": "https://doi.org/10.1088/0022-3727/41/22/223001",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/0022-3727/41/22/223001/pdf",
+      "citation_count": 1074,
+      "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Indexed Scientific Journal",
+        "journal_name": "Journal of Physics D Applied Physics",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "solid state battery materials"
@@ -324,7 +325,7 @@
       "year": 2009,
       "doi": "https://doi.org/10.1103/revmodphys.81.109",
       "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-      "citation_count": 24970,
+      "citation_count": 24964,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -350,7 +351,7 @@
       "year": 2010,
       "doi": "https://doi.org/10.1039/c0nr00323a",
       "pdf_url": "",
-      "citation_count": 1693,
+      "citation_count": 1694,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nanoscale",
@@ -375,7 +376,7 @@
       "year": 2015,
       "doi": "https://doi.org/10.1016/j.pmatsci.2015.02.002",
       "pdf_url": "https://stars.library.ucf.edu/scopus2015/2201",
-      "citation_count": 1567,
+      "citation_count": 1568,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Progress in Materials Science",
@@ -402,7 +403,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1016/j.eml.2017.01.008",
       "pdf_url": "https://doi.org/10.1016/j.eml.2017.01.008",
-      "citation_count": 1370,
+      "citation_count": 1371,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Extreme Mechanics Letters",
@@ -429,7 +430,7 @@
       "year": 2004,
       "doi": "https://doi.org/10.1002/adem.200300567",
       "pdf_url": "",
-      "citation_count": 15291,
+      "citation_count": 15297,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Engineering Materials",
@@ -453,7 +454,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
       "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
-      "citation_count": 9061,
+      "citation_count": 9068,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Acta Materialia",
@@ -480,7 +481,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
       "pdf_url": "",
-      "citation_count": 7198,
+      "citation_count": 7201,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Progress in Materials Science",
@@ -505,7 +506,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5015,
+      "citation_count": 5019,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -531,7 +532,7 @@
       "year": 2001,
       "doi": "https://doi.org/10.1103/revmodphys.73.515",
       "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-      "citation_count": 10101,
+      "citation_count": 10112,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Reviews of Modern Physics",
@@ -554,7 +555,7 @@
       "year": 2008,
       "doi": "https://doi.org/10.1002/jcc.21057",
       "pdf_url": "",
-      "citation_count": 5202,
+      "citation_count": 5207,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Journal of Computational Chemistry",
@@ -606,7 +607,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1249,
+      "citation_count": 1250,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",

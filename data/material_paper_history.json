@@ -420,27 +420,27 @@
     "subfield": "graphene 2D materials"
   },
   {
-    "id": "https://openalex.org/W2951539866",
-    "title": "High-entropy alloys",
+    "id": "10.1016/b978-0-12-800251-3.00002-x",
+    "title": "High-Entropy Alloys",
     "abstract": "",
     "authors": [
-      "Easo  P. George",
-      "Dierk Raabe",
-      "Robert O. Ritchie"
+      "B.S. Murty",
+      "J.W. Yeh",
+      "S. Ranganathan"
     ],
-    "year": 2019,
-    "doi": "https://doi.org/10.1038/s41578-019-0121-4",
+    "year": 2014,
+    "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
     "pdf_url": "",
-    "citation_count": 5019,
-    "source_api": "OpenAlex",
+    "citation_count": 310,
+    "source_api": "Crossref",
     "journal": {
-      "journal_name": "Nature Reviews Materials",
+      "journal_name": "High Entropy Alloys",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,
-      "quartile": "Q2",
-      "quality_tier": "High Quality (Q2)",
-      "publisher": "Academic Publisher"
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Elsevier"
     },
     "subfield": "high entropy alloys"
   },
@@ -454,7 +454,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1007/978-3-319-27013-5_1",
     "pdf_url": "",
-    "citation_count": 35,
+    "citation_count": 36,
     "source_api": "Crossref",
     "journal": {
       "journal_name": "High-Entropy Alloys",
@@ -631,7 +631,7 @@
     "year": 2020,
     "doi": "https://doi.org/10.1038/s41586-020-2649-2",
     "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-    "citation_count": 23934,
+    "citation_count": 23967,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -655,7 +655,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1038/nmat2297",
     "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-    "citation_count": 16422,
+    "citation_count": 16428,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Materials",
@@ -682,7 +682,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1063/1.4812323",
     "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-    "citation_count": 13279,
+    "citation_count": 13283,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "APL Materials",
@@ -784,7 +784,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/natrevmats.2016.103",
     "pdf_url": "",
-    "citation_count": 4720,
+    "citation_count": 4721,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -811,7 +811,7 @@
     "year": 2020,
     "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
     "pdf_url": "",
-    "citation_count": 1231,
+    "citation_count": 1232,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Chemical Reviews",
@@ -835,7 +835,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1088/0022-3727/41/22/223001",
     "pdf_url": "https://iopscience.iop.org/article/10.1088/0022-3727/41/22/223001/pdf",
-    "citation_count": 1074,
+    "citation_count": 1075,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Journal of Physics D Applied Physics",
@@ -1044,7 +1044,7 @@
     "year": 2001,
     "doi": "https://doi.org/10.1103/revmodphys.73.515",
     "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-    "citation_count": 10112,
+    "citation_count": 10115,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -1067,7 +1067,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1002/jcc.21057",
     "pdf_url": "",
-    "citation_count": 5207,
+    "citation_count": 5209,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Journal of Computational Chemistry",
@@ -1295,7 +1295,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.4324/9780203793206",
     "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203793206&type=googlepdf",
-    "citation_count": 23913,
+    "citation_count": 23916,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Unknown Venue",
@@ -1459,5 +1459,56 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "solid state battery materials"
+  },
+  {
+    "id": "10.1201/9781003478027-1",
+    "title": "Introduction to Perovskite Solar Cells",
+    "abstract": "",
+    "authors": [
+      "Muhammad Mubeen Parvaiz",
+      "Adnan Khalil"
+    ],
+    "year": 2025,
+    "doi": "https://doi.org/10.1201/9781003478027-1",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Perovskite Solar Cells",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "CRC Press"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "10.1007/s42114-026-01642-9",
+    "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
+    "abstract": "",
+    "authors": [
+      "Abdallah Kamal",
+      "Baosong Li",
+      "Suhail K. Siddique",
+      "Dawei Zhang",
+      "Kishor B. Shingare"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1007/s42114-026-01642-9",
+    "pdf_url": "",
+    "citation_count": 6,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Advanced Composites and Hybrid Materials",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Springer Science and Business Media LLC"
+    },
+    "subfield": "graphene 2D materials"
   }
 ]

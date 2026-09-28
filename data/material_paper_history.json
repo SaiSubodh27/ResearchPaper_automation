@@ -431,7 +431,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
     "pdf_url": "",
-    "citation_count": 310,
+    "citation_count": 311,
     "source_api": "Crossref",
     "journal": {
       "journal_name": "High Entropy Alloys",
@@ -1510,5 +1510,30 @@
       "publisher": "Springer Science and Business Media LLC"
     },
     "subfield": "graphene 2D materials"
+  },
+  {
+    "id": "42725412",
+    "title": "Multiscale investigation of CO&lt;sub&gt;2&lt;/sub&gt; capture in 1,2,4-triazolium-based ionic liquids and porous copolymers using density functional theory and molecular dynamics",
+    "abstract": "",
+    "authors": [
+      "Anila S",
+      "Yuan J",
+      "Lyubartsev AP."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6cp02655a",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13563441&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Phys Chem Chem Phys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
   }
 ]

@@ -1,105 +1,101 @@
 {
-  "updated_at": "2026-09-27T02:23:35.575041Z",
+  "updated_at": "2026-09-28T02:27:33.113170Z",
   "count": 24,
   "papers": [
     {
-      "id": "https://openalex.org/W3035965352",
-      "title": "Array programming with NumPy",
-      "abstract": "Abstract Array programming provides a powerful, compact and expressive syntax for accessing, manipulating and operating on data in vectors, matrices and higher-dimensional arrays. NumPy is the primary array programming library for the Python language. It has an essential role in research analysis pipelines in fields as diverse as physics, chemistry, astronomy, geoscience, biology, psychology, materials science, engineering, finance and economics. For example, in astronomy, NumPy was an important part of the software stack used in the discovery of gravitational waves 1 and in the first imaging of a black hole 2 . Here we review how a few fundamental array concepts lead to a simple and powerful programming paradigm for organizing, exploring and analysing scientific data. NumPy is the foundation upon which the scientific Python ecosystem is constructed. It is so pervasive that several projects, targeting audiences with specialized needs, have developed their own NumPy-like interfaces and array objects. Owing to its central position in the ecosystem, NumPy increasingly acts as an interoperability layer between such array computation libraries and, together with its application programming interface (API), provides a flexible framework to support the next decade of scientific and industrial analysis.",
-      "authors": [
-        "Charles R. Harris",
-        "K. Jarrod Millman",
-        "Stéfan J. van der Walt",
-        "Ralf Gommers",
-        "Pauli Virtanen"
-      ],
-      "year": 2020,
-      "doi": "https://doi.org/10.1038/s41586-020-2649-2",
-      "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-      "citation_count": 23967,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Nature",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q1",
-        "quality_tier": "Top-Tier (Q1)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "https://openalex.org/W1515587369",
-      "title": "The Discovery of Grounded Theory",
-      "abstract": "Most writing on sociological method has been concerned with how accurate facts can be obtained and how theory can thereby be more rigorously tested. In The Discovery of Grounded Theory, Barney Glaser and Anselm Strauss address the equally Important enterprise of how the discovery of theory from data—systematically obtained and analyzed in social research—can be furthered. The discovery of theory from data—grounded theory—is a major task confronting sociology, for such a theory fits empirical situations, and is understandable to sociologists and laymen alike. Most important, it provides relevant predictions, explanations, interpretations, and applications. In Part I of the book, \"Generation Theory by Comparative Analysis,\" the authors present a strategy whereby sociologists can facilitate the discovery of grounded theory, both substantive and formal. This strategy involves the systematic choice and study of several comparison groups. In Part II, The Flexible Use of Data,\" the generation of theory from qualitative, especially documentary, and quantitative data Is considered. In Part III, \"Implications of Grounded Theory,\" Glaser and Strauss examine the credibility of grounded theory. The Discovery of Grounded Theory is directed toward improving social scientists' capacity for generating theory that will be relevant to their research. While aimed primarily at sociologists, it will be useful to anyone Interested In studying social phenomena—political, educational, economic, industrial— especially If their studies are based on qualitative data.",
-      "authors": [
-        "Barney G. Glaser",
-        "Anselm L. Strauss"
-      ],
-      "year": 2017,
-      "doi": "https://doi.org/10.4324/9780203793206",
-      "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203793206&type=googlepdf",
-      "citation_count": 23916,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Unknown Venue",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "https://openalex.org/W2053328406",
-      "title": "Materials for electrochemical capacitors",
+      "id": "10.33612/diss.688527261",
+      "title": "Functionalized molecules via MCRs: applications in drug discovery and material science",
       "abstract": "",
       "authors": [
-        "Patrice Simon",
-        "Yury G. Gogotsi"
+        "Xiaofang Lei"
       ],
-      "year": 2008,
-      "doi": "https://doi.org/10.1038/nmat2297",
-      "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-      "citation_count": 16428,
-      "source_api": "OpenAlex",
+      "year": null,
+      "doi": "https://doi.org/10.33612/diss.688527261",
+      "pdf_url": "",
+      "citation_count": 1,
+      "source_api": "Crossref",
       "journal": {
-        "journal_name": "Nature Materials",
+        "journal_name": "Academic Journal",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "University of Groningen Press"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "42726844",
+      "title": "Beyond empirical models: Discovering constitutive laws in solids with graph-based equation discovery",
+      "abstract": "",
+      "authors": [
+        "Xu H",
+        "Chen Y",
+        "Zhang D."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1126/sciadv.aec0989",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13564832&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Sci Adv",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "material science discovery"
     },
     {
-      "id": "https://openalex.org/W1992985800",
-      "title": "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation",
-      "abstract": "Accelerating the discovery of advanced materials is essential for human welfare and sustainable, clean energy. In this paper, we introduce the Materials Project (www.materialsproject.org), a core program of the Materials Genome Initiative that uses high-throughput computing to uncover the properties of all known inorganic materials. This open dataset can be accessed through multiple channels for both interactive exploration and data mining. The Materials Project also seeks to create open-source platforms for developing robust, sophisticated materials analyses. Future efforts will enable users to perform ‘‘rapid-prototyping’’ of new materials in silico, and provide researchers with new avenues for cost-effective, data-driven materials design.",
+      "id": "42702848",
+      "title": "High-Throughput Screening for Accelerated Oxide Glass Discovery",
+      "abstract": "",
       "authors": [
-        "Anubhav Jain",
-        "Shyue Ping Ong",
-        "Geoffroy Hautier",
-        "Wei Chen",
-        "William D. Richards"
+        "Seibel-Geraschenko I",
+        "Slowik J",
+        "Scheffler F",
+        "Duval A",
+        "Krishnan NMA"
       ],
-      "year": 2013,
-      "doi": "https://doi.org/10.1063/1.4812323",
-      "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-      "citation_count": 13283,
-      "source_api": "OpenAlex",
+      "year": 2026,
+      "doi": "https://doi.org/10.1002/advs.77590",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13547689&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "APL Materials",
+        "journal_name": "Adv Sci (Weinh)",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "42666781",
+      "title": "Advances in Porous Materials and Their Applications",
+      "abstract": "",
+      "authors": [
+        "Cohen SM."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1021/acscentsci.6c01286",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13523491&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "ACS Cent Sci",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "material science discovery"
@@ -234,105 +230,102 @@
       "subfield": "solid state battery materials"
     },
     {
-      "id": "https://openalex.org/W2587767928",
-      "title": "Lithium battery chemistries enabled by solid-state electrolytes",
+      "id": "41189429",
+      "title": "Non-Equilibrium Manufacturing for High-Energy-Input Solid-State Battery Materials",
       "abstract": "",
       "authors": [
-        "Arumugam Manthiram",
-        "Xingwen Yu",
-        "Shaofei Wang"
-      ],
-      "year": 2017,
-      "doi": "https://doi.org/10.1038/natrevmats.2016.103",
-      "pdf_url": "",
-      "citation_count": 4721,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Nature Reviews Materials",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "solid state battery materials"
-    },
-    {
-      "id": "https://openalex.org/W3015452587",
-      "title": "Garnet-Type Solid-State Electrolytes: Materials, Interfaces, and Batteries",
-      "abstract": "Solid-state batteries with desirable advantages, including high-energy density, wide temperature tolerance, and fewer safety-concerns, have been considered as a promising energy storage technology to replace organic liquid electrolyte-dominated Li-ion batteries. Solid-state electrolytes (SSEs) as the most critical component in solid-state batteries largely lead the future battery development. Among different types of solid-state electrolytes, garnet-type Li 7 La 3 Zr 2 O 12 (LLZO) solid-state electrolytes have particularly high ionic conductivity (10 –3 to 10 –4 S/cm) and good chemical stability against Li metal, offering a great opportunity for solid-state Li-metal batteries. Since the discovery of garnet-type LLZO in 2007, there has been an increasing interest in the development of garnet-type solid-state electrolytes and all solid-state batteries. Garnet-type electrolyte has been considered one of the most promising and important solid-state electrolytes for batteries with potential benefits in energy density, electrochemical stability, high temperature stability, and safety. In this Review, we will survey recent development of garnet-type LLZO electrolytes with discussions of experimental studies and theoretical results in parallel, LLZO electrolyte synthesis strategies and modifications, stability of garnet solid electrolytes/electrodes, emerging nanostructure designs, degradation mechanisms and mitigations, and battery architectures and integrations. We will also provide a target-oriented research overview of garnet-type LLZO electrolyte and its application in various types of solid-state battery concepts (e.g., Li-ion, Li–S, and Li–air), and we will show opportunities and perspectives as guides for future development of solid electrolytes and solid-state batteries.",
-      "authors": [
-        "Chengwei Wang",
-        "Kun Kelvin Fu",
-        "Sanoop Palakkathodi Kammampata",
-        "Dennis Wayne McOwen",
-        "Alfred Junio Samson"
-      ],
-      "year": 2020,
-      "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
-      "pdf_url": "",
-      "citation_count": 1232,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Chemical Reviews",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "solid state battery materials"
-    },
-    {
-      "id": "https://openalex.org/W2009717712",
-      "title": "Solid polymer electrolytes: materials designing and all-solid-state battery applications: an overview",
-      "abstract": "Polymer electrolytes are promising materials for electrochemical device applications, namely, high energy density rechargeable batteries, fuel cells, supercapacitors, electrochromic displays, etc.The area of polymer electrolytes has gone through various developmental stages, i.e. from dry solid polymer electrolyte (SPE) systems to plasticized, gels, rubbery to micro/nano-composite polymer electrolytes.The polymer gel electrolytes, incorporating organic solvents, exhibit room temperature conductivity as high as ∼10 -3 S cm -1 , while dry SPEs still suffer from poor ionic conductivity lower than 10 -5 S cm -1 .Several approaches have been adopted to enhance the room temperature conductivity in the vicinity of 10 -4 S cm -1 as well as to improve the mechanical stability and interfacial activity of SPEs.In this review, the criteria of an ideal polymer electrolyte for electrochemical device applications have been discussed in brief along with presenting an overall glimpse of the progress made in polymer electrolyte materials designing, their broad classification and the recent advancements made in this branch of materials science.The characteristic advantages of employing polymer electrolyte membranes in all-solid-state battery applications have also been discussed.",
-      "authors": [
-        "Rishabh Agrawal",
-        "Gaind P. Pandey"
-      ],
-      "year": 2008,
-      "doi": "https://doi.org/10.1088/0022-3727/41/22/223001",
-      "pdf_url": "https://iopscience.iop.org/article/10.1088/0022-3727/41/22/223001/pdf",
-      "citation_count": 1075,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Journal of Physics D Applied Physics",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "solid state battery materials"
-    },
-    {
-      "id": "10.1007/s42114-026-01642-9",
-      "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
-      "abstract": "",
-      "authors": [
-        "Abdallah Kamal",
-        "Baosong Li",
-        "Suhail K. Siddique",
-        "Dawei Zhang",
-        "Kishor B. Shingare"
+        "Shen H",
+        "Jia Z",
+        "Zhang Y",
+        "Chen S",
+        "Huang Z"
       ],
       "year": 2026,
-      "doi": "https://doi.org/10.1007/s42114-026-01642-9",
+      "doi": "https://doi.org/10.1002/adma.202515467",
       "pdf_url": "",
-      "citation_count": 6,
-      "source_api": "Crossref",
+      "citation_count": 2,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Advanced Composites and Hybrid Materials",
+        "journal_name": "Adv Mater",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer Science and Business Media LLC"
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "solid state battery materials"
+    },
+    {
+      "id": "39769809",
+      "title": "Advanced Characterization of Solid-State Battery Materials Using Neutron Scattering Techniques",
+      "abstract": "",
+      "authors": [
+        "Novak E",
+        "Daemen L",
+        "Jalarvo N."
+      ],
+      "year": 2024,
+      "doi": "https://doi.org/10.3390/ma17246209",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11677385&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Materials (Basel)",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "solid state battery materials"
+    },
+    {
+      "id": "PPR1320181",
+      "title": "The Combustion Cell: A Multidisciplinary Review of the Causes, Mechanisms, and Mitigation Strategies for Lithium-Ion Battery Fires",
+      "abstract": "",
+      "authors": [
+        "Haque MM."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.20944/preprints202609.1233.v1",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Indexed Scientific Journal",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "solid state battery materials"
+    },
+    {
+      "id": "10.1088/2053-1583/2/3/032004",
+      "title": "Graphene and graphene-like 2D materials for optical biosensing and bioimaging: a review",
+      "abstract": "",
+      "authors": [
+        "Chengzhou Zhu",
+        "Dan Du",
+        "Yuehe Lin"
+      ],
+      "year": 2015,
+      "doi": "https://doi.org/10.1088/2053-1583/2/3/032004",
+      "pdf_url": "",
+      "citation_count": 172,
+      "source_api": "Crossref",
+      "journal": {
+        "journal_name": "2D Materials",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "IOP Publishing"
       },
       "subfield": "graphene 2D materials"
     },
@@ -429,7 +422,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
       "pdf_url": "",
-      "citation_count": 310,
+      "citation_count": 311,
       "source_api": "Crossref",
       "journal": {
         "journal_name": "High Entropy Alloys",
@@ -512,102 +505,100 @@
       "subfield": "high entropy alloys"
     },
     {
-      "id": "https://openalex.org/W1550186202",
-      "title": "Phonons and related crystal properties from density-functional perturbation theory",
-      "abstract": "This article reviews the current status of lattice-dynamical calculations in crystals, using density-functional perturbation theory, with emphasis on the plane-wave pseudopotential method. Several specialized topics are treated, including the implementation for metals, the calculation of the response to macroscopic electric fields and their relevance to long-wavelength vibrations in polar materials, the response to strain deformations, and higher-order responses. The success of this methodology is demonstrated with a number of applications existing in the literature.",
-      "authors": [
-        "Stefano Baroni",
-        "Stefano de Gironcoli",
-        "Andrea Dal Corso",
-        "Paolo Giannozzi"
-      ],
-      "year": 2001,
-      "doi": "https://doi.org/10.1103/revmodphys.73.515",
-      "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-      "citation_count": 10115,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Reviews of Modern Physics",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "density functional theory materials"
-    },
-    {
-      "id": "https://openalex.org/W2121817924",
-      "title": "Ab‐initio simulations of materials using VASP: Density‐functional theory and beyond",
-      "abstract": "During the past decade, computer simulations based on a quantum-mechanical description of the interactions between electrons and between electrons and atomic nuclei have developed an increasingly important impact on solid-state physics and chemistry and on materials science-promoting not only a deeper understanding, but also the possibility to contribute significantly to materials design for future technologies. This development is based on two important columns: (i) The improved description of electronic many-body effects within density-functional theory (DFT) and the upcoming post-DFT methods. (ii) The implementation of the new functionals and many-body techniques within highly efficient, stable, and versatile computer codes, which allow to exploit the potential of modern computer architectures. In this review, I discuss the implementation of various DFT functionals [local-density approximation (LDA), generalized gradient approximation (GGA), meta-GGA, hybrid functional mixing DFT, and exact (Hartree-Fock) exchange] and post-DFT approaches [DFT + U for strong electronic correlations in narrow bands, many-body perturbation theory (GW) for quasiparticle spectra, dynamical correlation effects via the adiabatic-connection fluctuation-dissipation theorem (AC-FDT)] in the Vienna ab initio simulation package VASP. VASP is a plane-wave all-electron code using the projector-augmented wave method to describe the electron-core interaction. The code uses fast iterative techniques for the diagonalization of the DFT Hamiltonian and allows to perform total-energy calculations and structural optimizations for systems with thousands of atoms and ab initio molecular dynamics simulations for ensembles with a few hundred atoms extending over several tens of ps. Applications in many different areas (structure and phase stability, mechanical and dynamical properties, liquids, glasses and quasicrystals, magnetism and magnetic nanostructures, semiconductors and insulators, surfaces, interfaces and thin films, chemical reactions, and catalysis) are reviewed.",
-      "authors": [
-        "Jürgen Häfner"
-      ],
-      "year": 2008,
-      "doi": "https://doi.org/10.1002/jcc.21057",
-      "pdf_url": "",
-      "citation_count": 5209,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Journal of Computational Chemistry",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "density functional theory materials"
-    },
-    {
-      "id": "https://openalex.org/W1976492731",
-      "title": "Materials Design and Discovery with High-Throughput Density Functional Theory: The Open Quantum Materials Database (OQMD)",
+      "id": "42720225",
+      "title": "Predicting methane and nitrogen adsorption in ZSM-5 and FAU-13X zeolites with a SAFT-VR-Mie classical density functional theory",
       "abstract": "",
       "authors": [
-        "James E. Saal",
-        "Scott J. Kirklin",
-        "Muratahan Aykol",
-        "Bryce Meredig",
-        "Chris M. Wolverton"
+        "Labeyrie R",
+        "Miqueu C."
       ],
-      "year": 2013,
-      "doi": "https://doi.org/10.1007/s11837-013-0755-4",
+      "year": 2026,
+      "doi": "https://doi.org/10.1063/5.0346456",
       "pdf_url": "",
-      "citation_count": 2604,
-      "source_api": "OpenAlex",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "JOM",
+        "journal_name": "J Chem Phys",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"
     },
     {
-      "id": "https://openalex.org/W2065608088",
-      "title": "Density functional theory methods for characterization of porous materials",
+      "id": "42579186",
+      "title": "Substituent engineering of pyrazolo-tetrazine N-oxide (PTZO) derivatives toward high-energy low-sensitivity energetic materials: A DFT study",
       "abstract": "",
       "authors": [
-        "John Landers",
-        "Gennady Yu. Gor",
-        "Alexander V. Neimark"
+        "Chu Y",
+        "Gao Z",
+        "Ma P."
       ],
-      "year": 2013,
-      "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
+      "year": 2026,
+      "doi": "https://doi.org/10.1007/s00894-026-06886-2",
       "pdf_url": "",
-      "citation_count": 1250,
-      "source_api": "OpenAlex",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
+        "journal_name": "J Mol Model",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "density functional theory materials"
+    },
+    {
+      "id": "42725412",
+      "title": "Multiscale investigation of CO&lt;sub&gt;2&lt;/sub&gt; capture in 1,2,4-triazolium-based ionic liquids and porous copolymers using density functional theory and molecular dynamics",
+      "abstract": "",
+      "authors": [
+        "Anila S",
+        "Yuan J",
+        "Lyubartsev AP."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1039/d6cp02655a",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13563441&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Phys Chem Chem Phys",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "density functional theory materials"
+    },
+    {
+      "id": "42557897",
+      "title": "Four-component relativistic density functional theory: grid requirements and small-component contributions",
+      "abstract": "",
+      "authors": [
+        "Bersson JS",
+        "Kovtun M",
+        "Li X."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1039/d6cp02182d",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Phys Chem Chem Phys",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"

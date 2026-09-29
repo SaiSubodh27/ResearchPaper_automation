@@ -707,7 +707,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1038/nature12509",
     "pdf_url": "",
-    "citation_count": 7977,
+    "citation_count": 7992,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -734,7 +734,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1126/science.1254050",
     "pdf_url": "",
-    "citation_count": 6639,
+    "citation_count": 6649,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Science",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7459,
+    "citation_count": 7462,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -853,7 +853,7 @@
     "title": "The electronic properties of graphene",
     "abstract": "This article reviews the basic theoretical aspects of graphene, a one-atom-thick allotrope of carbon, with unusual two-dimensional Dirac-like electronic excitations. The Dirac electrons can be controlled by application of external electric and magnetic fields, or by altering sample geometry and/or topology. The Dirac electrons behave in unusual ways in tunneling, confinement, and the integer quantum Hall effect. The electronic properties of graphene stacks are discussed and vary with stacking order and number of layers. Edge (surface) states in graphene depend on the edge termination (zigzag or armchair) and affect the physical properties of nanoribbons. Different types of disorder modify the Dirac equation leading to unusual spectroscopic and transport properties. The effects of electron-electron and electron-phonon interactions in single layer and multilayer graphene are also presented.",
     "authors": [
-      "Antonio H. Castro Neto",
+      "A. H. Castro Neto",
       "Francisco Javier Esteban Guinea",
       "Nuno M. R. Peres",
       "Kostya S. Novoselov",
@@ -862,7 +862,7 @@
     "year": 2009,
     "doi": "https://doi.org/10.1103/revmodphys.81.109",
     "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-    "citation_count": 24964,
+    "citation_count": 24983,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -888,7 +888,7 @@
     "year": 2010,
     "doi": "https://doi.org/10.1039/c0nr00323a",
     "pdf_url": "",
-    "citation_count": 1694,
+    "citation_count": 1695,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nanoscale",
@@ -913,7 +913,7 @@
     "year": 2015,
     "doi": "https://doi.org/10.1016/j.pmatsci.2015.02.002",
     "pdf_url": "https://stars.library.ucf.edu/scopus2015/2201",
-    "citation_count": 1568,
+    "citation_count": 1569,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Progress in Materials Science",
@@ -940,7 +940,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1016/j.eml.2017.01.008",
     "pdf_url": "https://doi.org/10.1016/j.eml.2017.01.008",
-    "citation_count": 1371,
+    "citation_count": 1373,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Extreme Mechanics Letters",
@@ -1146,7 +1146,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nmat4014",
     "pdf_url": "",
-    "citation_count": 6722,
+    "citation_count": 6726,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Materials",
@@ -1533,6 +1533,263 @@
       "quartile": "Q4",
       "quality_tier": "Indexed (Q4)",
       "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "10.12681/eadd/54402",
+    "title": "Functionalized molecules via MCRs",
+    "abstract": "Στο πρώτο κεφάλαιο της διατριβής συντέθηκαν για πρώτη φορά 2-τετραζολο ινδόλια μέσω της αντίδρασης UT-4CR, τα οποία αποτελούν βιοϊσοστερή των 2-καρβοξυ ινδολίων. Πραγματοποιήθηκαν επιπλέον MCRs και διάφορες δευτερογενείς συνθετικές μετατροπές. Στο δεύτερο κεφάλαιο, εκμεταλλευόμενοι τα ευρήματα της παραπάνω μελέτης, συνθέσαμε επιτυχώς ινδολο αμίδια μέσω της αντίδρασης U-4CR. Η διαδικασία είναι πράσινη και βιώσιμη. Έπειτα (κεφάλαιο 3), πραγματοποιήθηκε η σύνθεση βιβλιοθηκών νέων παραγώγων διβενζοθειαζεπινών και βενζοθιαζινών. Αυτά αποτελούν προνομιούχες δομές και χρησιμοποιούνται ευρέως τόσο στην Φαρμακευτική Χημεία, όσο και στην Χημεία υλικών. Οι ενώσεις αξιολογήθηκαν με υπολογιστικές μελέτες.Στο δεύτερο μέρος της διατριβής (κεφάλαια 4 και 5) πραγματοποιήθηκαν συνθέσεις παραγώγων με έμφαση στις εφαρμογές τους ως ημιαγωγοί. Αναφέρθηκαν συνθέσεις ενώσεων βασιζόμενες στις φλουορενόνες/φλουορένια (κεφάλαιο 4) και TTF (κεφάλαιο 5). Στα τελευταία παράγωγα, πραγματοποιήθηκαν εκτενείς μετρήσεις τόσο σε διάλυμα όσο και σε φιλμ ώστε να αξιολογηθεί η αγωγιμότητά τους. Πάνω από 50 διαφορετικά παράγωγα συντέθηκαν και στα δύο project.",
+    "authors": [
+      "Ζαοφάνγκ Λέι"
+    ],
+    "year": null,
+    "doi": "https://doi.org/10.12681/eadd/54402",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Academic Journal",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "National Documentation Centre (EKT)"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "10.19080/jojms.2020.06.555680",
+    "title": "Quantum Computing will Revolutionize Chemical Analysis, Drug Discovery and New Material Design",
+    "abstract": "",
+    "authors": [
+      "Doug Finke"
+    ],
+    "year": 2020,
+    "doi": "https://doi.org/10.19080/jojms.2020.06.555680",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Juniper Online Journal Material Science",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Juniper Publishers"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "10.1039/d6dd90023b",
+    "title": "Introduction to “Quantum computing for chemistry, material science and biotechnology”",
+    "abstract": "\n                    Matthias Degroote, Joonho Lee and Pauline Ollitrault introduce the\n                    Digital Discovery\n                    themed collection on “Quantum computing for chemistry, material science and biotechnology”.\n                  ",
+    "authors": [
+      "Matthias Degroote",
+      "Joonho Lee",
+      "Pauline Ollitrault"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6dd90023b",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Digital Discovery",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Royal Society of Chemistry (RSC)"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "10.2172/2326225",
+    "title": "Sulfide Glass Solid-State Electrolyte Separators for Semi-Solid Li-S Batteries",
+    "abstract": "",
+    "authors": [
+      "Tom Yersak"
+    ],
+    "year": 2023,
+    "doi": "https://doi.org/10.2172/2326225",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "TechBlick - Battery Materials and Solid-State Batteries",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "US DOE"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "10.1021/scimeetings.0c02744",
+    "title": "Solid-state NMR for characterising next generation battery materials",
+    "abstract": "",
+    "authors": [
+      "Valerie Seymour"
+    ],
+    "year": 2020,
+    "doi": "https://doi.org/10.1021/scimeetings.0c02744",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Academic Journal",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "American Chemical Society (ACS)"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.12608v2",
+    "title": "Introduction to High-Temperature Superconductivity for Solid State Chemists",
+    "abstract": "Superconductivity is one of the most amazing properties that metallic conductors exhibit. Electrical resistance is completely eliminated below the critical temperature (Tc), which is the most important parameter in superconductivity. Since the discovery of copper oxide superconductors 39 years ago, many solid state chemists have made significant contributions to the field by discovering new compounds and producing high-quality samples for physical measurements. However, superconductivity research remains challenging for most solid state chemists because it requires knowledge of complicated solid state physics. This manuscript aims to provide a simple, intuitive introduction to superconductivity using only fundamental physics concepts that solid state chemists are familiar with. The author investigates a wide range of materials and classifies them according to the superconductivity mechanisms that may drive them. Specifically focusing on a series of copper oxide superconductors with the highest Tc at ambient conditions, the remarkable material dependence of Tc and the underlying, unconventional superconductivity mechanism that leads to the high Tc are thoroughly examined. Although our understanding of cuprate superconductivity is still fragmented, the author believes that once the branches and leaves are removed, the story will be fairly simple, similar to the phonon-based superconductivity mechanism revealed by the BCS theory. Furthermore, potential strategies for raising the Tc of cuprates and other superconductors are discussed. The author hopes that this article will pique interest in superconductors in young solid state chemists and encourage them to pursue the discovery of still unknown and unexplored room-temperature superconductors in the future.",
+    "authors": [
+      "Zenji Hiroi"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.48550/arXiv.2602.12608v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.12608v2",
+    "citation_count": 0,
+    "source_api": "arXiv",
+    "journal": {
+      "journal_name": "arXiv Preprint",
+      "is_peer_reviewed": false,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Preprint (Unranked)",
+      "quality_tier": "Preprint",
+      "publisher": "arXiv / Open Repository"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "http://arxiv.org/abs/1008.3001v1",
+    "title": "Contraction and expansion effects on the substitution-defect properties of thirteen alloying elements in bcc Fe",
+    "abstract": "Proposed as blanket structural materials for fusion power reactors, reduced activation ferritic/martensitic (RAFM) steel undergoes volume expanding and contracting in a cyclic mode under service environment. Particularly, being subjected to significant fluxes of fusion neutrons RAFM steel suffers considerable local volume variations in the radiation damage involved regions. It is necessary to study the structure properties of the alloying elements in contraction and expansion states. In this paper we studied local substitution structures of thirteen alloying elements Al, Co, Cr, Cu, Mn, Mo, Nb, Ni, Si, Ta, Ti, V, and W in bcc Fe and calculated their substitutional energies in the volume variation range from -1.0% to 1.0%. From the structure relaxation results of the first five neighbor shells around the substitutional atom we find the relaxation in each neighbor shell keeps approximately uniform within the volume variation from -1.0% to 1.0% except those of Mn and the relaxation of the fifth neighbor shell is stronger than that of the third and forth, indicating that the lattice distortion due to the substitution atom is easier to spread in <111> direction than in other direction. The relaxation pattern and intensity are related to the size and electron structure of the substitutional atom. For some alloying elements, such as Mo, Nb, Ni, Ta, Ti and W, the substitutional energy decreases noticeably when the volume increases. Further analysis show that the substitutional energy comprises the energy variation originated from local structure relaxation and the chemical potential difference of the substitutional atom between its elemental crystalline state and the solid solution phase in bcc Fe. We think the approximately uniform relaxation of each neighbor shell around a substitutional atom give rise to a linear decrease in the substitutional energy with the increasing volume.",
+    "authors": [
+      "Wei Liu",
+      "Wei-Lu Wang",
+      "C. S. Liu",
+      "Q. F. Fang",
+      "Qun-Ying Huang"
+    ],
+    "year": 2010,
+    "doi": "https://doi.org/10.48550/arXiv.1008.3001v1",
+    "pdf_url": "https://arxiv.org/pdf/1008.3001v1",
+    "citation_count": 0,
+    "source_api": "arXiv",
+    "journal": {
+      "journal_name": "arXiv Preprint",
+      "is_peer_reviewed": false,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Preprint (Unranked)",
+      "quality_tier": "Preprint",
+      "publisher": "arXiv / Open Repository"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "10.5772/intechopen.79558",
+    "title": "The Application of Periodic Density Functional Theory to the Study of Uranyl-Containing Materials: Thermodynamic Properties and Stability",
+    "abstract": "",
+    "authors": [
+      "Francisco Colmenero Ruiz"
+    ],
+    "year": 2019,
+    "doi": "https://doi.org/10.5772/intechopen.79558",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Density Functional Theory",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "IntechOpen"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "10.55677/csrb/03-v03i05y2026",
+    "title": "Applications of Density Functional Theory in Modern Materials Research",
+    "abstract": "Density Functional Theory (DFT) is currently one of the most powerful and widely employed quantum mechanical methods in modern materials science, condensed matter physics, and computational chemistry. Due to its capability to accurately describe the electronic structure of materials at the atomic level with relatively moderate computational cost, DFT has become an essential theoretical framework for investigating a broadA range of advanced materials. In recent decades, DFT has played a central role in the study of nanomaterials, two-dimensional materials, semiconductors, magnetic materials, catalysts, and optoelectronic systems. The method enables researchers to predict and analyze important physical and chemicalproperties, including electronic band structures, density of states, magnetic behavior, optical responses, adsorption mechanisms, and thermodynamic stability. This review summarizes the fundamental principles of DFT, including the Hohenberg–Kohn theorems and Kohn–Sham formalism, together with commonly used exchange–correlation approximations such as LDA, GGA, hybrid functionals, and DFT+U methods. Furthermore, important applications of DFT in gas sensing, energy storage, photocatalysis, and novel material design are discussed in detail. The advantages and limitations of DFT are also highlighted, particularly regarding band-gap prediction and strongly correlated systems. Finally, future development trends of DFT are presented in the context of artificial intelligence, machine learning, high-performance computing, and large-scale materials discovery.",
+    "authors": [
+      "Nguyen Thanh Tung"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.55677/csrb/03-v03i05y2026",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Current Science Research Bulletin",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "International Journal of Clinical Science and Medical Research"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "10.1201/b15281-8",
+    "title": "- Density Functional Theory",
+    "abstract": "",
+    "authors": [],
+    "year": 2013,
+    "doi": "https://doi.org/10.1201/b15281-8",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Electronic Structure of Materials",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "CRC Press"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "10.32657/10220/48616",
+    "title": "Density functional theory investigation of emerging two-dimensional heterostructured materials",
+    "abstract": "",
+    "authors": [
+      "Andrey Kistanov"
+    ],
+    "year": null,
+    "doi": "https://doi.org/10.32657/10220/48616",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Academic Journal",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Nanyang Technological University"
     },
     "subfield": "density functional theory materials"
   }

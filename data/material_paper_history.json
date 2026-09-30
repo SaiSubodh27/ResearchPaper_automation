@@ -420,27 +420,27 @@
     "subfield": "graphene 2D materials"
   },
   {
-    "id": "10.1016/b978-0-12-800251-3.00002-x",
-    "title": "High-Entropy Alloys",
+    "id": "https://openalex.org/W2951539866",
+    "title": "High-entropy alloys",
     "abstract": "",
     "authors": [
-      "B.S. Murty",
-      "J.W. Yeh",
-      "S. Ranganathan"
+      "Easo  P. George",
+      "Dierk Raabe",
+      "Robert O. Ritchie"
     ],
-    "year": 2014,
-    "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
+    "year": 2019,
+    "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 311,
-    "source_api": "Crossref",
+    "citation_count": 5028,
+    "source_api": "OpenAlex",
     "journal": {
-      "journal_name": "High Entropy Alloys",
+      "journal_name": "Nature Reviews Materials",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,
-      "quartile": "Q4",
-      "quality_tier": "Indexed (Q4)",
-      "publisher": "Elsevier"
+      "quartile": "Q2",
+      "quality_tier": "High Quality (Q2)",
+      "publisher": "Academic Publisher"
     },
     "subfield": "high entropy alloys"
   },
@@ -960,14 +960,14 @@
     "authors": [
       "J.‐W. Yeh",
       "Swe-Kai Chen",
-      "Sung‐Jan Lin",
+      "S.‐J. Lin",
       "Jie Gan",
       "T.S. Chin"
     ],
     "year": 2004,
     "doi": "https://doi.org/10.1002/adem.200300567",
     "pdf_url": "",
-    "citation_count": 15297,
+    "citation_count": 15317,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Engineering Materials",
@@ -991,7 +991,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
-    "citation_count": 9068,
+    "citation_count": 9080,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Acta Materialia",
@@ -1018,7 +1018,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
     "pdf_url": "",
-    "citation_count": 7201,
+    "citation_count": 7206,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Progress in Materials Science",
@@ -1792,5 +1792,32 @@
       "publisher": "Nanyang Technological University"
     },
     "subfield": "density functional theory materials"
+  },
+  {
+    "id": "42784674",
+    "title": "Prussian blue regulates ion dynamics in perovskite solar cells",
+    "abstract": "",
+    "authors": [
+      "Cao F",
+      "Ma M",
+      "Zhou J",
+      "Cheng F",
+      "Dai Z"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1126/science.aef5487",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Science",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q1",
+      "quality_tier": "Top-Tier (Q1)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
   }
 ]

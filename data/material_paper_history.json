@@ -631,7 +631,7 @@
     "year": 2020,
     "doi": "https://doi.org/10.1038/s41586-020-2649-2",
     "pdf_url": "https://www.nature.com/articles/s41586-020-2649-2.pdf",
-    "citation_count": 24078,
+    "citation_count": 24117,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -655,7 +655,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1038/nmat2297",
     "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
-    "citation_count": 16442,
+    "citation_count": 16449,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Materials",
@@ -682,7 +682,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1063/1.4812323",
     "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4812323",
-    "citation_count": 13266,
+    "citation_count": 13270,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "APL Materials",
@@ -707,7 +707,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1038/nature12509",
     "pdf_url": "",
-    "citation_count": 7994,
+    "citation_count": 7997,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature",
@@ -734,7 +734,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1126/science.1254050",
     "pdf_url": "",
-    "citation_count": 6654,
+    "citation_count": 6655,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Science",
@@ -784,7 +784,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/natrevmats.2016.103",
     "pdf_url": "",
-    "citation_count": 4734,
+    "citation_count": 4740,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -811,7 +811,7 @@
     "year": 2020,
     "doi": "https://doi.org/10.1021/acs.chemrev.9b00427",
     "pdf_url": "",
-    "citation_count": 1236,
+    "citation_count": 1237,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Chemical Reviews",
@@ -862,7 +862,7 @@
     "year": 2009,
     "doi": "https://doi.org/10.1103/revmodphys.81.109",
     "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.81.109",
-    "citation_count": 24906,
+    "citation_count": 24886,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -888,7 +888,7 @@
     "year": 2010,
     "doi": "https://doi.org/10.1039/c0nr00323a",
     "pdf_url": "",
-    "citation_count": 1695,
+    "citation_count": 1697,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nanoscale",
@@ -913,7 +913,7 @@
     "year": 2015,
     "doi": "https://doi.org/10.1016/j.pmatsci.2015.02.002",
     "pdf_url": "https://stars.library.ucf.edu/scopus2015/2201",
-    "citation_count": 1569,
+    "citation_count": 1570,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Progress in Materials Science",
@@ -940,7 +940,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1016/j.eml.2017.01.008",
     "pdf_url": "https://doi.org/10.1016/j.eml.2017.01.008",
-    "citation_count": 1369,
+    "citation_count": 1370,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Extreme Mechanics Letters",
@@ -967,7 +967,7 @@
     "year": 2004,
     "doi": "https://doi.org/10.1002/adem.200300567",
     "pdf_url": "",
-    "citation_count": 15321,
+    "citation_count": 15325,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Engineering Materials",
@@ -991,7 +991,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.actamat.2016.08.081",
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
-    "citation_count": 9085,
+    "citation_count": 9086,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Acta Materialia",
@@ -1018,7 +1018,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.pmatsci.2013.10.001",
     "pdf_url": "",
-    "citation_count": 7208,
+    "citation_count": 7212,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Progress in Materials Science",
@@ -1044,7 +1044,7 @@
     "year": 2001,
     "doi": "https://doi.org/10.1103/revmodphys.73.515",
     "pdf_url": "https://arxiv.org/pdf/cond-mat/0012092",
-    "citation_count": 10095,
+    "citation_count": 10091,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Reviews of Modern Physics",
@@ -1067,7 +1067,7 @@
     "year": 2008,
     "doi": "https://doi.org/10.1002/jcc.21057",
     "pdf_url": "",
-    "citation_count": 5218,
+    "citation_count": 5221,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Journal of Computational Chemistry",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1253,
+    "citation_count": 1255,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -1295,7 +1295,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.4324/9780203793206",
     "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203793206&type=googlepdf",
-    "citation_count": 23908,
+    "citation_count": 23915,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Unknown Venue",
@@ -1819,5 +1819,29 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "https://openalex.org/W396839203",
+    "title": "Solid State Batteries: Materials Design and Optimization",
+    "abstract": "",
+    "authors": [
+      "Christian M Julien",
+      "Gholam‐Abbas Nazri"
+    ],
+    "year": 1994,
+    "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
+    "pdf_url": "",
+    "citation_count": 281,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Kluwer international series in engineering and computer science",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q3",
+      "quality_tier": "Peer-Reviewed (Q3)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
   }
 ]

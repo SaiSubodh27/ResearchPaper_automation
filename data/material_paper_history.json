@@ -454,7 +454,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1007/978-3-319-27013-5_1",
     "pdf_url": "",
-    "citation_count": 36,
+    "citation_count": 37,
     "source_api": "Crossref",
     "journal": {
       "journal_name": "High-Entropy Alloys",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7465,
+    "citation_count": 7466,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1843,5 +1843,341 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "solid state battery materials"
+  },
+  {
+    "id": "https://openalex.org/W2486570794",
+    "title": "Information Science for Materials Discovery and Design",
+    "abstract": "",
+    "authors": [
+      "Turab Lookman",
+      "Francis J. Alexander",
+      "Krishna Rajan"
+    ],
+    "year": 2015,
+    "doi": "https://doi.org/10.1007/978-3-319-23871-5",
+    "pdf_url": "",
+    "citation_count": 182,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Springer series in materials science",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q3",
+      "quality_tier": "Peer-Reviewed (Q3)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "https://openalex.org/W4404850039",
+    "title": "Multimodal Machine Learning for Materials Science: Discovery of Novel Li-Ion Solid Electrolytes",
+    "abstract": "The widespread adoption of multimodal machine learning (ML) models such as GPT-4 and Gemini has revolutionized various research domains, including computer vision and natural language processing. However, their implementation in materials informatics remains underexplored, despite the availability of diverse modalities in materials data. This study introduces an approach to multimodal machine learning in materials science via composition-structure bimodal learning and proposes the COmposition-Structure Bimodal Network (COSNet). The COSNet demonstrates significantly improved performance in predicting a variety of material properties, such as lithium-ion conductivity in solid electrolytes, band gap, refractive index, and formation enthalpy. This research highlights the critical importance of representation alignment in multimodal learning for materials science, enabling knowledge transfer between modalities and avoiding biased or divergent learning. Furthermore, we present an integrated paradigm that combines multimodal learning, transfer learning, ensemble methods, and atomic simulation to facilitate the discovery of novel superionic conductors.",
+    "authors": [
+      "Shuo Wang",
+      "Sheng Rong Gong",
+      "Thorben Böger",
+      "Jon A. Newnham",
+      "Daniele Vivona"
+    ],
+    "year": 2024,
+    "doi": "https://doi.org/10.1021/acs.chemmater.4c02257",
+    "pdf_url": "",
+    "citation_count": 22,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Chemistry of Materials",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "https://openalex.org/W1554316266",
+    "title": "Towards a Content-Based Material Science Discovery Network",
+    "abstract": "Many publicly available databases exist for managing materials scientific data. These databases contain in- formation from a wide variety of work, and the infor- mation is typically encoded in some proprietary format aimed at highlighting the goals of their particular back- grounds and purposes. In order to accelerate the rate at which new materials are discovered, these databases must be federated to provide materials scientists with the means to efficiently access large quantities of highly relevant data. This position paper advocates the design of a content-based material science discovery network that can allow for more intelligent reasoning over the databases than current implementations can afford. We will discuss the gains of using a hierarchical ontology for describing metadata that captures the various layers of the materials science domain. We will then discuss our approach in a content-based networking context.",
+    "authors": [
+      "Emily LeBlanc",
+      "Marcello Balduccini",
+      "William Clement Regli"
+    ],
+    "year": 2014,
+    "doi": "",
+    "pdf_url": "",
+    "citation_count": 1,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "National Conference on Artificial Intelligence",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "https://openalex.org/W2230864058",
+    "title": "Stability of perovskite solar cells",
+    "abstract": "",
+    "authors": [
+      "Dian Wang",
+      "Matthew Wright",
+      "Naveen Kumar Elumalai",
+      "Ashraf Uddin"
+    ],
+    "year": 2016,
+    "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
+    "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
+    "citation_count": 1006,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Solar Energy Materials and Solar Cells",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q2",
+      "quality_tier": "High Quality (Q2)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "https://openalex.org/W2275426597",
+    "title": "Advances in Perovskite Solar Cells",
+    "abstract": "Organolead halide perovskite materials possess a combination of remarkable optoelectronic properties, such as steep optical absorption edge and high absorption coefficients, long charge carrier diffusion lengths and lifetimes. Taken together with the ability for low temperature preparation, also from solution, perovskite-based devices, especially photovoltaic (PV) cells have been studied intensively, with remarkable progress in performance, over the past few years. The combination of high efficiency, low cost and additional (non-PV) applications provides great potential for commercialization. Performance and applications of perovskite solar cells often correlate with their device structures. Many innovative device structures were developed, aiming at large-scale fabrication, reducing fabrication cost, enhancing the power conversion efficiency and thus broadening potential future applications. This review summarizes typical structures of perovskite solar cells and comments on novel device structures. The applications of perovskite solar cells are discussed.",
+    "authors": [
+      "Chuantian Zuo",
+      "Henk J. Bolink",
+      "Hongwei Han",
+      "Jinsong Huang",
+      "David Cahen"
+    ],
+    "year": 2016,
+    "doi": "https://doi.org/10.1002/advs.201500324",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
+    "citation_count": 655,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Advanced Science",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "https://openalex.org/W3171577284",
+    "title": "Accelerated Atomistic Modeling of Solid-State Battery Materials With Machine Learning",
+    "abstract": "Materials for solid-state batteries often exhibit complex chemical compositions, defects, and disorder, making both experimental characterization and direct modeling with first principles methods challenging. Machine learning (ML) has proven versatile for accelerating or circumventing first-principles calculations, thereby facilitating the modeling of materials properties that are otherwise hard to access. ML potentials trained on accurate first principles data enable computationally efficient linear-scaling atomistic simulations with an accuracy close to the reference method. ML-based property-prediction and inverse design techniques are powerful for the computational search for new materials. Here, we give an overview of recent methodological advancements of ML techniques for atomic-scale modeling and materials design. We review applications to materials for solid-state batteries, including electrodes, solid electrolytes, coatings, and the complex interfaces involved.",
+    "authors": [
+      "Haoyue Guo",
+      "Qian Wang",
+      "Annika Stuke",
+      "Alexander Urban",
+      "Nongnuch Artrith"
+    ],
+    "year": 2021,
+    "doi": "https://doi.org/10.3389/fenrg.2021.695902",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenrg.2021.695902/pdf",
+    "citation_count": 75,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Frontiers in Energy Research",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "https://openalex.org/W4280633955",
+    "title": "Review on the lithium transport mechanism in solid‐state battery materials",
+    "abstract": "Abstract The growing demands to mitigate climate change and environmental degradation stimulate the rapid developments of rechargeable lithium (Li) battery technologies. Fast Li transports in battery materials are of essential significance to ensure superior Li dynamical stability and rate performance of batteries. Herein, the Li transport mechanisms in solid‐state battery materials (SSBMs) are comprehensively summarized. The collective diffusion mechanisms in solid electrolytes are elaborated, which are further understood from multiple perspectives including lattice dynamics, crystalline structure, and electronic structure. With the exponentially improving performance of computers, atomistic simulations have been playing an increasingly important role in revealing and understanding the Li transport in SSBMs, bridging the gap between experimental phenomena and theoretical models. Theoretical and experimental characterization methods for Li transports are discussed. The design strategies toward fast Li transports are classified. Finally, a perspective on the achievements and challenges of probing Li transports is provided. This article is categorized under: Structure and Mechanism > Computational Materials Science",
+    "authors": [
+      "Zhongheng Fu",
+      "Xiang Chen",
+      "Qiang Zhang"
+    ],
+    "year": 2022,
+    "doi": "https://doi.org/10.1002/wcms.1621",
+    "pdf_url": "",
+    "citation_count": 57,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "https://openalex.org/W4312121287",
+    "title": "Importance of Thermal Transport for the Design of Solid-State Battery Materials",
+    "abstract": "Increasing demand for safe and reliable energy storage drives research in all-solid-state batteries, and better battery design motivates researchers to understand the thermal properties of battery materials.",
+    "authors": [
+      "Matthias T. Agne",
+      "Thorben Böger",
+      "Tim Bernges",
+      "Wolfgang G. Zeier"
+    ],
+    "year": 2022,
+    "doi": "https://doi.org/10.1103/prxenergy.1.031002",
+    "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
+    "citation_count": 57,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "PRX Energy",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "https://openalex.org/W4297282468",
+    "title": "Electrical Transport in Post-Graphene 2D Materials",
+    "abstract": "Electrical Transport in Post-Graphene 2D Materials - 1",
+    "authors": [
+      "Ghulam Dastgeer",
+      "Sobia Nisar",
+      "Jonghwa Eom"
+    ],
+    "year": 2022,
+    "doi": "https://doi.org/10.1201/9781003247890-4",
+    "pdf_url": "",
+    "citation_count": 1,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Unknown Venue",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q3",
+      "quality_tier": "Peer-Reviewed (Q3)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "graphene 2D materials"
+  },
+  {
+    "id": "https://openalex.org/W2748869433",
+    "title": "Corrosion of high entropy alloys",
+    "abstract": "Abstract High entropy alloys represent a unique class of metal alloys, comprising nominally five or more elements in near equiatomic proportions. High entropy alloys have gained significant interest on the basis that the high configurational entropy of such alloy systems is purported to result in a single-phase solid solution structure. While such a single-phase structure can occur in unique systems, it is now appreciated that the definition of high entropy alloys can be broader, with systems comprising only four elements possible of forming single phases, and most five (or more) element systems actually being multi (>2) phases. To this end, the notion of compositionally complex alloys is a more general description, with the concise review herein focusing on the corrosion of compositionally complex alloys (inclusive of high entropy alloys). It is noted that generally, in spite of complex compositions and in many cases complicated microstructural heterogeneity, compositionally complex alloys are nominally corrosion-resistant. This is discussed and aspects of the status and needs are presented.",
+    "authors": [
+      "Yao Qiu",
+      "S. Thomas",
+      "Mark A. Gibson",
+      "Hamish L. Fraser",
+      "N. Birbilis"
+    ],
+    "year": 2017,
+    "doi": "https://doi.org/10.1038/s41529-017-0009-y",
+    "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
+    "citation_count": 614,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "npj Materials Degradation",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "high entropy alloys"
+  },
+  {
+    "id": "https://openalex.org/W2624679515",
+    "title": "Computational predictions of energy materials using density functional theory",
+    "abstract": "",
+    "authors": [
+      "Anubhav Jain",
+      "Yongwoo Shin",
+      "Kristin Aslaug Persson"
+    ],
+    "year": 2016,
+    "doi": "https://doi.org/10.1038/natrevmats.2015.4",
+    "pdf_url": "",
+    "citation_count": 949,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Nature Reviews Materials",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "https://openalex.org/W2995583187",
+    "title": "Density Functional Theory for Battery Materials",
+    "abstract": "Batteries are the most widely used energy storage devices, and the lithium‐ion battery is the most heavily commercialized and most widely used battery type in the industry. However, the current rapid development of society requires a major advancement in battery materials to achieve high capacity, long life cycle, low cost, and reliable safety. Therefore, many new efficient energy storage materials and battery systems are being developed and explored, and their working mechanisms must be clearly understood before industrial application. In recent years, density functional theory (DFT) has been employed in the energy storage field and has made significant contributions to the understanding of electrochemical reaction mechanisms and to virtual screening of promising energy storage materials. In this review, the applications of DFT to battery materials are summarized and exemplified by some representative and up‐to‐date studies in the literature. The main focuses in this review include the following: 1) structural stability estimation by cohesive energy, formation energy, Gibbs free energy, and phonon dispersion spectra calculations; 2) the Gibbs free energy calculations for electrochemical reactions, corresponding open‐circuit voltage, and theoretical capacity predictions of batteries; 3) the analyses of molecule orbitals, band structures, density of states (DOS), and charge distribution of battery materials; 4) ion transport kinetics in battery materials; 5) simulations of adsorption processes. We conclude the review with the discussion of the assessments and validation of the popular functionals against several benchmarks, and a few suggestions have been given for the selection of density functionals for battery material systems.",
+    "authors": [
+      "Qiu He",
+      "Bin Yu",
+      "Zhaohuai Li",
+      "Yan Zhao"
+    ],
+    "year": 2019,
+    "doi": "https://doi.org/10.1002/eem2.12056",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
+    "citation_count": 470,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Energy & environment materials",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "https://openalex.org/W4412015530",
+    "title": "A Review on Computational Density Functional Theory Material Modelling Application in catalytic studies",
+    "abstract": "The computational studies of materials is integral part of current research community. Density functional theory relies on electron density distribution of constituents of material of interest. The importance of Computational calculations become very essential for providing interpretation of experimental observed result and also help as important tool for verification of catalyst efficiency, mechanism of catalyst and reagent interaction with catalyst. This review in the elaborate various aspects of catalytic theoretical calculation and its application reported in literature over the years. The catalytic study calculation of material involve electron density of materials, finding of active site and reactivity of particular catalyst, adsorption studies of reactant and by-product over the materials of interest. Pore size dependency depends on how reactant more effectively involve in the catalytic mechanism. The band gap determination helps material property such as conductors, semiconductors and insulation property, it also help in the theoretical studies of optical property. The crystal structure and crystal phase are also influence in the catalysis of reaction.",
+    "authors": [
+      "Md Sayeed T",
+      "Jithesh K",
+      "Anitha PK"
+    ],
+    "year": 2024,
+    "doi": "https://doi.org/10.53555/ajbr.v27i6s.7930",
+    "pdf_url": "https://africanjournalofbiomedicalresearch.com/index.php/AJBR/article/download/7930/6622",
+    "citation_count": 0,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "African Journal of Biomedical Research",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
   }
 ]

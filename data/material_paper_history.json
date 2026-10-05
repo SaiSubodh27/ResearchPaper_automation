@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5035,
+    "citation_count": 5038,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7466,
+    "citation_count": 7468,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1498,7 +1498,7 @@
     "year": 2026,
     "doi": "https://doi.org/10.1007/s42114-026-01642-9",
     "pdf_url": "",
-    "citation_count": 6,
+    "citation_count": 7,
     "source_api": "Crossref",
     "journal": {
       "journal_name": "Advanced Composites and Hybrid Materials",
@@ -2067,7 +2067,7 @@
     "citation_count": 1,
     "source_api": "OpenAlex",
     "journal": {
-      "journal_name": "Unknown Venue",
+      "journal_name": "CRC Press eBooks",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,

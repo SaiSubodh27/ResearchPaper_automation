@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T03:18:49.067416Z",
+  "updated_at": "2026-10-05T02:54:27.830911Z",
   "count": 24,
   "papers": [
     {
@@ -141,7 +141,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7466,
+      "citation_count": 7468,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -324,7 +324,7 @@
       "citation_count": 1,
       "source_api": "OpenAlex",
       "journal": {
-        "journal_name": "Unknown Venue",
+        "journal_name": "CRC Press eBooks",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -335,27 +335,29 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "10.1088/2053-1583/2/3/032004",
-      "title": "Graphene and graphene-like 2D materials for optical biosensing and bioimaging: a review",
+      "id": "10.1007/s42114-026-01642-9",
+      "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
       "abstract": "",
       "authors": [
-        "Chengzhou Zhu",
-        "Dan Du",
-        "Yuehe Lin"
+        "Abdallah Kamal",
+        "Baosong Li",
+        "Suhail K. Siddique",
+        "Dawei Zhang",
+        "Kishor B. Shingare"
       ],
-      "year": 2015,
-      "doi": "https://doi.org/10.1088/2053-1583/2/3/032004",
+      "year": 2026,
+      "doi": "https://doi.org/10.1007/s42114-026-01642-9",
       "pdf_url": "",
-      "citation_count": 172,
+      "citation_count": 7,
       "source_api": "Crossref",
       "journal": {
-        "journal_name": "2D Materials",
+        "journal_name": "Advanced Composites and Hybrid Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "IOP Publishing"
+        "publisher": "Springer Science and Business Media LLC"
       },
       "subfield": "graphene 2D materials"
     },
@@ -425,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5035,
+      "citation_count": 5038,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",

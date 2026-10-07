@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T03:45:06.371399Z",
+  "updated_at": "2026-10-07T03:12:03.965784Z",
   "count": 24,
   "papers": [
     {
@@ -141,7 +141,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7468,
+      "citation_count": 7474,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -194,7 +194,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 655,
+      "citation_count": 656,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
@@ -218,7 +218,7 @@
       "year": 1994,
       "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
       "pdf_url": "",
-      "citation_count": 281,
+      "citation_count": 282,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Kluwer international series in engineering and computer science",
@@ -335,29 +335,27 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "10.1007/s42114-026-01642-9",
-      "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
+      "id": "10.1088/2053-1583/2/3/032004",
+      "title": "Graphene and graphene-like 2D materials for optical biosensing and bioimaging: a review",
       "abstract": "",
       "authors": [
-        "Abdallah Kamal",
-        "Baosong Li",
-        "Suhail K. Siddique",
-        "Dawei Zhang",
-        "Kishor B. Shingare"
+        "Chengzhou Zhu",
+        "Dan Du",
+        "Yuehe Lin"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1007/s42114-026-01642-9",
+      "year": 2015,
+      "doi": "https://doi.org/10.1088/2053-1583/2/3/032004",
       "pdf_url": "",
-      "citation_count": 7,
+      "citation_count": 172,
       "source_api": "Crossref",
       "journal": {
-        "journal_name": "Advanced Composites and Hybrid Materials",
+        "journal_name": "2D Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer Science and Business Media LLC"
+        "publisher": "IOP Publishing"
       },
       "subfield": "graphene 2D materials"
     },
@@ -427,7 +425,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5038,
+      "citation_count": 5041,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -454,7 +452,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1038/s41529-017-0009-y",
       "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-      "citation_count": 614,
+      "citation_count": 615,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "npj Materials Degradation",
@@ -550,7 +548,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1038/natrevmats.2015.4",
       "pdf_url": "",
-      "citation_count": 949,
+      "citation_count": 950,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -576,7 +574,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1002/eem2.12056",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-      "citation_count": 470,
+      "citation_count": 471,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Energy & environment materials",

@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5038,
+    "citation_count": 5041,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7468,
+    "citation_count": 7474,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1831,7 +1831,7 @@
     "year": 1994,
     "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
     "pdf_url": "",
-    "citation_count": 281,
+    "citation_count": 282,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Kluwer international series in engineering and computer science",
@@ -1961,7 +1961,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1002/advs.201500324",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-    "citation_count": 655,
+    "citation_count": 656,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Science",
@@ -2091,7 +2091,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/s41529-017-0009-y",
     "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-    "citation_count": 614,
+    "citation_count": 615,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "npj Materials Degradation",
@@ -2116,7 +2116,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1038/natrevmats.2015.4",
     "pdf_url": "",
-    "citation_count": 949,
+    "citation_count": 950,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -2142,7 +2142,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1002/eem2.12056",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-    "citation_count": 470,
+    "citation_count": 471,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Energy & environment materials",

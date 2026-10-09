@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T03:27:25.156967Z",
+  "updated_at": "2026-10-09T03:33:20.993899Z",
   "count": 24,
   "papers": [
     {
@@ -14,7 +14,7 @@
       "year": 2015,
       "doi": "https://doi.org/10.1007/978-3-319-23871-5",
       "pdf_url": "",
-      "citation_count": 182,
+      "citation_count": 177,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Springer series in materials science",
@@ -103,33 +103,6 @@
       "subfield": "material science discovery"
     },
     {
-      "id": "42784674",
-      "title": "Prussian blue regulates ion dynamics in perovskite solar cells",
-      "abstract": "",
-      "authors": [
-        "Cao F",
-        "Ma M",
-        "Zhou J",
-        "Cheng F",
-        "Dai Z"
-      ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1126/science.aef5487",
-      "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Science",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q1",
-        "quality_tier": "Top-Tier (Q1)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "perovskite solar cells"
-    },
-    {
       "id": "https://openalex.org/W1999717631",
       "title": "The emergence of perovskite solar cells",
       "abstract": "",
@@ -141,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7479,
+      "citation_count": 7459,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -167,7 +140,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1006,
+      "citation_count": 1003,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
@@ -194,10 +167,37 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 657,
+      "citation_count": 655,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "perovskite solar cells"
+    },
+    {
+      "id": "https://openalex.org/W4406426717",
+      "title": "Perovskite solar cells",
+      "abstract": "",
+      "authors": [
+        "Jiye Han",
+        "Keonwoo Park",
+        "Shaun Wee Kiat Tan",
+        "Yana Vaynzof",
+        "Jingjing Xue"
+      ],
+      "year": 2025,
+      "doi": "https://doi.org/10.1038/s43586-024-00373-9",
+      "pdf_url": "",
+      "citation_count": 301,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Nature Reviews Methods Primers",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -245,10 +245,36 @@
       "year": 2021,
       "doi": "https://doi.org/10.3389/fenrg.2021.695902",
       "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenrg.2021.695902/pdf",
-      "citation_count": 75,
+      "citation_count": 72,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Frontiers in Energy Research",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "solid state battery materials"
+    },
+    {
+      "id": "https://openalex.org/W4312121287",
+      "title": "Importance of Thermal Transport for the Design of Solid-State Battery Materials",
+      "abstract": "Increasing demand for safe and reliable energy storage drives research in all-solid-state batteries, and better battery design motivates researchers to understand the thermal properties of battery materials.",
+      "authors": [
+        "Matthias T. Agne",
+        "Thorben Böger",
+        "Tim Bernges",
+        "Wolfgang G. Zeier"
+      ],
+      "year": 2022,
+      "doi": "https://doi.org/10.1103/prxenergy.1.031002",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
+      "citation_count": 58,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "PRX Energy",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -274,32 +300,6 @@
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "solid state battery materials"
-    },
-    {
-      "id": "https://openalex.org/W4312121287",
-      "title": "Importance of Thermal Transport for the Design of Solid-State Battery Materials",
-      "abstract": "Increasing demand for safe and reliable energy storage drives research in all-solid-state batteries, and better battery design motivates researchers to understand the thermal properties of battery materials.",
-      "authors": [
-        "Matthias T. Agne",
-        "Thorben Böger",
-        "Tim Bernges",
-        "Wolfgang G. Zeier"
-      ],
-      "year": 2022,
-      "doi": "https://doi.org/10.1103/prxenergy.1.031002",
-      "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
-      "citation_count": 57,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "PRX Energy",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -427,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5043,
+      "citation_count": 5029,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -454,7 +454,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1038/s41529-017-0009-y",
       "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-      "citation_count": 615,
+      "citation_count": 609,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "npj Materials Degradation",
@@ -525,7 +525,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1259,
+      "citation_count": 1246,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -550,7 +550,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1038/natrevmats.2015.4",
       "pdf_url": "",
-      "citation_count": 950,
+      "citation_count": 932,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -576,7 +576,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1002/eem2.12056",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-      "citation_count": 471,
+      "citation_count": 470,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Energy & environment materials",

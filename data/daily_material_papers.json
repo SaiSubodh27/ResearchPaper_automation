@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T03:33:20.993899Z",
+  "updated_at": "2026-10-10T03:13:31.152171Z",
   "count": 24,
   "papers": [
     {
@@ -103,6 +103,33 @@
       "subfield": "material science discovery"
     },
     {
+      "id": "42784674",
+      "title": "Prussian blue regulates ion dynamics in perovskite solar cells",
+      "abstract": "",
+      "authors": [
+        "Cao F",
+        "Ma M",
+        "Zhou J",
+        "Cheng F",
+        "Dai Z"
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1126/science.aef5487",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Science",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "perovskite solar cells"
+    },
+    {
       "id": "https://openalex.org/W1999717631",
       "title": "The emergence of perovskite solar cells",
       "abstract": "",
@@ -114,7 +141,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7459,
+      "citation_count": 7462,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -171,33 +198,6 @@
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "perovskite solar cells"
-    },
-    {
-      "id": "https://openalex.org/W4406426717",
-      "title": "Perovskite solar cells",
-      "abstract": "",
-      "authors": [
-        "Jiye Han",
-        "Keonwoo Park",
-        "Shaun Wee Kiat Tan",
-        "Yana Vaynzof",
-        "Jingjing Xue"
-      ],
-      "year": 2025,
-      "doi": "https://doi.org/10.1038/s43586-024-00373-9",
-      "pdf_url": "",
-      "citation_count": 301,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Nature Reviews Methods Primers",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -427,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5029,
+      "citation_count": 5039,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -525,7 +525,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1246,
+      "citation_count": 1247,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -550,7 +550,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1038/natrevmats.2015.4",
       "pdf_url": "",
-      "citation_count": 932,
+      "citation_count": 933,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",

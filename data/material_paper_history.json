@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5044,
+    "citation_count": 5045,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7463,
+    "citation_count": 7464,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1961,7 +1961,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1002/advs.201500324",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-    "citation_count": 655,
+    "citation_count": 656,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Science",

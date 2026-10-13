@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T03:09:05.355646Z",
+  "updated_at": "2026-10-13T04:25:20.580523Z",
   "count": 24,
   "papers": [
     {
@@ -141,7 +141,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7464,
+      "citation_count": 7429,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -167,15 +167,15 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1003,
+      "citation_count": 997,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
@@ -194,7 +194,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 656,
+      "citation_count": 654,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
@@ -245,7 +245,7 @@
       "year": 2021,
       "doi": "https://doi.org/10.3389/fenrg.2021.695902",
       "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenrg.2021.695902/pdf",
-      "citation_count": 72,
+      "citation_count": 70,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Frontiers in Energy Research",
@@ -427,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5045,
+      "citation_count": 4959,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -454,7 +454,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1038/s41529-017-0009-y",
       "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-      "citation_count": 609,
+      "citation_count": 603,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "npj Materials Degradation",
@@ -525,7 +525,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1247,
+      "citation_count": 1239,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -550,7 +550,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1038/natrevmats.2015.4",
       "pdf_url": "",
-      "citation_count": 932,
+      "citation_count": 919,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -576,7 +576,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1002/eem2.12056",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-      "citation_count": 470,
+      "citation_count": 463,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Energy & environment materials",
@@ -596,7 +596,7 @@
       "authors": [
         "Md Sayeed T",
         "Jithesh K",
-        "Anitha PK"
+        "P.K. Anitha"
       ],
       "year": 2024,
       "doi": "https://doi.org/10.53555/ajbr.v27i6s.7930",

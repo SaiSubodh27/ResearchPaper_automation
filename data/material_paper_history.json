@@ -424,14 +424,14 @@
     "title": "High-entropy alloys",
     "abstract": "",
     "authors": [
-      "Easo  P. George",
+      "E.P. George",
       "Dierk Raabe",
       "Robert O. Ritchie"
     ],
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 4963,
+    "citation_count": 4970,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7430,
+    "citation_count": 7432,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1934,7 +1934,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
     "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-    "citation_count": 997,
+    "citation_count": 998,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Solar Energy Materials and Solar Cells",
@@ -2013,7 +2013,7 @@
     "year": 2022,
     "doi": "https://doi.org/10.1002/wcms.1621",
     "pdf_url": "",
-    "citation_count": 57,
+    "citation_count": 58,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",

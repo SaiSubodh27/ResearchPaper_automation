@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 4970,
+    "citation_count": 4974,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7432,
+    "citation_count": 7434,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -2091,7 +2091,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/s41529-017-0009-y",
     "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-    "citation_count": 604,
+    "citation_count": 605,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "npj Materials Degradation",
@@ -2116,7 +2116,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1038/natrevmats.2015.4",
     "pdf_url": "",
-    "citation_count": 919,
+    "citation_count": 921,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",

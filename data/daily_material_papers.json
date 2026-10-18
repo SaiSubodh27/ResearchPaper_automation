@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T02:02:24.752613Z",
+  "updated_at": "2026-10-18T02:01:57.485796Z",
   "count": 24,
   "papers": [
     {
@@ -33,7 +33,7 @@
       "abstract": "The widespread adoption of multimodal machine learning (ML) models such as GPT-4 and Gemini has revolutionized various research domains, including computer vision and natural language processing. However, their implementation in materials informatics remains underexplored, despite the availability of diverse modalities in materials data. This study introduces an approach to multimodal machine learning in materials science via composition-structure bimodal learning and proposes the COmposition-Structure Bimodal Network (COSNet). The COSNet demonstrates significantly improved performance in predicting a variety of material properties, such as lithium-ion conductivity in solid electrolytes, band gap, refractive index, and formation enthalpy. This research highlights the critical importance of representation alignment in multimodal learning for materials science, enabling knowledge transfer between modalities and avoiding biased or divergent learning. Furthermore, we present an integrated paradigm that combines multimodal learning, transfer learning, ensemble methods, and atomic simulation to facilitate the discovery of novel superionic conductors.",
       "authors": [
         "Shuo Wang",
-        "Sheng Rong Gong",
+        "Sheng Gong",
         "Thorben Böger",
         "Jon A. Newnham",
         "Daniele Vivona"
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7442,
+      "citation_count": 7444,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -187,7 +187,7 @@
       "authors": [
         "Jiye Han",
         "Keonwoo Park",
-        "Shaun Wee Kiat Tan",
+        "Shaun Tan",
         "Yana Vaynzof",
         "Jingjing Xue"
       ],
@@ -335,27 +335,29 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "10.1088/2053-1583/2/3/032004",
-      "title": "Graphene and graphene-like 2D materials for optical biosensing and bioimaging: a review",
+      "id": "10.1007/s42114-026-01642-9",
+      "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
       "abstract": "",
       "authors": [
-        "Chengzhou Zhu",
-        "Dan Du",
-        "Yuehe Lin"
+        "Abdallah Kamal",
+        "Baosong Li",
+        "Suhail K. Siddique",
+        "Dawei Zhang",
+        "Kishor B. Shingare"
       ],
-      "year": 2015,
-      "doi": "https://doi.org/10.1088/2053-1583/2/3/032004",
+      "year": 2026,
+      "doi": "https://doi.org/10.1007/s42114-026-01642-9",
       "pdf_url": "",
-      "citation_count": 172,
+      "citation_count": 7,
       "source_api": "Crossref",
       "journal": {
-        "journal_name": "2D Materials",
+        "journal_name": "Advanced Composites and Hybrid Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "IOP Publishing"
+        "publisher": "Springer Science and Business Media LLC"
       },
       "subfield": "graphene 2D materials"
     },
@@ -425,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5002,
+      "citation_count": 5006,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -434,33 +436,6 @@
         "h_index": 0,
         "quartile": "Q2",
         "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "high entropy alloys"
-    },
-    {
-      "id": "https://openalex.org/W2748869433",
-      "title": "Corrosion of high entropy alloys",
-      "abstract": "Abstract High entropy alloys represent a unique class of metal alloys, comprising nominally five or more elements in near equiatomic proportions. High entropy alloys have gained significant interest on the basis that the high configurational entropy of such alloy systems is purported to result in a single-phase solid solution structure. While such a single-phase structure can occur in unique systems, it is now appreciated that the definition of high entropy alloys can be broader, with systems comprising only four elements possible of forming single phases, and most five (or more) element systems actually being multi (>2) phases. To this end, the notion of compositionally complex alloys is a more general description, with the concise review herein focusing on the corrosion of compositionally complex alloys (inclusive of high entropy alloys). It is noted that generally, in spite of complex compositions and in many cases complicated microstructural heterogeneity, compositionally complex alloys are nominally corrosion-resistant. This is discussed and aspects of the status and needs are presented.",
-      "authors": [
-        "Yao Qiu",
-        "S. Thomas",
-        "Mark A. Gibson",
-        "Hamish L. Fraser",
-        "N. Birbilis"
-      ],
-      "year": 2017,
-      "doi": "https://doi.org/10.1038/s41529-017-0009-y",
-      "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-      "citation_count": 605,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "npj Materials Degradation",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
@@ -498,7 +473,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1007/978-3-319-27013-5_11",
       "pdf_url": "",
-      "citation_count": 31,
+      "citation_count": 32,
       "source_api": "Crossref",
       "journal": {
         "journal_name": "High-Entropy Alloys",
@@ -508,6 +483,31 @@
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
         "publisher": "Springer International Publishing"
+      },
+      "subfield": "high entropy alloys"
+    },
+    {
+      "id": "10.1007/s44210-023-00019-7",
+      "title": "High Entropy Alloys and Materials",
+      "abstract": "",
+      "authors": [
+        "Ian Baker",
+        "Brian Cantor",
+        "Jien-Wei Yeh"
+      ],
+      "year": 2023,
+      "doi": "https://doi.org/10.1007/s44210-023-00019-7",
+      "pdf_url": "",
+      "citation_count": 12,
+      "source_api": "Crossref",
+      "journal": {
+        "journal_name": "High Entropy Alloys &amp; Materials",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Springer Science and Business Media LLC"
       },
       "subfield": "high entropy alloys"
     },

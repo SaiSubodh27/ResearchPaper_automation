@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5002,
+    "citation_count": 5006,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -477,7 +477,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1007/978-3-319-27013-5_11",
     "pdf_url": "",
-    "citation_count": 31,
+    "citation_count": 32,
     "source_api": "Crossref",
     "journal": {
       "journal_name": "High-Entropy Alloys",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7442,
+    "citation_count": 7444,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1875,7 +1875,7 @@
     "abstract": "The widespread adoption of multimodal machine learning (ML) models such as GPT-4 and Gemini has revolutionized various research domains, including computer vision and natural language processing. However, their implementation in materials informatics remains underexplored, despite the availability of diverse modalities in materials data. This study introduces an approach to multimodal machine learning in materials science via composition-structure bimodal learning and proposes the COmposition-Structure Bimodal Network (COSNet). The COSNet demonstrates significantly improved performance in predicting a variety of material properties, such as lithium-ion conductivity in solid electrolytes, band gap, refractive index, and formation enthalpy. This research highlights the critical importance of representation alignment in multimodal learning for materials science, enabling knowledge transfer between modalities and avoiding biased or divergent learning. Furthermore, we present an integrated paradigm that combines multimodal learning, transfer learning, ensemble methods, and atomic simulation to facilitate the discovery of novel superionic conductors.",
     "authors": [
       "Shuo Wang",
-      "Sheng Rong Gong",
+      "Sheng Gong",
       "Thorben Böger",
       "Jon A. Newnham",
       "Daniele Vivona"
@@ -2187,7 +2187,7 @@
     "authors": [
       "Jiye Han",
       "Keonwoo Park",
-      "Shaun Wee Kiat Tan",
+      "Shaun Tan",
       "Yana Vaynzof",
       "Jingjing Xue"
     ],
@@ -2206,5 +2206,30 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "10.1007/s44210-023-00019-7",
+    "title": "High Entropy Alloys and Materials",
+    "abstract": "",
+    "authors": [
+      "Ian Baker",
+      "Brian Cantor",
+      "Jien-Wei Yeh"
+    ],
+    "year": 2023,
+    "doi": "https://doi.org/10.1007/s44210-023-00019-7",
+    "pdf_url": "",
+    "citation_count": 12,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "High Entropy Alloys &amp; Materials",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Springer Science and Business Media LLC"
+    },
+    "subfield": "high entropy alloys"
   }
 ]

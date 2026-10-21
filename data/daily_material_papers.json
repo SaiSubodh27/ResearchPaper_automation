@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T02:32:39.763112Z",
+  "updated_at": "2026-10-21T02:26:09.186877Z",
   "count": 24,
   "papers": [
     {
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7444,
+      "citation_count": 7445,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -194,7 +194,7 @@
       "year": 2025,
       "doi": "https://doi.org/10.1038/s43586-024-00373-9",
       "pdf_url": "",
-      "citation_count": 306,
+      "citation_count": 307,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Methods Primers",
@@ -427,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5009,
+      "citation_count": 5015,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -525,7 +525,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1240,
+      "citation_count": 1241,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",

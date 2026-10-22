@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T02:26:09.186877Z",
+  "updated_at": "2026-10-22T02:20:58.138181Z",
   "count": 24,
   "papers": [
     {
@@ -194,7 +194,7 @@
       "year": 2025,
       "doi": "https://doi.org/10.1038/s43586-024-00373-9",
       "pdf_url": "",
-      "citation_count": 307,
+      "citation_count": 308,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Methods Primers",
@@ -427,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5015,
+      "citation_count": 5018,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -436,33 +436,6 @@
         "h_index": 0,
         "quartile": "Q2",
         "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "high entropy alloys"
-    },
-    {
-      "id": "https://openalex.org/W2748869433",
-      "title": "Corrosion of high entropy alloys",
-      "abstract": "Abstract High entropy alloys represent a unique class of metal alloys, comprising nominally five or more elements in near equiatomic proportions. High entropy alloys have gained significant interest on the basis that the high configurational entropy of such alloy systems is purported to result in a single-phase solid solution structure. While such a single-phase structure can occur in unique systems, it is now appreciated that the definition of high entropy alloys can be broader, with systems comprising only four elements possible of forming single phases, and most five (or more) element systems actually being multi (>2) phases. To this end, the notion of compositionally complex alloys is a more general description, with the concise review herein focusing on the corrosion of compositionally complex alloys (inclusive of high entropy alloys). It is noted that generally, in spite of complex compositions and in many cases complicated microstructural heterogeneity, compositionally complex alloys are nominally corrosion-resistant. This is discussed and aspects of the status and needs are presented.",
-      "authors": [
-        "Yao Qiu",
-        "S. Thomas",
-        "Mark A. Gibson",
-        "Hamish L. Fraser",
-        "N. Birbilis"
-      ],
-      "year": 2017,
-      "doi": "https://doi.org/10.1038/s41529-017-0009-y",
-      "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-      "citation_count": 605,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "npj Materials Degradation",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
@@ -514,6 +487,31 @@
       "subfield": "high entropy alloys"
     },
     {
+      "id": "10.1007/s44210-023-00019-7",
+      "title": "High Entropy Alloys and Materials",
+      "abstract": "",
+      "authors": [
+        "Ian Baker",
+        "Brian Cantor",
+        "Jien-Wei Yeh"
+      ],
+      "year": 2023,
+      "doi": "https://doi.org/10.1007/s44210-023-00019-7",
+      "pdf_url": "",
+      "citation_count": 12,
+      "source_api": "Crossref",
+      "journal": {
+        "journal_name": "High Entropy Alloys &amp; Materials",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Springer Science and Business Media LLC"
+      },
+      "subfield": "high entropy alloys"
+    },
+    {
       "id": "https://openalex.org/W2065608088",
       "title": "Density functional theory methods for characterization of porous materials",
       "abstract": "",
@@ -525,7 +523,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1241,
+      "citation_count": 1242,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",

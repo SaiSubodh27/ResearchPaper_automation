@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T02:20:58.138181Z",
+  "updated_at": "2026-10-23T02:27:53.584522Z",
   "count": 24,
   "papers": [
     {
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7445,
+      "citation_count": 7447,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -167,7 +167,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 654,
+      "citation_count": 655,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
@@ -427,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5018,
+      "citation_count": 5022,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",

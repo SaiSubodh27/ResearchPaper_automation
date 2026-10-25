@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5024,
+    "citation_count": 5028,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7450,
+    "citation_count": 7451,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -2142,7 +2142,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1002/eem2.12056",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-    "citation_count": 463,
+    "citation_count": 464,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Energy & environment materials",
@@ -2194,7 +2194,7 @@
     "year": 2025,
     "doi": "https://doi.org/10.1038/s43586-024-00373-9",
     "pdf_url": "",
-    "citation_count": 309,
+    "citation_count": 310,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Methods Primers",

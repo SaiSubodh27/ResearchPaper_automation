@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T02:52:45.664912Z",
+  "updated_at": "2026-10-28T02:57:32.317114Z",
   "count": 24,
   "papers": [
     {
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7454,
+      "citation_count": 7456,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -140,15 +140,15 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 999,
+      "citation_count": 1000,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
+        "quartile": "Q2",
+        "quality_tier": "High Quality (Q2)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
@@ -167,7 +167,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 655,
+      "citation_count": 656,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
@@ -312,7 +312,7 @@
     {
       "id": "https://openalex.org/W4297282468",
       "title": "Electrical Transport in Post-Graphene 2D Materials",
-      "abstract": "Electrical Transport in Post-Graphene 2D Materials - 1",
+      "abstract": "The limiting potential of gapless graphene promotes the two-dimensional (2D) layered semiconductors for various electronic and optoelectronic witching operations. The 2D semiconductors are owing to a reasonable energy gap ranging from 0.3 eV to 6.08 eV along with a large charge carrier density. The 2D layered materials offer a great freedom of material selection in terms of their intrinsic p-type, n-type, or insulating nature (e.g., black phosphorus, MoS2, and h-BN). These 2D materials have effectively tunable electrochemical, electronic, and optoelectronic properties, leading to the applications of catalysis, energy harvesting, energy storage, and optoelectronics applications. Here we address the electrical transport, potential applications, and challenges of the electronic devices based on post-graphene 2D semiconductor materials. The contact engineering of metal 2D semiconductor materials is discussed in detail, which plays an essential role in charge transportation. Moreover, the electric properties of lateral and vertically stacked van der Waals heterostructure based on 2D semiconductor materials are addressed, and we also highlight the role of gate-assisted electric transport through these devices. The thickness dependent and gate dependent rectification of the p-n diodes composed of 2D materials are also discussed along with their other potential applications.",
       "authors": [
         "Ghulam Dastgeer",
         "Sobia Nisar",
@@ -335,29 +335,27 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "10.1007/s42114-026-01642-9",
-      "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
+      "id": "10.1088/2053-1583/2/3/032004",
+      "title": "Graphene and graphene-like 2D materials for optical biosensing and bioimaging: a review",
       "abstract": "",
       "authors": [
-        "Abdallah Kamal",
-        "Baosong Li",
-        "Suhail K. Siddique",
-        "Dawei Zhang",
-        "Kishor B. Shingare"
+        "Chengzhou Zhu",
+        "Dan Du",
+        "Yuehe Lin"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1007/s42114-026-01642-9",
+      "year": 2015,
+      "doi": "https://doi.org/10.1088/2053-1583/2/3/032004",
       "pdf_url": "",
-      "citation_count": 7,
+      "citation_count": 172,
       "source_api": "Crossref",
       "journal": {
-        "journal_name": "Advanced Composites and Hybrid Materials",
+        "journal_name": "2D Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer Science and Business Media LLC"
+        "publisher": "IOP Publishing"
       },
       "subfield": "graphene 2D materials"
     },
@@ -427,7 +425,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5030,
+      "citation_count": 5032,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -525,7 +523,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1243,
+      "citation_count": 1244,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",

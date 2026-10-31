@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T03:25:30.386621Z",
+  "updated_at": "2026-10-31T03:09:33.823812Z",
   "count": 24,
   "papers": [
     {
@@ -194,7 +194,7 @@
       "year": 2025,
       "doi": "https://doi.org/10.1038/s43586-024-00373-9",
       "pdf_url": "",
-      "citation_count": 312,
+      "citation_count": 313,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Methods Primers",
@@ -259,6 +259,32 @@
       "subfield": "solid state battery materials"
     },
     {
+      "id": "https://openalex.org/W4312121287",
+      "title": "Importance of Thermal Transport for the Design of Solid-State Battery Materials",
+      "abstract": "Increasing demand for safe and reliable energy storage drives research in all-solid-state batteries, and better battery design motivates researchers to understand the thermal properties of battery materials.",
+      "authors": [
+        "Matthias T. Agne",
+        "Thorben Böger",
+        "Tim Bernges",
+        "Wolfgang G. Zeier"
+      ],
+      "year": 2022,
+      "doi": "https://doi.org/10.1103/prxenergy.1.031002",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
+      "citation_count": 59,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "PRX Energy",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "solid state battery materials"
+    },
+    {
       "id": "https://openalex.org/W4280633955",
       "title": "Review on the lithium transport mechanism in solid‐state battery materials",
       "abstract": "Abstract The growing demands to mitigate climate change and environmental degradation stimulate the rapid developments of rechargeable lithium (Li) battery technologies. Fast Li transports in battery materials are of essential significance to ensure superior Li dynamical stability and rate performance of batteries. Herein, the Li transport mechanisms in solid‐state battery materials (SSBMs) are comprehensively summarized. The collective diffusion mechanisms in solid electrolytes are elaborated, which are further understood from multiple perspectives including lattice dynamics, crystalline structure, and electronic structure. With the exponentially improving performance of computers, atomistic simulations have been playing an increasingly important role in revealing and understanding the Li transport in SSBMs, bridging the gap between experimental phenomena and theoretical models. Theoretical and experimental characterization methods for Li transports are discussed. The design strategies toward fast Li transports are classified. Finally, a perspective on the achievements and challenges of probing Li transports is provided. This article is categorized under: Structure and Mechanism > Computational Materials Science",
@@ -274,32 +300,6 @@
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "solid state battery materials"
-    },
-    {
-      "id": "https://openalex.org/W4312121287",
-      "title": "Importance of Thermal Transport for the Design of Solid-State Battery Materials",
-      "abstract": "Increasing demand for safe and reliable energy storage drives research in all-solid-state batteries, and better battery design motivates researchers to understand the thermal properties of battery materials.",
-      "authors": [
-        "Matthias T. Agne",
-        "Thorben Böger",
-        "Tim Bernges",
-        "Wolfgang G. Zeier"
-      ],
-      "year": 2022,
-      "doi": "https://doi.org/10.1103/prxenergy.1.031002",
-      "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
-      "citation_count": 58,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "PRX Energy",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -335,27 +335,29 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "10.1088/2053-1583/2/3/032004",
-      "title": "Graphene and graphene-like 2D materials for optical biosensing and bioimaging: a review",
+      "id": "10.1007/s42114-026-01642-9",
+      "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
       "abstract": "",
       "authors": [
-        "Chengzhou Zhu",
-        "Dan Du",
-        "Yuehe Lin"
+        "Abdallah Kamal",
+        "Baosong Li",
+        "Suhail K. Siddique",
+        "Dawei Zhang",
+        "Kishor B. Shingare"
       ],
-      "year": 2015,
-      "doi": "https://doi.org/10.1088/2053-1583/2/3/032004",
+      "year": 2026,
+      "doi": "https://doi.org/10.1007/s42114-026-01642-9",
       "pdf_url": "",
-      "citation_count": 172,
+      "citation_count": 7,
       "source_api": "Crossref",
       "journal": {
-        "journal_name": "2D Materials",
+        "journal_name": "Advanced Composites and Hybrid Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "IOP Publishing"
+        "publisher": "Springer Science and Business Media LLC"
       },
       "subfield": "graphene 2D materials"
     },
@@ -425,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5045,
+      "citation_count": 5048,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",

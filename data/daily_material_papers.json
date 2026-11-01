@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T03:09:33.823812Z",
+  "updated_at": "2026-11-01T03:03:37.935429Z",
   "count": 24,
   "papers": [
     {
@@ -103,47 +103,46 @@
       "subfield": "material science discovery"
     },
     {
-      "id": "https://openalex.org/W1999717631",
-      "title": "The emergence of perovskite solar cells",
+      "id": "PMC13667162",
+      "title": "Degradation and Stabilization of Inverted Perovskite Solar Cells",
       "abstract": "",
       "authors": [
-        "Martin Andrew Green",
-        "Anita W. Y. Ho-Baillie",
-        "Henry James Snaith"
+        "Qi R",
+        "Wang A",
+        "Gao G",
+        "Tian M",
+        "Hou Z"
       ],
-      "year": 2014,
-      "doi": "https://doi.org/10.1038/nphoton.2014.134",
+      "year": 2026,
+      "doi": "",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13667162&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Nanomaterials (Basel)",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "perovskite solar cells"
+    },
+    {
+      "id": "42866987",
+      "title": "Solid-State Perovskite Solar Cells: Discovery and Impact",
+      "abstract": "",
+      "authors": [
+        "Park NG."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1002/adma.75264",
       "pdf_url": "",
-      "citation_count": 7461,
-      "source_api": "OpenAlex",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Nature Photonics",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "perovskite solar cells"
-    },
-    {
-      "id": "https://openalex.org/W2230864058",
-      "title": "Stability of perovskite solar cells",
-      "abstract": "",
-      "authors": [
-        "Dian Wang",
-        "Matthew Wright",
-        "Naveen Kumar Elumalai",
-        "Ashraf Uddin"
-      ],
-      "year": 2016,
-      "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
-      "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 999,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Solar Energy Materials and Solar Cells",
+        "journal_name": "Adv Mater",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -154,23 +153,22 @@
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "https://openalex.org/W2275426597",
-      "title": "Advances in Perovskite Solar Cells",
-      "abstract": "Organolead halide perovskite materials possess a combination of remarkable optoelectronic properties, such as steep optical absorption edge and high absorption coefficients, long charge carrier diffusion lengths and lifetimes. Taken together with the ability for low temperature preparation, also from solution, perovskite-based devices, especially photovoltaic (PV) cells have been studied intensively, with remarkable progress in performance, over the past few years. The combination of high efficiency, low cost and additional (non-PV) applications provides great potential for commercialization. Performance and applications of perovskite solar cells often correlate with their device structures. Many innovative device structures were developed, aiming at large-scale fabrication, reducing fabrication cost, enhancing the power conversion efficiency and thus broadening potential future applications. This review summarizes typical structures of perovskite solar cells and comments on novel device structures. The applications of perovskite solar cells are discussed.",
+      "id": "42959879",
+      "title": "Carbon nanotube and graphene-based nanomaterials for perovskite solar cells",
+      "abstract": "",
       "authors": [
-        "Chuantian Zuo",
-        "Henk J. Bolink",
-        "Hongwei Han",
-        "Jinsong Huang",
-        "David Cahen"
+        "Kumar R",
+        "Barthwal S",
+        "Soam A",
+        "Pathak S."
       ],
-      "year": 2016,
-      "doi": "https://doi.org/10.1002/advs.201500324",
-      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 656,
-      "source_api": "OpenAlex",
+      "year": 2026,
+      "doi": "https://doi.org/10.1039/d6ra09137g",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13718630&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Advanced Science",
+        "journal_name": "RSC Adv",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -181,74 +179,47 @@
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "https://openalex.org/W4406426717",
-      "title": "Perovskite solar cells",
+      "id": "10.1201/9781003478027-5",
+      "title": "Fabrication Methods for Perovskite Solar Cells",
       "abstract": "",
       "authors": [
-        "Jiye Han",
-        "Keonwoo Park",
-        "Shaun Tan",
-        "Yana Vaynzof",
-        "Jingjing Xue"
+        "Saad Ullah",
+        "Firoz Khan"
       ],
       "year": 2025,
-      "doi": "https://doi.org/10.1038/s43586-024-00373-9",
+      "doi": "https://doi.org/10.1201/9781003478027-5",
       "pdf_url": "",
-      "citation_count": 313,
-      "source_api": "OpenAlex",
+      "citation_count": 0,
+      "source_api": "Crossref",
       "journal": {
-        "journal_name": "Nature Reviews Methods Primers",
+        "journal_name": "Perovskite Solar Cells",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
+        "publisher": "CRC Press"
       },
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "https://openalex.org/W396839203",
-      "title": "Solid State Batteries: Materials Design and Optimization",
+      "id": "41189429",
+      "title": "Non-Equilibrium Manufacturing for High-Energy-Input Solid-State Battery Materials",
       "abstract": "",
       "authors": [
-        "Christian M Julien",
-        "Gholam‐Abbas Nazri"
+        "Shen H",
+        "Jia Z",
+        "Zhang Y",
+        "Chen S",
+        "Huang Z"
       ],
-      "year": 1994,
-      "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
+      "year": 2026,
+      "doi": "https://doi.org/10.1002/adma.202515467",
       "pdf_url": "",
-      "citation_count": 283,
-      "source_api": "OpenAlex",
+      "citation_count": 2,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Kluwer international series in engineering and computer science",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q3",
-        "quality_tier": "Peer-Reviewed (Q3)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "solid state battery materials"
-    },
-    {
-      "id": "https://openalex.org/W3171577284",
-      "title": "Accelerated Atomistic Modeling of Solid-State Battery Materials With Machine Learning",
-      "abstract": "Materials for solid-state batteries often exhibit complex chemical compositions, defects, and disorder, making both experimental characterization and direct modeling with first principles methods challenging. Machine learning (ML) has proven versatile for accelerating or circumventing first-principles calculations, thereby facilitating the modeling of materials properties that are otherwise hard to access. ML potentials trained on accurate first principles data enable computationally efficient linear-scaling atomistic simulations with an accuracy close to the reference method. ML-based property-prediction and inverse design techniques are powerful for the computational search for new materials. Here, we give an overview of recent methodological advancements of ML techniques for atomic-scale modeling and materials design. We review applications to materials for solid-state batteries, including electrodes, solid electrolytes, coatings, and the complex interfaces involved.",
-      "authors": [
-        "Haoyue Guo",
-        "Qian Wang",
-        "Annika Stuke",
-        "Alexander Urban",
-        "Nongnuch Artrith"
-      ],
-      "year": 2021,
-      "doi": "https://doi.org/10.3389/fenrg.2021.695902",
-      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenrg.2021.695902/pdf",
-      "citation_count": 70,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Frontiers in Energy Research",
+        "journal_name": "Adv Mater",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -259,22 +230,23 @@
       "subfield": "solid state battery materials"
     },
     {
-      "id": "https://openalex.org/W4312121287",
-      "title": "Importance of Thermal Transport for the Design of Solid-State Battery Materials",
-      "abstract": "Increasing demand for safe and reliable energy storage drives research in all-solid-state batteries, and better battery design motivates researchers to understand the thermal properties of battery materials.",
+      "id": "42950546",
+      "title": "HOT-operando-NMR: A new versatile solid-state NMR probe system for high-temperature operando NMR studies of solid-state battery materials",
+      "abstract": "",
       "authors": [
-        "Matthias T. Agne",
-        "Thorben Böger",
-        "Tim Bernges",
-        "Wolfgang G. Zeier"
+        "A Salout S",
+        "Shupletsov L",
+        "Jiang YZ",
+        "Paasch S",
+        "Braun M"
       ],
-      "year": 2022,
-      "doi": "https://doi.org/10.1103/prxenergy.1.031002",
-      "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
-      "citation_count": 59,
-      "source_api": "OpenAlex",
+      "year": 2026,
+      "doi": "https://doi.org/10.1016/j.jmr.2026.108191",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "PRX Energy",
+        "journal_name": "J Magn Reson",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -285,21 +257,48 @@
       "subfield": "solid state battery materials"
     },
     {
-      "id": "https://openalex.org/W4280633955",
-      "title": "Review on the lithium transport mechanism in solid‐state battery materials",
-      "abstract": "Abstract The growing demands to mitigate climate change and environmental degradation stimulate the rapid developments of rechargeable lithium (Li) battery technologies. Fast Li transports in battery materials are of essential significance to ensure superior Li dynamical stability and rate performance of batteries. Herein, the Li transport mechanisms in solid‐state battery materials (SSBMs) are comprehensively summarized. The collective diffusion mechanisms in solid electrolytes are elaborated, which are further understood from multiple perspectives including lattice dynamics, crystalline structure, and electronic structure. With the exponentially improving performance of computers, atomistic simulations have been playing an increasingly important role in revealing and understanding the Li transport in SSBMs, bridging the gap between experimental phenomena and theoretical models. Theoretical and experimental characterization methods for Li transports are discussed. The design strategies toward fast Li transports are classified. Finally, a perspective on the achievements and challenges of probing Li transports is provided. This article is categorized under: Structure and Mechanism > Computational Materials Science",
+      "id": "39769809",
+      "title": "Advanced Characterization of Solid-State Battery Materials Using Neutron Scattering Techniques",
+      "abstract": "",
       "authors": [
-        "Zhongheng Fu",
-        "Xiang Chen",
-        "Qiang Zhang"
+        "Novak E",
+        "Daemen L",
+        "Jalarvo N."
       ],
-      "year": 2022,
-      "doi": "https://doi.org/10.1002/wcms.1621",
-      "pdf_url": "",
-      "citation_count": 58,
-      "source_api": "OpenAlex",
+      "year": 2024,
+      "doi": "https://doi.org/10.3390/ma17246209",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11677385&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+        "journal_name": "Materials (Basel)",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "solid state battery materials"
+    },
+    {
+      "id": "42954318",
+      "title": "Ion-Electron Convergent Interphases Enable Ultrahigh Sulfur Utilization for All-Solid-State Li-S Batteries",
+      "abstract": "",
+      "authors": [
+        "Hu Z",
+        "Shi J",
+        "Jiang M",
+        "Yin T",
+        "Zhang B"
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1002/adma.75518",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Adv Mater",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -416,54 +415,27 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "https://openalex.org/W2951539866",
-      "title": "High-entropy alloys",
+      "id": "10.1016/b978-0-12-800251-3.00002-x",
+      "title": "High-Entropy Alloys",
       "abstract": "",
       "authors": [
-        "E.P. George",
-        "Dierk Raabe",
-        "Robert O. Ritchie"
+        "B.S. Murty",
+        "J.W. Yeh",
+        "S. Ranganathan"
       ],
-      "year": 2019,
-      "doi": "https://doi.org/10.1038/s41578-019-0121-4",
+      "year": 2014,
+      "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
       "pdf_url": "",
-      "citation_count": 5048,
-      "source_api": "OpenAlex",
+      "citation_count": 316,
+      "source_api": "Crossref",
       "journal": {
-        "journal_name": "Nature Reviews Materials",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "high entropy alloys"
-    },
-    {
-      "id": "https://openalex.org/W2748869433",
-      "title": "Corrosion of high entropy alloys",
-      "abstract": "Abstract High entropy alloys represent a unique class of metal alloys, comprising nominally five or more elements in near equiatomic proportions. High entropy alloys have gained significant interest on the basis that the high configurational entropy of such alloy systems is purported to result in a single-phase solid solution structure. While such a single-phase structure can occur in unique systems, it is now appreciated that the definition of high entropy alloys can be broader, with systems comprising only four elements possible of forming single phases, and most five (or more) element systems actually being multi (>2) phases. To this end, the notion of compositionally complex alloys is a more general description, with the concise review herein focusing on the corrosion of compositionally complex alloys (inclusive of high entropy alloys). It is noted that generally, in spite of complex compositions and in many cases complicated microstructural heterogeneity, compositionally complex alloys are nominally corrosion-resistant. This is discussed and aspects of the status and needs are presented.",
-      "authors": [
-        "Yao Qiu",
-        "S. Thomas",
-        "Mark A. Gibson",
-        "Hamish L. Fraser",
-        "N. Birbilis"
-      ],
-      "year": 2017,
-      "doi": "https://doi.org/10.1038/s41529-017-0009-y",
-      "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-      "citation_count": 607,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "npj Materials Degradation",
+        "journal_name": "High Entropy Alloys",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
+        "publisher": "Elsevier"
       },
       "subfield": "high entropy alloys"
     },
@@ -510,6 +482,31 @@
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
         "publisher": "Springer International Publishing"
+      },
+      "subfield": "high entropy alloys"
+    },
+    {
+      "id": "10.1007/s44210-023-00019-7",
+      "title": "High Entropy Alloys and Materials",
+      "abstract": "",
+      "authors": [
+        "Ian Baker",
+        "Brian Cantor",
+        "Jien-Wei Yeh"
+      ],
+      "year": 2023,
+      "doi": "https://doi.org/10.1007/s44210-023-00019-7",
+      "pdf_url": "",
+      "citation_count": 12,
+      "source_api": "Crossref",
+      "journal": {
+        "journal_name": "High Entropy Alloys &amp; Materials",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Springer Science and Business Media LLC"
       },
       "subfield": "high entropy alloys"
     },
@@ -576,7 +573,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1002/eem2.12056",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-      "citation_count": 464,
+      "citation_count": 465,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Energy & environment materials",

@@ -420,27 +420,27 @@
     "subfield": "graphene 2D materials"
   },
   {
-    "id": "https://openalex.org/W2951539866",
-    "title": "High-entropy alloys",
+    "id": "10.1016/b978-0-12-800251-3.00002-x",
+    "title": "High-Entropy Alloys",
     "abstract": "",
     "authors": [
-      "E.P. George",
-      "Dierk Raabe",
-      "Robert O. Ritchie"
+      "B.S. Murty",
+      "J.W. Yeh",
+      "S. Ranganathan"
     ],
-    "year": 2019,
-    "doi": "https://doi.org/10.1038/s41578-019-0121-4",
+    "year": 2014,
+    "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
     "pdf_url": "",
-    "citation_count": 5048,
-    "source_api": "OpenAlex",
+    "citation_count": 316,
+    "source_api": "Crossref",
     "journal": {
-      "journal_name": "Nature Reviews Materials",
+      "journal_name": "High Entropy Alloys",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,
-      "quartile": "Q2",
-      "quality_tier": "High Quality (Q2)",
-      "publisher": "Academic Publisher"
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Elsevier"
     },
     "subfield": "high entropy alloys"
   },
@@ -2142,7 +2142,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1002/eem2.12056",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-    "citation_count": 464,
+    "citation_count": 465,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Energy & environment materials",
@@ -2231,5 +2231,159 @@
       "publisher": "Springer Science and Business Media LLC"
     },
     "subfield": "high entropy alloys"
+  },
+  {
+    "id": "PMC13667162",
+    "title": "Degradation and Stabilization of Inverted Perovskite Solar Cells",
+    "abstract": "",
+    "authors": [
+      "Qi R",
+      "Wang A",
+      "Gao G",
+      "Tian M",
+      "Hou Z"
+    ],
+    "year": 2026,
+    "doi": "",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13667162&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Nanomaterials (Basel)",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42866987",
+    "title": "Solid-State Perovskite Solar Cells: Discovery and Impact",
+    "abstract": "",
+    "authors": [
+      "Park NG."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/adma.75264",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Adv Mater",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42959879",
+    "title": "Carbon nanotube and graphene-based nanomaterials for perovskite solar cells",
+    "abstract": "",
+    "authors": [
+      "Kumar R",
+      "Barthwal S",
+      "Soam A",
+      "Pathak S."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6ra09137g",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13718630&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "RSC Adv",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "10.1201/9781003478027-5",
+    "title": "Fabrication Methods for Perovskite Solar Cells",
+    "abstract": "",
+    "authors": [
+      "Saad Ullah",
+      "Firoz Khan"
+    ],
+    "year": 2025,
+    "doi": "https://doi.org/10.1201/9781003478027-5",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "Perovskite Solar Cells",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "CRC Press"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42950546",
+    "title": "HOT-operando-NMR: A new versatile solid-state NMR probe system for high-temperature operando NMR studies of solid-state battery materials",
+    "abstract": "",
+    "authors": [
+      "A Salout S",
+      "Shupletsov L",
+      "Jiang YZ",
+      "Paasch S",
+      "Braun M"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1016/j.jmr.2026.108191",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "J Magn Reson",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
+  },
+  {
+    "id": "42954318",
+    "title": "Ion-Electron Convergent Interphases Enable Ultrahigh Sulfur Utilization for All-Solid-State Li-S Batteries",
+    "abstract": "",
+    "authors": [
+      "Hu Z",
+      "Shi J",
+      "Jiang M",
+      "Yin T",
+      "Zhang B"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/adma.75518",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Adv Mater",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "solid state battery materials"
   }
 ]

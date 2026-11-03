@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T03:16:22.714773Z",
+  "updated_at": "2026-11-03T04:30:40.195762Z",
   "count": 24,
   "papers": [
     {
@@ -41,7 +41,7 @@
       "year": 2024,
       "doi": "https://doi.org/10.1021/acs.chemmater.4c02257",
       "pdf_url": "",
-      "citation_count": 22,
+      "citation_count": 23,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Chemistry of Materials",
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7465,
+      "citation_count": 7464,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -140,15 +140,15 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1000,
+      "citation_count": 999,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "perovskite solar cells"
@@ -167,7 +167,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 657,
+      "citation_count": 656,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
@@ -427,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5050,
+      "citation_count": 5052,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",

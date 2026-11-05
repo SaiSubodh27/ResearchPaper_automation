@@ -420,27 +420,27 @@
     "subfield": "graphene 2D materials"
   },
   {
-    "id": "https://openalex.org/W2951539866",
-    "title": "High-entropy alloys",
+    "id": "10.1016/b978-0-12-800251-3.00002-x",
+    "title": "High-Entropy Alloys",
     "abstract": "",
     "authors": [
-      "E.P. George",
-      "Dierk Raabe",
-      "Robert O. Ritchie"
+      "B.S. Murty",
+      "J.W. Yeh",
+      "S. Ranganathan"
     ],
-    "year": 2019,
-    "doi": "https://doi.org/10.1038/s41578-019-0121-4",
+    "year": 2014,
+    "doi": "https://doi.org/10.1016/b978-0-12-800251-3.00002-x",
     "pdf_url": "",
-    "citation_count": 5057,
-    "source_api": "OpenAlex",
+    "citation_count": 316,
+    "source_api": "Crossref",
     "journal": {
-      "journal_name": "Nature Reviews Materials",
+      "journal_name": "High Entropy Alloys",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,
-      "quartile": "Q2",
-      "quality_tier": "High Quality (Q2)",
-      "publisher": "Academic Publisher"
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Elsevier"
     },
     "subfield": "high entropy alloys"
   },
@@ -1831,7 +1831,7 @@
     "year": 1994,
     "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
     "pdf_url": "",
-    "citation_count": 283,
+    "citation_count": 282,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Kluwer international series in engineering and computer science",
@@ -1856,7 +1856,7 @@
     "year": 2015,
     "doi": "https://doi.org/10.1007/978-3-319-23871-5",
     "pdf_url": "",
-    "citation_count": 184,
+    "citation_count": 185,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Springer series in materials science",
@@ -1883,7 +1883,7 @@
     "year": 2024,
     "doi": "https://doi.org/10.1021/acs.chemmater.4c02257",
     "pdf_url": "",
-    "citation_count": 23,
+    "citation_count": 24,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Chemistry of Materials",
@@ -2013,7 +2013,7 @@
     "year": 2022,
     "doi": "https://doi.org/10.1002/wcms.1621",
     "pdf_url": "",
-    "citation_count": 58,
+    "citation_count": 56,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
@@ -2385,5 +2385,132 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "solid state battery materials"
+  },
+  {
+    "id": "42978460",
+    "title": "Fluorinated Fullerene Derivatives for Thermally Stable Perovskite Solar Cells",
+    "abstract": "",
+    "authors": [
+      "Wang B",
+      "Li Y",
+      "Zhang C",
+      "Li Z",
+      "Wu H"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/anie.8260541",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Angew Chem Int Ed Engl",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "42847901",
+    "title": "A brief review of orbital-free density functional theory methods: the fundamental and unique branches",
+    "abstract": "",
+    "authors": [
+      "Liu Y",
+      "Kang Z."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6cp01794k",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Phys Chem Chem Phys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "42885643",
+    "title": "Atomistic-scale study on the role of CNT as a nucleating agent of α-Al in Al-CNT composite",
+    "abstract": "",
+    "authors": [
+      "Mukherjee I",
+      "Vignesh J",
+      "Anand A",
+      "Das P."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6cp03568j",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Phys Chem Chem Phys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "PPR1353870",
+    "title": "Integrating Density Functional Theory, Machine Learning, and Device Simulation for Perovskite Photovoltaics: A Review",
+    "abstract": "",
+    "authors": [
+      "Pandey S."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.21203/rs.3.rs-10854613/v1",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Indexed Scientific Journal",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "42890474",
+    "title": "Accelerating the discovery of nanoporous gas separation materials &lt;i&gt;via&lt;/i&gt; Coulomb-enhanced classical density functional theory",
+    "abstract": "",
+    "authors": [
+      "Qiu Y",
+      "Liu Y",
+      "Tang W",
+      "Zhou Z",
+      "Tian Y."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6sc04283j",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Chem Sci",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
   }
 ]

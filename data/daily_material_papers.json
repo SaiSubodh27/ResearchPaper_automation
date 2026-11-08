@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T03:40:36.704272Z",
+  "updated_at": "2026-11-08T03:12:00.496669Z",
   "count": 24,
   "papers": [
     {
@@ -14,7 +14,7 @@
       "year": 2015,
       "doi": "https://doi.org/10.1007/978-3-319-23871-5",
       "pdf_url": "",
-      "citation_count": 185,
+      "citation_count": 190,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Springer series in materials science",
@@ -41,7 +41,7 @@
       "year": 2024,
       "doi": "https://doi.org/10.1021/acs.chemmater.4c02257",
       "pdf_url": "",
-      "citation_count": 24,
+      "citation_count": 25,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Chemistry of Materials",
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7472,
+      "citation_count": 7590,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -140,7 +140,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1002,
+      "citation_count": 1017,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
@@ -167,7 +167,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 660,
+      "citation_count": 674,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
@@ -194,7 +194,7 @@
       "year": 2025,
       "doi": "https://doi.org/10.1038/s43586-024-00373-9",
       "pdf_url": "",
-      "citation_count": 338,
+      "citation_count": 344,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Methods Primers",
@@ -218,7 +218,7 @@
       "year": 1994,
       "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
       "pdf_url": "",
-      "citation_count": 282,
+      "citation_count": 285,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Kluwer international series in engineering and computer science",
@@ -245,7 +245,7 @@
       "year": 2021,
       "doi": "https://doi.org/10.3389/fenrg.2021.695902",
       "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenrg.2021.695902/pdf",
-      "citation_count": 70,
+      "citation_count": 71,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Frontiers in Energy Research",
@@ -296,7 +296,7 @@
       "year": 2022,
       "doi": "https://doi.org/10.1002/wcms.1621",
       "pdf_url": "",
-      "citation_count": 56,
+      "citation_count": 58,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
@@ -427,7 +427,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5053,
+      "citation_count": 5131,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -454,7 +454,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1038/s41529-017-0009-y",
       "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-      "citation_count": 604,
+      "citation_count": 614,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "npj Materials Degradation",
@@ -525,7 +525,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1242,
+      "citation_count": 1281,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -550,7 +550,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1038/natrevmats.2015.4",
       "pdf_url": "",
-      "citation_count": 918,
+      "citation_count": 936,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -576,7 +576,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1002/eem2.12056",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-      "citation_count": 464,
+      "citation_count": 470,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Energy & environment materials",

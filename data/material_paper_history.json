@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5131,
+    "citation_count": 5132,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -2504,6 +2504,87 @@
     "source_api": "Europe PMC",
     "journal": {
       "journal_name": "Chem Sci",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
+  },
+  {
+    "id": "42952144",
+    "title": "Autonomous Discovery of Multi-Material Metamaterials With Programmable Multimodal Thermal Responses via Reinforcement Learning",
+    "abstract": "",
+    "authors": [
+      "Lu C",
+      "Pan K",
+      "Li X",
+      "Qiu Z",
+      "Chai N"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/adma.75546",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Adv Mater",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "42817662",
+    "title": "Efficient discovery and property optimization of quantum materials &lt;i&gt;via&lt;/i&gt; reinforcement-inspired active learning: a case study of MXene semiconductors",
+    "abstract": "",
+    "authors": [
+      "Alizade M",
+      "Kaldari J",
+      "Farouk A",
+      "Al-Kuwari S",
+      "Naseri M."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1039/d6cp00434b",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Phys Chem Chem Phys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "42854310",
+    "title": "Unveiling the adsorption mechanism of diphenyl (2,4,6-trimethylbenzoyl) phosphine oxide (TPO) on pristine graphene via density functional theory",
+    "abstract": "",
+    "authors": [
+      "El Hammoumi A",
+      "Boubnane Y",
+      "Bou-Ouzoukni Y",
+      "Izzaouihda S",
+      "El Makarim HA"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1016/j.jmgm.2026.109604",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "J Mol Graph Model",
       "is_peer_reviewed": true,
       "citation_score": 0.0,
       "h_index": 0,

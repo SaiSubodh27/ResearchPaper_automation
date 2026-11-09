@@ -1,84 +1,7 @@
 {
-  "updated_at": "2026-11-08T03:12:00.496669Z",
+  "updated_at": "2026-11-09T03:34:02.040101Z",
   "count": 24,
   "papers": [
-    {
-      "id": "https://openalex.org/W2486570794",
-      "title": "Information Science for Materials Discovery and Design",
-      "abstract": "",
-      "authors": [
-        "Turab Lookman",
-        "Francis J. Alexander",
-        "Krishna Rajan"
-      ],
-      "year": 2015,
-      "doi": "https://doi.org/10.1007/978-3-319-23871-5",
-      "pdf_url": "",
-      "citation_count": 190,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Springer series in materials science",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q3",
-        "quality_tier": "Peer-Reviewed (Q3)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "https://openalex.org/W4404850039",
-      "title": "Multimodal Machine Learning for Materials Science: Discovery of Novel Li-Ion Solid Electrolytes",
-      "abstract": "The widespread adoption of multimodal machine learning (ML) models such as GPT-4 and Gemini has revolutionized various research domains, including computer vision and natural language processing. However, their implementation in materials informatics remains underexplored, despite the availability of diverse modalities in materials data. This study introduces an approach to multimodal machine learning in materials science via composition-structure bimodal learning and proposes the COmposition-Structure Bimodal Network (COSNet). The COSNet demonstrates significantly improved performance in predicting a variety of material properties, such as lithium-ion conductivity in solid electrolytes, band gap, refractive index, and formation enthalpy. This research highlights the critical importance of representation alignment in multimodal learning for materials science, enabling knowledge transfer between modalities and avoiding biased or divergent learning. Furthermore, we present an integrated paradigm that combines multimodal learning, transfer learning, ensemble methods, and atomic simulation to facilitate the discovery of novel superionic conductors.",
-      "authors": [
-        "Shuo Wang",
-        "Sheng Gong",
-        "Thorben Böger",
-        "Jon A. Newnham",
-        "Daniele Vivona"
-      ],
-      "year": 2024,
-      "doi": "https://doi.org/10.1021/acs.chemmater.4c02257",
-      "pdf_url": "",
-      "citation_count": 25,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Chemistry of Materials",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
-    },
-    {
-      "id": "https://openalex.org/W1554316266",
-      "title": "Towards a Content-Based Material Science Discovery Network",
-      "abstract": "Many publicly available databases exist for managing materials scientific data. These databases contain in- formation from a wide variety of work, and the infor- mation is typically encoded in some proprietary format aimed at highlighting the goals of their particular back- grounds and purposes. In order to accelerate the rate at which new materials are discovered, these databases must be federated to provide materials scientists with the means to efficiently access large quantities of highly relevant data. This position paper advocates the design of a content-based material science discovery network that can allow for more intelligent reasoning over the databases than current implementations can afford. We will discuss the gains of using a hierarchical ontology for describing metadata that captures the various layers of the materials science domain. We will then discuss our approach in a content-based networking context.",
-      "authors": [
-        "Emily LeBlanc",
-        "Marcello Balduccini",
-        "William Clement Regli"
-      ],
-      "year": 2014,
-      "doi": "",
-      "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "National Conference on Artificial Intelligence",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "material science discovery"
-    },
     {
       "id": "10.33612/diss.688527261",
       "title": "Functionalized molecules via MCRs: applications in drug discovery and material science",
@@ -103,74 +26,102 @@
       "subfield": "material science discovery"
     },
     {
-      "id": "https://openalex.org/W1999717631",
-      "title": "The emergence of perovskite solar cells",
+      "id": "42952144",
+      "title": "Autonomous Discovery of Multi-Material Metamaterials With Programmable Multimodal Thermal Responses via Reinforcement Learning",
       "abstract": "",
       "authors": [
-        "Martin Andrew Green",
-        "Anita W. Y. Ho-Baillie",
-        "Henry James Snaith"
+        "Lu C",
+        "Pan K",
+        "Li X",
+        "Qiu Z",
+        "Chai N"
       ],
-      "year": 2014,
-      "doi": "https://doi.org/10.1038/nphoton.2014.134",
+      "year": 2026,
+      "doi": "https://doi.org/10.1002/adma.75546",
       "pdf_url": "",
-      "citation_count": 7590,
-      "source_api": "OpenAlex",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Nature Photonics",
+        "journal_name": "Adv Mater",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
-      "subfield": "perovskite solar cells"
+      "subfield": "material science discovery"
     },
     {
-      "id": "https://openalex.org/W2230864058",
-      "title": "Stability of perovskite solar cells",
+      "id": "42726844",
+      "title": "Beyond empirical models: Discovering constitutive laws in solids with graph-based equation discovery",
       "abstract": "",
       "authors": [
-        "Dian Wang",
-        "Matthew Wright",
-        "Naveen Kumar Elumalai",
-        "Ashraf Uddin"
+        "Xu H",
+        "Chen Y",
+        "Zhang D."
       ],
-      "year": 2016,
-      "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
-      "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1017,
-      "source_api": "OpenAlex",
+      "year": 2026,
+      "doi": "https://doi.org/10.1126/sciadv.aec0989",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13564832&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Solar Energy Materials and Solar Cells",
+        "journal_name": "Sci Adv",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
-      "subfield": "perovskite solar cells"
+      "subfield": "material science discovery"
     },
     {
-      "id": "https://openalex.org/W2275426597",
-      "title": "Advances in Perovskite Solar Cells",
-      "abstract": "Organolead halide perovskite materials possess a combination of remarkable optoelectronic properties, such as steep optical absorption edge and high absorption coefficients, long charge carrier diffusion lengths and lifetimes. Taken together with the ability for low temperature preparation, also from solution, perovskite-based devices, especially photovoltaic (PV) cells have been studied intensively, with remarkable progress in performance, over the past few years. The combination of high efficiency, low cost and additional (non-PV) applications provides great potential for commercialization. Performance and applications of perovskite solar cells often correlate with their device structures. Many innovative device structures were developed, aiming at large-scale fabrication, reducing fabrication cost, enhancing the power conversion efficiency and thus broadening potential future applications. This review summarizes typical structures of perovskite solar cells and comments on novel device structures. The applications of perovskite solar cells are discussed.",
+      "id": "42817662",
+      "title": "Efficient discovery and property optimization of quantum materials &lt;i&gt;via&lt;/i&gt; reinforcement-inspired active learning: a case study of MXene semiconductors",
+      "abstract": "",
       "authors": [
-        "Chuantian Zuo",
-        "Henk J. Bolink",
-        "Hongwei Han",
-        "Jinsong Huang",
-        "David Cahen"
+        "Alizade M",
+        "Kaldari J",
+        "Farouk A",
+        "Al-Kuwari S",
+        "Naseri M."
       ],
-      "year": 2016,
-      "doi": "https://doi.org/10.1002/advs.201500324",
-      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 674,
-      "source_api": "OpenAlex",
+      "year": 2026,
+      "doi": "https://doi.org/10.1039/d6cp00434b",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Advanced Science",
+        "journal_name": "Phys Chem Chem Phys",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "material science discovery"
+    },
+    {
+      "id": "PMC13667162",
+      "title": "Degradation and Stabilization of Inverted Perovskite Solar Cells",
+      "abstract": "",
+      "authors": [
+        "Qi R",
+        "Wang A",
+        "Gao G",
+        "Tian M",
+        "Hou Z"
+      ],
+      "year": 2026,
+      "doi": "",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13667162&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Nanomaterials (Basel)",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -181,29 +132,75 @@
       "subfield": "perovskite solar cells"
     },
     {
-      "id": "https://openalex.org/W4406426717",
-      "title": "Perovskite solar cells",
+      "id": "42866987",
+      "title": "Solid-State Perovskite Solar Cells: Discovery and Impact",
       "abstract": "",
       "authors": [
-        "Jiye Han",
-        "Keonwoo Park",
-        "Shaun Tan",
-        "Yana Vaynzof",
-        "Jingjing Xue"
+        "Park NG."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1002/adma.75264",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Adv Mater",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "perovskite solar cells"
+    },
+    {
+      "id": "42959879",
+      "title": "Carbon nanotube and graphene-based nanomaterials for perovskite solar cells",
+      "abstract": "",
+      "authors": [
+        "Kumar R",
+        "Barthwal S",
+        "Soam A",
+        "Pathak S."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1039/d6ra09137g",
+      "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13718630&blobtype=pdf",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "RSC Adv",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "perovskite solar cells"
+    },
+    {
+      "id": "10.1201/9781003478027-5",
+      "title": "Fabrication Methods for Perovskite Solar Cells",
+      "abstract": "",
+      "authors": [
+        "Saad Ullah",
+        "Firoz Khan"
       ],
       "year": 2025,
-      "doi": "https://doi.org/10.1038/s43586-024-00373-9",
+      "doi": "https://doi.org/10.1201/9781003478027-5",
       "pdf_url": "",
-      "citation_count": 344,
-      "source_api": "OpenAlex",
+      "citation_count": 0,
+      "source_api": "Crossref",
       "journal": {
-        "journal_name": "Nature Reviews Methods Primers",
+        "journal_name": "Perovskite Solar Cells",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
+        "publisher": "CRC Press"
       },
       "subfield": "perovskite solar cells"
     },
@@ -310,31 +307,6 @@
       "subfield": "solid state battery materials"
     },
     {
-      "id": "https://openalex.org/W4297282468",
-      "title": "Electrical Transport in Post-Graphene 2D Materials",
-      "abstract": "The limiting potential of gapless graphene promotes the two-dimensional (2D) layered semiconductors for various electronic and optoelectronic witching operations. The 2D semiconductors are owing to a reasonable energy gap ranging from 0.3 eV to 6.08 eV along with a large charge carrier density. The 2D layered materials offer a great freedom of material selection in terms of their intrinsic p-type, n-type, or insulating nature (e.g., black phosphorus, MoS2, and h-BN). These 2D materials have effectively tunable electrochemical, electronic, and optoelectronic properties, leading to the applications of catalysis, energy harvesting, energy storage, and optoelectronics applications. Here we address the electrical transport, potential applications, and challenges of the electronic devices based on post-graphene 2D semiconductor materials. The contact engineering of metal 2D semiconductor materials is discussed in detail, which plays an essential role in charge transportation. Moreover, the electric properties of lateral and vertically stacked van der Waals heterostructure based on 2D semiconductor materials are addressed, and we also highlight the role of gate-assisted electric transport through these devices. The thickness dependent and gate dependent rectification of the p-n diodes composed of 2D materials are also discussed along with their other potential applications.",
-      "authors": [
-        "Ghulam Dastgeer",
-        "Sobia Nisar",
-        "Jonghwa Eom"
-      ],
-      "year": 2022,
-      "doi": "https://doi.org/10.1201/9781003247890-4",
-      "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "CRC Press eBooks",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q3",
-        "quality_tier": "Peer-Reviewed (Q3)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "graphene 2D materials"
-    },
-    {
       "id": "10.1007/s42114-026-01642-9",
       "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
       "abstract": "",
@@ -416,6 +388,33 @@
       "subfield": "graphene 2D materials"
     },
     {
+      "id": "42649625",
+      "title": "Graphene as a Synthetic Platform for Post-Graphene 2D Materials and Heterostructures",
+      "abstract": "",
+      "authors": [
+        "Wen J",
+        "Yin B",
+        "Shen J",
+        "Li J",
+        "Liu S"
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1002/anie.9317311",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Angew Chem Int Ed Engl",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "graphene 2D materials"
+    },
+    {
       "id": "https://openalex.org/W2951539866",
       "title": "High-entropy alloys",
       "abstract": "",
@@ -427,7 +426,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5131,
+      "citation_count": 5132,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -514,97 +513,97 @@
       "subfield": "high entropy alloys"
     },
     {
-      "id": "https://openalex.org/W2065608088",
-      "title": "Density functional theory methods for characterization of porous materials",
+      "id": "42847901",
+      "title": "A brief review of orbital-free density functional theory methods: the fundamental and unique branches",
       "abstract": "",
       "authors": [
-        "John Landers",
-        "Gennady Yu. Gor",
-        "Alexander V. Neimark"
+        "Liu Y",
+        "Kang Z."
       ],
-      "year": 2013,
-      "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
+      "year": 2026,
+      "doi": "https://doi.org/10.1039/d6cp01794k",
       "pdf_url": "",
-      "citation_count": 1281,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q2",
-        "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "density functional theory materials"
-    },
-    {
-      "id": "https://openalex.org/W2624679515",
-      "title": "Computational predictions of energy materials using density functional theory",
-      "abstract": "",
-      "authors": [
-        "Anubhav Jain",
-        "Yongwoo Shin",
-        "Kristin Aslaug Persson"
-      ],
-      "year": 2016,
-      "doi": "https://doi.org/10.1038/natrevmats.2015.4",
-      "pdf_url": "",
-      "citation_count": 936,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Nature Reviews Materials",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "density functional theory materials"
-    },
-    {
-      "id": "https://openalex.org/W2995583187",
-      "title": "Density Functional Theory for Battery Materials",
-      "abstract": "Batteries are the most widely used energy storage devices, and the lithium‐ion battery is the most heavily commercialized and most widely used battery type in the industry. However, the current rapid development of society requires a major advancement in battery materials to achieve high capacity, long life cycle, low cost, and reliable safety. Therefore, many new efficient energy storage materials and battery systems are being developed and explored, and their working mechanisms must be clearly understood before industrial application. In recent years, density functional theory (DFT) has been employed in the energy storage field and has made significant contributions to the understanding of electrochemical reaction mechanisms and to virtual screening of promising energy storage materials. In this review, the applications of DFT to battery materials are summarized and exemplified by some representative and up‐to‐date studies in the literature. The main focuses in this review include the following: 1) structural stability estimation by cohesive energy, formation energy, Gibbs free energy, and phonon dispersion spectra calculations; 2) the Gibbs free energy calculations for electrochemical reactions, corresponding open‐circuit voltage, and theoretical capacity predictions of batteries; 3) the analyses of molecule orbitals, band structures, density of states (DOS), and charge distribution of battery materials; 4) ion transport kinetics in battery materials; 5) simulations of adsorption processes. We conclude the review with the discussion of the assessments and validation of the popular functionals against several benchmarks, and a few suggestions have been given for the selection of density functionals for battery material systems.",
-      "authors": [
-        "Qiu He",
-        "Bin Yu",
-        "Zhaohuai Li",
-        "Yan Zhao"
-      ],
-      "year": 2019,
-      "doi": "https://doi.org/10.1002/eem2.12056",
-      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-      "citation_count": 470,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Energy & environment materials",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "density functional theory materials"
-    },
-    {
-      "id": "https://openalex.org/W4412015530",
-      "title": "A Review on Computational Density Functional Theory Material Modelling Application in catalytic studies",
-      "abstract": "The computational studies of materials is integral part of current research community. Density functional theory relies on electron density distribution of constituents of material of interest. The importance of Computational calculations become very essential for providing interpretation of experimental observed result and also help as important tool for verification of catalyst efficiency, mechanism of catalyst and reagent interaction with catalyst. This review in the elaborate various aspects of catalytic theoretical calculation and its application reported in literature over the years. The catalytic study calculation of material involve electron density of materials, finding of active site and reactivity of particular catalyst, adsorption studies of reactant and by-product over the materials of interest. Pore size dependency depends on how reactant more effectively involve in the catalytic mechanism. The band gap determination helps material property such as conductors, semiconductors and insulation property, it also help in the theoretical studies of optical property. The crystal structure and crystal phase are also influence in the catalysis of reaction.",
-      "authors": [
-        "Md Sayeed T",
-        "Jithesh K",
-        "P.K. Anitha"
-      ],
-      "year": 2024,
-      "doi": "https://doi.org/10.53555/ajbr.v27i6s.7930",
-      "pdf_url": "https://africanjournalofbiomedicalresearch.com/index.php/AJBR/article/download/7930/6622",
       "citation_count": 0,
-      "source_api": "OpenAlex",
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "African Journal of Biomedical Research",
+        "journal_name": "Phys Chem Chem Phys",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "density functional theory materials"
+    },
+    {
+      "id": "PPR1353870",
+      "title": "Integrating Density Functional Theory, Machine Learning, and Device Simulation for Perovskite Photovoltaics: A Review",
+      "abstract": "",
+      "authors": [
+        "Pandey S."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.21203/rs.3.rs-10854613/v1",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Indexed Scientific Journal",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "density functional theory materials"
+    },
+    {
+      "id": "42890474",
+      "title": "Accelerating the discovery of nanoporous gas separation materials &lt;i&gt;via&lt;/i&gt; Coulomb-enhanced classical density functional theory",
+      "abstract": "",
+      "authors": [
+        "Qiu Y",
+        "Liu Y",
+        "Tang W",
+        "Zhou Z",
+        "Tian Y."
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1039/d6sc04283j",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Chem Sci",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "density functional theory materials"
+    },
+    {
+      "id": "42854310",
+      "title": "Unveiling the adsorption mechanism of diphenyl (2,4,6-trimethylbenzoyl) phosphine oxide (TPO) on pristine graphene via density functional theory",
+      "abstract": "",
+      "authors": [
+        "El Hammoumi A",
+        "Boubnane Y",
+        "Bou-Ouzoukni Y",
+        "Izzaouihda S",
+        "El Makarim HA"
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1016/j.jmgm.2026.109604",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "J Mol Graph Model",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,

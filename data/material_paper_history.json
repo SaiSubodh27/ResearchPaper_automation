@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5132,
+    "citation_count": 5133,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7590,
+    "citation_count": 7591,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1281,
+    "citation_count": 1282,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -2194,7 +2194,7 @@
     "year": 2025,
     "doi": "https://doi.org/10.1038/s43586-024-00373-9",
     "pdf_url": "",
-    "citation_count": 344,
+    "citation_count": 345,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Methods Primers",
@@ -2593,5 +2593,28 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "density functional theory materials"
+  },
+  {
+    "id": "https://openalex.org/W2922957936",
+    "title": "Graphene & 2D Materials: From Research to Applications",
+    "abstract": "",
+    "authors": [
+      "RICHARD A. P. SMITH"
+    ],
+    "year": 2019,
+    "doi": "https://doi.org/10.1595/205651319x15472161674581",
+    "pdf_url": "https://doi.org/10.1595/205651319x15472161674581",
+    "citation_count": 2,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Johnson Matthey Technology Review",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "graphene 2D materials"
   }
 ]

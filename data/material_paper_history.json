@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5133,
+    "citation_count": 5228,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7591,
+    "citation_count": 7615,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1883,7 +1883,7 @@
     "year": 2024,
     "doi": "https://doi.org/10.1021/acs.chemmater.4c02257",
     "pdf_url": "",
-    "citation_count": 25,
+    "citation_count": 26,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Chemistry of Materials",
@@ -1934,7 +1934,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
     "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-    "citation_count": 1017,
+    "citation_count": 1019,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Solar Energy Materials and Solar Cells",
@@ -1961,7 +1961,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1002/advs.201500324",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-    "citation_count": 674,
+    "citation_count": 675,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Science",
@@ -2039,7 +2039,7 @@
     "year": 2022,
     "doi": "https://doi.org/10.1103/prxenergy.1.031002",
     "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
-    "citation_count": 59,
+    "citation_count": 60,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "PRX Energy",
@@ -2091,7 +2091,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/s41529-017-0009-y",
     "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-    "citation_count": 614,
+    "citation_count": 626,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "npj Materials Degradation",
@@ -2142,7 +2142,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1002/eem2.12056",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-    "citation_count": 470,
+    "citation_count": 474,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Energy & environment materials",
@@ -2194,7 +2194,7 @@
     "year": 2025,
     "doi": "https://doi.org/10.1038/s43586-024-00373-9",
     "pdf_url": "",
-    "citation_count": 345,
+    "citation_count": 409,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Methods Primers",
@@ -2616,5 +2616,29 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "graphene 2D materials"
+  },
+  {
+    "id": "https://openalex.org/W2061098915",
+    "title": "Density functional theory in materials science",
+    "abstract": "Materials science is a highly interdisciplinary field. It is devoted to the understanding of the relationship between (a) fundamental physical and chemical properties governing processes at the atomistic scale with (b) typically macroscopic properties required of materials in engineering applications. For many materials, this relationship is not only determined by chemical composition, but strongly governed by microstructure. The latter is a consequence of carefully selected process conditions (e.g., mechanical forming and annealing in metallurgy or epitaxial growth in semiconductor technology). A key task of computational materials science is to unravel the often hidden composition-structure-property relationships using computational techniques. The present paper does not aim to give a complete review of all aspects of materials science. Rather, we will present the key concepts underlying the computation of selected material properties and discuss the major classes of materials to which they are applied. Specifically, our focus will be on methods used to describe single or polycrystalline bulk materials of semiconductor, metal or ceramic form.",
+    "authors": [
+      "Jörg Neugebauer",
+      "Tilmann Hickel"
+    ],
+    "year": 2013,
+    "doi": "https://doi.org/10.1002/wcms.1125",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcms.1125",
+    "citation_count": 232,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "density functional theory materials"
   }
 ]

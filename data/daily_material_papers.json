@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:41:02.358330Z",
+  "updated_at": "2026-11-12T04:48:42.157688Z",
   "count": 24,
   "papers": [
     {
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7615,
+      "citation_count": 7620,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -194,7 +194,7 @@
       "year": 2025,
       "doi": "https://doi.org/10.1038/s43586-024-00373-9",
       "pdf_url": "",
-      "citation_count": 409,
+      "citation_count": 411,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Methods Primers",
@@ -425,7 +425,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5228,
+      "citation_count": 5237,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -523,7 +523,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1282,
+      "citation_count": 1283,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -532,6 +532,31 @@
         "h_index": 0,
         "quartile": "Q2",
         "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "density functional theory materials"
+    },
+    {
+      "id": "https://openalex.org/W2624679515",
+      "title": "Computational predictions of energy materials using density functional theory",
+      "abstract": "",
+      "authors": [
+        "Anubhav Jain",
+        "Yongwoo Shin",
+        "Kristin Aslaug Persson"
+      ],
+      "year": 2016,
+      "doi": "https://doi.org/10.1038/natrevmats.2015.4",
+      "pdf_url": "",
+      "citation_count": 944,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Nature Reviews Materials",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "density functional theory materials"
@@ -553,30 +578,6 @@
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Energy & environment materials",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "density functional theory materials"
-    },
-    {
-      "id": "https://openalex.org/W2061098915",
-      "title": "Density functional theory in materials science",
-      "abstract": "Materials science is a highly interdisciplinary field. It is devoted to the understanding of the relationship between (a) fundamental physical and chemical properties governing processes at the atomistic scale with (b) typically macroscopic properties required of materials in engineering applications. For many materials, this relationship is not only determined by chemical composition, but strongly governed by microstructure. The latter is a consequence of carefully selected process conditions (e.g., mechanical forming and annealing in metallurgy or epitaxial growth in semiconductor technology). A key task of computational materials science is to unravel the often hidden composition-structure-property relationships using computational techniques. The present paper does not aim to give a complete review of all aspects of materials science. Rather, we will present the key concepts underlying the computation of selected material properties and discuss the major classes of materials to which they are applied. Specifically, our focus will be on methods used to describe single or polycrystalline bulk materials of semiconductor, metal or ceramic form.",
-      "authors": [
-        "Jörg Neugebauer",
-        "Tilmann Hickel"
-      ],
-      "year": 2013,
-      "doi": "https://doi.org/10.1002/wcms.1125",
-      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcms.1125",
-      "citation_count": 232,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,

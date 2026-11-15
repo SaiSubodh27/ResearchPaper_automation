@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5242,
+    "citation_count": 5250,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 7630,
+    "citation_count": 7634,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1284,
+    "citation_count": 1285,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -2116,7 +2116,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1038/natrevmats.2015.4",
     "pdf_url": "",
-    "citation_count": 944,
+    "citation_count": 946,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -2194,7 +2194,7 @@
     "year": 2025,
     "doi": "https://doi.org/10.1038/s43586-024-00373-9",
     "pdf_url": "",
-    "citation_count": 411,
+    "citation_count": 413,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Methods Primers",
@@ -2640,5 +2640,32 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "density functional theory materials"
+  },
+  {
+    "id": "https://openalex.org/W7204468031",
+    "title": "Graphene as a Synthetic Platform for Post‐Graphene 2D Materials and Heterostructures",
+    "abstract": "Graphene's pioneering role as the first isolated and systematically studied 2D material has fueled intense research into its synthesis and applications, while simultaneously accelerating the discovery and development of numerous other 2D materials. Recent progress in synthesizing high-quality graphene, especially through the chemical vapor deposition (CVD) method, has been particularly significant, solidifying its position as a critical platform for propelling research across the entire field of 2D materials. This review summarizes the applications of high-quality graphene single crystals and films in synthesizing and engineering other 2D materials-including conventional inorganic and emerging organic 2D materials. We focus specifically on graphene's functions as a growth substrate and epitaxial template for optimizing the preparation of post-graphene 2D materials, and on its use in constructing heterostructures that broaden application prospects and enhance device performance. We further examine current challenges and future research directions, aiming to leverage high-quality graphene to achieve facile synthesis of post-graphene 2D materials and their heterostructures with precise control over composition, orientation, and interfacial interactions. Such advances are anticipated to enable high-performance devices in next-generation electronics, optoelectronics, sensors, catalysts, spintronics, and beyond.",
+    "authors": [
+      "Jing Wen",
+      "Boxi Yin",
+      "Jun Shen",
+      "Jing Li",
+      "Shan Liu"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/anie.9317311",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.9317311",
+    "citation_count": 2,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Angewandte Chemie International Edition",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "graphene 2D materials"
   }
 ]

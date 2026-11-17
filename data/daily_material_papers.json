@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T03:42:12.747880Z",
+  "updated_at": "2026-11-17T05:38:40.052426Z",
   "count": 24,
   "papers": [
     {
@@ -14,7 +14,7 @@
       "year": 2015,
       "doi": "https://doi.org/10.1007/978-3-319-23871-5",
       "pdf_url": "",
-      "citation_count": 190,
+      "citation_count": 211,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Springer series in materials science",
@@ -41,7 +41,7 @@
       "year": 2024,
       "doi": "https://doi.org/10.1021/acs.chemmater.4c02257",
       "pdf_url": "",
-      "citation_count": 27,
+      "citation_count": 29,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Chemistry of Materials",
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 7634,
+      "citation_count": 8142,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -140,7 +140,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1019,
+      "citation_count": 1100,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
@@ -167,7 +167,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 677,
+      "citation_count": 699,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
@@ -194,7 +194,7 @@
       "year": 2025,
       "doi": "https://doi.org/10.1038/s43586-024-00373-9",
       "pdf_url": "",
-      "citation_count": 413,
+      "citation_count": 423,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Methods Primers",
@@ -218,7 +218,7 @@
       "year": 1994,
       "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
       "pdf_url": "",
-      "citation_count": 285,
+      "citation_count": 327,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Kluwer international series in engineering and computer science",
@@ -245,7 +245,7 @@
       "year": 2021,
       "doi": "https://doi.org/10.3389/fenrg.2021.695902",
       "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenrg.2021.695902/pdf",
-      "citation_count": 71,
+      "citation_count": 77,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Frontiers in Energy Research",
@@ -271,7 +271,7 @@
       "year": 2022,
       "doi": "https://doi.org/10.1103/prxenergy.1.031002",
       "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
-      "citation_count": 60,
+      "citation_count": 65,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "PRX Energy",
@@ -296,7 +296,7 @@
       "year": 2022,
       "doi": "https://doi.org/10.1002/wcms.1621",
       "pdf_url": "",
-      "citation_count": 58,
+      "citation_count": 62,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
@@ -429,7 +429,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5250,
+      "citation_count": 5460,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -438,33 +438,6 @@
         "h_index": 0,
         "quartile": "Q2",
         "quality_tier": "High Quality (Q2)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "high entropy alloys"
-    },
-    {
-      "id": "https://openalex.org/W2748869433",
-      "title": "Corrosion of high entropy alloys",
-      "abstract": "Abstract High entropy alloys represent a unique class of metal alloys, comprising nominally five or more elements in near equiatomic proportions. High entropy alloys have gained significant interest on the basis that the high configurational entropy of such alloy systems is purported to result in a single-phase solid solution structure. While such a single-phase structure can occur in unique systems, it is now appreciated that the definition of high entropy alloys can be broader, with systems comprising only four elements possible of forming single phases, and most five (or more) element systems actually being multi (>2) phases. To this end, the notion of compositionally complex alloys is a more general description, with the concise review herein focusing on the corrosion of compositionally complex alloys (inclusive of high entropy alloys). It is noted that generally, in spite of complex compositions and in many cases complicated microstructural heterogeneity, compositionally complex alloys are nominally corrosion-resistant. This is discussed and aspects of the status and needs are presented.",
-      "authors": [
-        "Yao Qiu",
-        "S. Thomas",
-        "Mark A. Gibson",
-        "Hamish L. Fraser",
-        "N. Birbilis"
-      ],
-      "year": 2017,
-      "doi": "https://doi.org/10.1038/s41529-017-0009-y",
-      "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-      "citation_count": 627,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "npj Materials Degradation",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
@@ -516,6 +489,33 @@
       "subfield": "high entropy alloys"
     },
     {
+      "id": "42778713",
+      "title": "Adsorption-conversion synthesis of ultrathin intermetallics and high-entropy alloys",
+      "abstract": "",
+      "authors": [
+        "Zhang P",
+        "Zhao F",
+        "Wang X",
+        "Wang H",
+        "Si K"
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1038/s41563-026-02752-x",
+      "pdf_url": "",
+      "citation_count": 1,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Nat Mater",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "high entropy alloys"
+    },
+    {
       "id": "https://openalex.org/W2065608088",
       "title": "Density functional theory methods for characterization of porous materials",
       "abstract": "",
@@ -527,7 +527,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1285,
+      "citation_count": 1388,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -552,7 +552,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1038/natrevmats.2015.4",
       "pdf_url": "",
-      "citation_count": 946,
+      "citation_count": 999,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -578,7 +578,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1002/eem2.12056",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-      "citation_count": 474,
+      "citation_count": 501,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Energy & environment materials",

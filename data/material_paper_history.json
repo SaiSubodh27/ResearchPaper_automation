@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5473,
+    "citation_count": 5480,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 8144,
+    "citation_count": 8150,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1391,
+    "citation_count": 1390,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -1934,7 +1934,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
     "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-    "citation_count": 1100,
+    "citation_count": 1101,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Solar Energy Materials and Solar Cells",
@@ -1961,7 +1961,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1002/advs.201500324",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-    "citation_count": 700,
+    "citation_count": 701,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Science",
@@ -2039,7 +2039,7 @@
     "year": 2022,
     "doi": "https://doi.org/10.1103/prxenergy.1.031002",
     "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
-    "citation_count": 65,
+    "citation_count": 66,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "PRX Energy",
@@ -2116,7 +2116,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1038/natrevmats.2015.4",
     "pdf_url": "",
-    "citation_count": 1000,
+    "citation_count": 1001,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -2194,7 +2194,7 @@
     "year": 2025,
     "doi": "https://doi.org/10.1038/s43586-024-00373-9",
     "pdf_url": "",
-    "citation_count": 426,
+    "citation_count": 427,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Methods Primers",
@@ -2692,6 +2692,30 @@
       "quartile": "Q4",
       "quality_tier": "Indexed (Q4)",
       "publisher": "Academic Publisher"
+    },
+    "subfield": "high entropy alloys"
+  },
+  {
+    "id": "10.1016/b978-0-443-22142-2.00015-6",
+    "title": "High-entropy alloys as catalyst materials",
+    "abstract": "",
+    "authors": [
+      "Yonggang Yao",
+      "Haojie Liu"
+    ],
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/b978-0-443-22142-2.00015-6",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Crossref",
+    "journal": {
+      "journal_name": "High-Entropy Alloys",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Elsevier"
     },
     "subfield": "high entropy alloys"
   }

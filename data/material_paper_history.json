@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5480,
+    "citation_count": 5486,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 8150,
+    "citation_count": 8162,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1390,
+    "citation_count": 1392,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -1934,7 +1934,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
     "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-    "citation_count": 1101,
+    "citation_count": 1103,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Solar Energy Materials and Solar Cells",
@@ -1961,7 +1961,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1002/advs.201500324",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-    "citation_count": 701,
+    "citation_count": 704,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Science",
@@ -2039,7 +2039,7 @@
     "year": 2022,
     "doi": "https://doi.org/10.1103/prxenergy.1.031002",
     "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
-    "citation_count": 66,
+    "citation_count": 67,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "PRX Energy",
@@ -2116,7 +2116,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1038/natrevmats.2015.4",
     "pdf_url": "",
-    "citation_count": 1001,
+    "citation_count": 1000,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -2142,7 +2142,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1002/eem2.12056",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-    "citation_count": 502,
+    "citation_count": 503,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Energy & environment materials",
@@ -2718,5 +2718,32 @@
       "publisher": "Elsevier"
     },
     "subfield": "high entropy alloys"
+  },
+  {
+    "id": "43051294",
+    "title": "Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems",
+    "abstract": "",
+    "authors": [
+      "Dong B",
+      "Cui M",
+      "Chen C",
+      "Zhao R",
+      "Ju H"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.1038/s41586-026-11427-1",
+    "pdf_url": "",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Nature",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q1",
+      "quality_tier": "Top-Tier (Q1)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "perovskite solar cells"
   }
 ]

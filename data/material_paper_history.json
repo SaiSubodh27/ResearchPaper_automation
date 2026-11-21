@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5486,
+    "citation_count": 5491,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 8162,
+    "citation_count": 8164,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1392,
+    "citation_count": 1393,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -2004,7 +2004,7 @@
   {
     "id": "https://openalex.org/W4280633955",
     "title": "Review on the lithium transport mechanism in solid‐state battery materials",
-    "abstract": "Abstract The growing demands to mitigate climate change and environmental degradation stimulate the rapid developments of rechargeable lithium (Li) battery technologies. Fast Li transports in battery materials are of essential significance to ensure superior Li dynamical stability and rate performance of batteries. Herein, the Li transport mechanisms in solid‐state battery materials (SSBMs) are comprehensively summarized. The collective diffusion mechanisms in solid electrolytes are elaborated, which are further understood from multiple perspectives including lattice dynamics, crystalline structure, and electronic structure. With the exponentially improving performance of computers, atomistic simulations have been playing an increasingly important role in revealing and understanding the Li transport in SSBMs, bridging the gap between experimental phenomena and theoretical models. Theoretical and experimental characterization methods for Li transports are discussed. The design strategies toward fast Li transports are classified. Finally, a perspective on the achievements and challenges of probing Li transports is provided. This article is categorized under: Structure and Mechanism > Computational Materials Science",
+    "abstract": "The growing demands to mitigate climate change and environmental degradation stimulate the rapid developments of rechargeable lithium (Li) battery technologies. Fast Li transports in battery materials are of essential significance to ensure superior Li dynamical stability and rate performance of batteries. Herein, the Li transport mechanisms in solid‐state battery materials (SSBMs) are comprehensively summarized. The collective diffusion mechanisms in solid electrolytes are elaborated, which are further understood from multiple perspectives including lattice dynamics, crystalline structure, and electronic structure. With the exponentially improving performance of computers, atomistic simulations have been playing an increasingly important role in revealing and understanding the Li transport in SSBMs, bridging the gap between experimental phenomena and theoretical models. Theoretical and experimental characterization methods for Li transports are discussed. The design strategies toward fast Li transports are classified. Finally, a perspective on the achievements and challenges of probing Li transports is provided. This article is categorized under: Structure and Mechanism > Computational Materials Science",
     "authors": [
       "Zhongheng Fu",
       "Xiang Chen",
@@ -2194,7 +2194,7 @@
     "year": 2025,
     "doi": "https://doi.org/10.1038/s43586-024-00373-9",
     "pdf_url": "",
-    "citation_count": 427,
+    "citation_count": 431,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Methods Primers",
@@ -2745,5 +2745,32 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "perovskite solar cells"
+  },
+  {
+    "id": "https://openalex.org/W4396606210",
+    "title": "Bismuth tri-iodide – Graphene 2D material",
+    "abstract": "",
+    "authors": [
+      "L. Fornaro",
+      "Camila Maidana",
+      "Heinkel Bentos Pereira",
+      "Ana Lía Noguera",
+      "Álvaro Olivera"
+    ],
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.jcrysgro.2024.127738",
+    "pdf_url": "",
+    "citation_count": 1,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "Journal of Crystal Growth",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "graphene 2D materials"
   }
 ]

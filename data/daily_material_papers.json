@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T04:43:23.990894Z",
+  "updated_at": "2026-11-22T03:57:20.580925Z",
   "count": 24,
   "papers": [
     {
@@ -14,7 +14,7 @@
       "year": 2015,
       "doi": "https://doi.org/10.1007/978-3-319-23871-5",
       "pdf_url": "",
-      "citation_count": 211,
+      "citation_count": 212,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Springer series in materials science",
@@ -41,7 +41,7 @@
       "year": 2024,
       "doi": "https://doi.org/10.1021/acs.chemmater.4c02257",
       "pdf_url": "",
-      "citation_count": 29,
+      "citation_count": 30,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Chemistry of Materials",
@@ -103,6 +103,33 @@
       "subfield": "material science discovery"
     },
     {
+      "id": "43051294",
+      "title": "Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems",
+      "abstract": "",
+      "authors": [
+        "Dong B",
+        "Cui M",
+        "Chen C",
+        "Zhao R",
+        "Ju H"
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1038/s41586-026-11427-1",
+      "pdf_url": "",
+      "citation_count": 0,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Nature",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q1",
+        "quality_tier": "Top-Tier (Q1)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "perovskite solar cells"
+    },
+    {
       "id": "https://openalex.org/W1999717631",
       "title": "The emergence of perovskite solar cells",
       "abstract": "",
@@ -114,7 +141,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 8164,
+      "citation_count": 8212,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -140,7 +167,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1103,
+      "citation_count": 1112,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
@@ -167,37 +194,10 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 704,
+      "citation_count": 706,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "perovskite solar cells"
-    },
-    {
-      "id": "https://openalex.org/W4406426717",
-      "title": "Perovskite solar cells",
-      "abstract": "",
-      "authors": [
-        "Jiye Han",
-        "Keonwoo Park",
-        "Shaun Tan",
-        "Yana Vaynzof",
-        "Jingjing Xue"
-      ],
-      "year": 2025,
-      "doi": "https://doi.org/10.1038/s43586-024-00373-9",
-      "pdf_url": "",
-      "citation_count": 431,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Nature Reviews Methods Primers",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
@@ -218,7 +218,7 @@
       "year": 1994,
       "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
       "pdf_url": "",
-      "citation_count": 327,
+      "citation_count": 329,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Kluwer international series in engineering and computer science",
@@ -337,6 +337,60 @@
       "subfield": "graphene 2D materials"
     },
     {
+      "id": "37955406",
+      "title": "Post-Graphene 2D Materials: Structures, Properties, and Cancer Therapy Applications",
+      "abstract": "",
+      "authors": [
+        "Kuang F",
+        "Hui T",
+        "Chen Y",
+        "Qiu M",
+        "Gao X."
+      ],
+      "year": 2024,
+      "doi": "https://doi.org/10.1002/adhm.202302604",
+      "pdf_url": "",
+      "citation_count": 5,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Adv Healthc Mater",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "graphene 2D materials"
+    },
+    {
+      "id": "32435844",
+      "title": "Using Post-graphene 2D Materials to Detect and Remove Pesticides: Recent Advances and Future Recommendations",
+      "abstract": "",
+      "authors": [
+        "Yang Q",
+        "Lu L",
+        "Xu Q",
+        "Tang S",
+        "Yu Y."
+      ],
+      "year": 2021,
+      "doi": "https://doi.org/10.1007/s00128-020-02868-z",
+      "pdf_url": "",
+      "citation_count": 4,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Bull Environ Contam Toxicol",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "graphene 2D materials"
+    },
+    {
       "id": "https://openalex.org/W7204468031",
       "title": "Graphene as a Synthetic Platform for Post‐Graphene 2D Materials and Heterostructures",
       "abstract": "Graphene's pioneering role as the first isolated and systematically studied 2D material has fueled intense research into its synthesis and applications, while simultaneously accelerating the discovery and development of numerous other 2D materials. Recent progress in synthesizing high-quality graphene, especially through the chemical vapor deposition (CVD) method, has been particularly significant, solidifying its position as a critical platform for propelling research across the entire field of 2D materials. This review summarizes the applications of high-quality graphene single crystals and films in synthesizing and engineering other 2D materials-including conventional inorganic and emerging organic 2D materials. We focus specifically on graphene's functions as a growth substrate and epitaxial template for optimizing the preparation of post-graphene 2D materials, and on its use in constructing heterostructures that broaden application prospects and enhance device performance. We further examine current challenges and future research directions, aiming to leverage high-quality graphene to achieve facile synthesis of post-graphene 2D materials and their heterostructures with precise control over composition, orientation, and interfacial interactions. Such advances are anticipated to enable high-performance devices in next-generation electronics, optoelectronics, sensors, catalysts, spintronics, and beyond.",
@@ -364,56 +418,6 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "https://openalex.org/W2922957936",
-      "title": "Graphene & 2D Materials: From Research to Applications",
-      "abstract": "",
-      "authors": [
-        "RICHARD A. P. SMITH"
-      ],
-      "year": 2019,
-      "doi": "https://doi.org/10.1595/205651319x15472161674581",
-      "pdf_url": "https://doi.org/10.1595/205651319x15472161674581",
-      "citation_count": 2,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Johnson Matthey Technology Review",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "graphene 2D materials"
-    },
-    {
-      "id": "https://openalex.org/W4396606210",
-      "title": "Bismuth tri-iodide – Graphene 2D material",
-      "abstract": "",
-      "authors": [
-        "L. Fornaro",
-        "Camila Maidana",
-        "Heinkel Bentos Pereira",
-        "Ana Lía Noguera",
-        "Álvaro Olivera"
-      ],
-      "year": 2024,
-      "doi": "https://doi.org/10.1016/j.jcrysgro.2024.127738",
-      "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Journal of Crystal Growth",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "graphene 2D materials"
-    },
-    {
       "id": "https://openalex.org/W2951539866",
       "title": "High-entropy alloys",
       "abstract": "",
@@ -425,7 +429,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5491,
+      "citation_count": 5514,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -485,26 +489,29 @@
       "subfield": "high entropy alloys"
     },
     {
-      "id": "10.1016/b978-0-443-22142-2.00015-6",
-      "title": "High-entropy alloys as catalyst materials",
+      "id": "42778713",
+      "title": "Adsorption-conversion synthesis of ultrathin intermetallics and high-entropy alloys",
       "abstract": "",
       "authors": [
-        "Yonggang Yao",
-        "Haojie Liu"
+        "Zhang P",
+        "Zhao F",
+        "Wang X",
+        "Wang H",
+        "Si K"
       ],
-      "year": 2024,
-      "doi": "https://doi.org/10.1016/b978-0-443-22142-2.00015-6",
+      "year": 2026,
+      "doi": "https://doi.org/10.1038/s41563-026-02752-x",
       "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Crossref",
+      "citation_count": 1,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "High-Entropy Alloys",
+        "journal_name": "Nat Mater",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Elsevier"
+        "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
     },
@@ -520,7 +527,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1393,
+      "citation_count": 1411,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -545,7 +552,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1038/natrevmats.2015.4",
       "pdf_url": "",
-      "citation_count": 1000,
+      "citation_count": 1004,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -571,7 +578,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1002/eem2.12056",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-      "citation_count": 503,
+      "citation_count": 504,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Energy & environment materials",

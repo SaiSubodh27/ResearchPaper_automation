@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5491,
+    "citation_count": 5514,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 8164,
+    "citation_count": 8212,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1393,
+    "citation_count": 1411,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -1831,7 +1831,7 @@
     "year": 1994,
     "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
     "pdf_url": "",
-    "citation_count": 327,
+    "citation_count": 329,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Kluwer international series in engineering and computer science",
@@ -1856,7 +1856,7 @@
     "year": 2015,
     "doi": "https://doi.org/10.1007/978-3-319-23871-5",
     "pdf_url": "",
-    "citation_count": 211,
+    "citation_count": 212,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Springer series in materials science",
@@ -1883,7 +1883,7 @@
     "year": 2024,
     "doi": "https://doi.org/10.1021/acs.chemmater.4c02257",
     "pdf_url": "",
-    "citation_count": 29,
+    "citation_count": 30,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Chemistry of Materials",
@@ -1934,7 +1934,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
     "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-    "citation_count": 1103,
+    "citation_count": 1112,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Solar Energy Materials and Solar Cells",
@@ -1961,7 +1961,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1002/advs.201500324",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-    "citation_count": 704,
+    "citation_count": 706,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Science",
@@ -2116,7 +2116,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1038/natrevmats.2015.4",
     "pdf_url": "",
-    "citation_count": 1000,
+    "citation_count": 1004,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -2142,7 +2142,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1002/eem2.12056",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-    "citation_count": 503,
+    "citation_count": 504,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Energy & environment materials",

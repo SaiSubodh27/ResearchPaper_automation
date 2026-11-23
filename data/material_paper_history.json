@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5514,
+    "citation_count": 5518,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 8212,
+    "citation_count": 8227,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1411,
+    "citation_count": 1415,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -1934,7 +1934,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
     "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-    "citation_count": 1112,
+    "citation_count": 1113,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Solar Energy Materials and Solar Cells",
@@ -1961,7 +1961,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1002/advs.201500324",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-    "citation_count": 706,
+    "citation_count": 709,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Science",
@@ -2628,7 +2628,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1002/wcms.1125",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcms.1125",
-    "citation_count": 240,
+    "citation_count": 283,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",
@@ -2772,5 +2772,78 @@
       "publisher": "Academic Publisher"
     },
     "subfield": "graphene 2D materials"
+  },
+  {
+    "id": "https://openalex.org/W7126215292",
+    "title": "Parallel Processing for Material Science Discovery: A Workflow Bottleneck Analysis and Optimization Framework",
+    "abstract": "Recent advances in material science increasingly rely on large-scale computational simulations, particularly in quantum chemistry, molecular modeling, electronic structure prediction, and high-throughput screening of novel materials. Traditional CPU-based pipelines struggle due to the immense computational cost of solving Schrödinger-based models, density functional theory (DFT) calculations, molecular dynamics (MD), and multi-physics simulations. Parallel GPU architectures, initially designed for graphics rendering, have demonstrated tremendous speed-ups for scientific computing because of their massively parallel execution units. However, despite the clear benefits, GPU-accelerated material science workflows continue to face critical bottlenecks—including memory bandwidth limitations, communication overhead, kernel inefficiencies, algorithm-hardware mismatch, and poor utilization of heterogeneous resources. This research investigates: What are the bottlenecks in current GPU-accelerated material-science pipelines, and how can they be mitigated? The paper includes: (1) an overview of GPU-based material computation, (2) bottleneck identification through case-study analysis, (3) workflow profiling, and (4) proposed optimizations across hardware, software, and algorithm layers. Results show that optimized kernel design, mixed-precision computing, asynchronous communication, and domain-specific GPU libraries significantly improve throughput. The study concludes with a generalized optimization framework for future GPU-driven material discovery systems.",
+    "authors": [
+      "Sparsh"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.64643/ijirtv12i7-191745-459",
+    "pdf_url": "https://ijirt.org/publishedpaper/IJIRT191745_PAPER.pdf",
+    "citation_count": 0,
+    "source_api": "OpenAlex",
+    "journal": {
+      "journal_name": "International Journal of Innovative Research in Technology",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "material science discovery"
+  },
+  {
+    "id": "42649680",
+    "title": "Recent Advances in High-Entropy Alloys",
+    "abstract": "",
+    "authors": [
+      "Xu H."
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.3390/e28080885",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13512207&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Entropy (Basel)",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "high entropy alloys"
+  },
+  {
+    "id": "42795133",
+    "title": "Development Status of Fe-V-Based High-Entropy Alloys for Nuclear Reactors",
+    "abstract": "",
+    "authors": [
+      "Wu H",
+      "Fu Y",
+      "Liu P",
+      "Wang T",
+      "Han W"
+    ],
+    "year": 2026,
+    "doi": "https://doi.org/10.3390/ma19183913",
+    "pdf_url": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC13608832&blobtype=pdf",
+    "citation_count": 0,
+    "source_api": "Europe PMC",
+    "journal": {
+      "journal_name": "Materials (Basel)",
+      "is_peer_reviewed": true,
+      "citation_score": 0.0,
+      "h_index": 0,
+      "quartile": "Q4",
+      "quality_tier": "Indexed (Q4)",
+      "publisher": "Academic Publisher"
+    },
+    "subfield": "high entropy alloys"
   }
 ]

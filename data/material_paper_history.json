@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5518,
+    "citation_count": 5524,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 8227,
+    "citation_count": 8248,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1415,
+    "citation_count": 1423,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -1856,7 +1856,7 @@
     "year": 2015,
     "doi": "https://doi.org/10.1007/978-3-319-23871-5",
     "pdf_url": "",
-    "citation_count": 212,
+    "citation_count": 213,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Springer series in materials science",
@@ -1934,7 +1934,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
     "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-    "citation_count": 1113,
+    "citation_count": 1116,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Solar Energy Materials and Solar Cells",
@@ -2142,7 +2142,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1002/eem2.12056",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-    "citation_count": 504,
+    "citation_count": 506,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Energy & environment materials",
@@ -2628,7 +2628,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1002/wcms.1125",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcms.1125",
-    "citation_count": 283,
+    "citation_count": 284,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",

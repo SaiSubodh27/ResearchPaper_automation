@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T07:31:40.660893Z",
+  "updated_at": "2026-11-25T06:00:52.729831Z",
   "count": 24,
   "papers": [
     {
@@ -103,33 +103,6 @@
       "subfield": "material science discovery"
     },
     {
-      "id": "43051294",
-      "title": "Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems",
-      "abstract": "",
-      "authors": [
-        "Dong B",
-        "Cui M",
-        "Chen C",
-        "Zhao R",
-        "Ju H"
-      ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1038/s41586-026-11427-1",
-      "pdf_url": "",
-      "citation_count": 0,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Nature",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q1",
-        "quality_tier": "Top-Tier (Q1)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "perovskite solar cells"
-    },
-    {
       "id": "https://openalex.org/W1999717631",
       "title": "The emergence of perovskite solar cells",
       "abstract": "",
@@ -141,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 8248,
+      "citation_count": 8279,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -167,7 +140,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1116,
+      "citation_count": 1121,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
@@ -208,6 +181,33 @@
       "subfield": "perovskite solar cells"
     },
     {
+      "id": "https://openalex.org/W4406426717",
+      "title": "Perovskite solar cells",
+      "abstract": "",
+      "authors": [
+        "Jiye Han",
+        "Keonwoo Park",
+        "Shaun Tan",
+        "Yana Vaynzof",
+        "Jingjing Xue"
+      ],
+      "year": 2025,
+      "doi": "https://doi.org/10.1038/s43586-024-00373-9",
+      "pdf_url": "",
+      "citation_count": 434,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Nature Reviews Methods Primers",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "perovskite solar cells"
+    },
+    {
       "id": "https://openalex.org/W396839203",
       "title": "Solid State Batteries: Materials Design and Optimization",
       "abstract": "",
@@ -218,7 +218,7 @@
       "year": 1994,
       "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
       "pdf_url": "",
-      "citation_count": 329,
+      "citation_count": 331,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Kluwer international series in engineering and computer science",
@@ -227,33 +227,6 @@
         "h_index": 0,
         "quartile": "Q3",
         "quality_tier": "Peer-Reviewed (Q3)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "solid state battery materials"
-    },
-    {
-      "id": "https://openalex.org/W3171577284",
-      "title": "Accelerated Atomistic Modeling of Solid-State Battery Materials With Machine Learning",
-      "abstract": "Materials for solid-state batteries often exhibit complex chemical compositions, defects, and disorder, making both experimental characterization and direct modeling with first principles methods challenging. Machine learning (ML) has proven versatile for accelerating or circumventing first-principles calculations, thereby facilitating the modeling of materials properties that are otherwise hard to access. ML potentials trained on accurate first principles data enable computationally efficient linear-scaling atomistic simulations with an accuracy close to the reference method. ML-based property-prediction and inverse design techniques are powerful for the computational search for new materials. Here, we give an overview of recent methodological advancements of ML techniques for atomic-scale modeling and materials design. We review applications to materials for solid-state batteries, including electrodes, solid electrolytes, coatings, and the complex interfaces involved.",
-      "authors": [
-        "Haoyue Guo",
-        "Qian Wang",
-        "Annika Stuke",
-        "Alexander Urban",
-        "Nongnuch Artrith"
-      ],
-      "year": 2021,
-      "doi": "https://doi.org/10.3389/fenrg.2021.695902",
-      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenrg.2021.695902/pdf",
-      "citation_count": 77,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Frontiers in Energy Research",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "solid state battery materials"
@@ -310,6 +283,33 @@
       "subfield": "solid state battery materials"
     },
     {
+      "id": "41189429",
+      "title": "Non-Equilibrium Manufacturing for High-Energy-Input Solid-State Battery Materials",
+      "abstract": "",
+      "authors": [
+        "Shen H",
+        "Jia Z",
+        "Zhang Y",
+        "Chen S",
+        "Huang Z"
+      ],
+      "year": 2026,
+      "doi": "https://doi.org/10.1002/adma.202515467",
+      "pdf_url": "",
+      "citation_count": 3,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Adv Mater",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "solid state battery materials"
+    },
+    {
       "id": "10.1007/s42114-026-01642-9",
       "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
       "abstract": "",
@@ -333,60 +333,6 @@
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
         "publisher": "Springer Science and Business Media LLC"
-      },
-      "subfield": "graphene 2D materials"
-    },
-    {
-      "id": "37955406",
-      "title": "Post-Graphene 2D Materials: Structures, Properties, and Cancer Therapy Applications",
-      "abstract": "",
-      "authors": [
-        "Kuang F",
-        "Hui T",
-        "Chen Y",
-        "Qiu M",
-        "Gao X."
-      ],
-      "year": 2024,
-      "doi": "https://doi.org/10.1002/adhm.202302604",
-      "pdf_url": "",
-      "citation_count": 5,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Adv Healthc Mater",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "graphene 2D materials"
-    },
-    {
-      "id": "32435844",
-      "title": "Using Post-graphene 2D Materials to Detect and Remove Pesticides: Recent Advances and Future Recommendations",
-      "abstract": "",
-      "authors": [
-        "Yang Q",
-        "Lu L",
-        "Xu Q",
-        "Tang S",
-        "Yu Y."
-      ],
-      "year": 2021,
-      "doi": "https://doi.org/10.1007/s00128-020-02868-z",
-      "pdf_url": "",
-      "citation_count": 4,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Bull Environ Contam Toxicol",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
       },
       "subfield": "graphene 2D materials"
     },
@@ -418,6 +364,56 @@
       "subfield": "graphene 2D materials"
     },
     {
+      "id": "https://openalex.org/W2922957936",
+      "title": "Graphene & 2D Materials: From Research to Applications",
+      "abstract": "",
+      "authors": [
+        "RICHARD A. P. SMITH"
+      ],
+      "year": 2019,
+      "doi": "https://doi.org/10.1595/205651319x15472161674581",
+      "pdf_url": "https://doi.org/10.1595/205651319x15472161674581",
+      "citation_count": 2,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Johnson Matthey Technology Review",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "graphene 2D materials"
+    },
+    {
+      "id": "https://openalex.org/W4396606210",
+      "title": "Bismuth tri-iodide – Graphene 2D material",
+      "abstract": "",
+      "authors": [
+        "L. Fornaro",
+        "Camila Maidana",
+        "Heinkel Bentos Pereira",
+        "Ana Lía Noguera",
+        "Álvaro Olivera"
+      ],
+      "year": 2024,
+      "doi": "https://doi.org/10.1016/j.jcrysgro.2024.127738",
+      "pdf_url": "",
+      "citation_count": 1,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Journal of Crystal Growth",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "graphene 2D materials"
+    },
+    {
       "id": "https://openalex.org/W2951539866",
       "title": "High-entropy alloys",
       "abstract": "",
@@ -429,7 +425,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5524,
+      "citation_count": 5533,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -527,7 +523,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1423,
+      "citation_count": 1430,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -577,7 +573,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1002/wcms.1125",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcms.1125",
-      "citation_count": 284,
+      "citation_count": 285,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",

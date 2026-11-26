@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5533,
+    "citation_count": 5504,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 8279,
+    "citation_count": 8263,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1831,7 +1831,7 @@
     "year": 1994,
     "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
     "pdf_url": "",
-    "citation_count": 331,
+    "citation_count": 301,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Kluwer international series in engineering and computer science",
@@ -1856,7 +1856,7 @@
     "year": 2015,
     "doi": "https://doi.org/10.1007/978-3-319-23871-5",
     "pdf_url": "",
-    "citation_count": 213,
+    "citation_count": 148,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Springer series in materials science",
@@ -1934,7 +1934,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
     "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-    "citation_count": 1121,
+    "citation_count": 1117,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Solar Energy Materials and Solar Cells",
@@ -1961,7 +1961,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1002/advs.201500324",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-    "citation_count": 709,
+    "citation_count": 706,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Advanced Science",
@@ -2039,7 +2039,7 @@
     "year": 2022,
     "doi": "https://doi.org/10.1103/prxenergy.1.031002",
     "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
-    "citation_count": 67,
+    "citation_count": 68,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "PRX Energy",
@@ -2080,7 +2080,7 @@
   {
     "id": "https://openalex.org/W2748869433",
     "title": "Corrosion of high entropy alloys",
-    "abstract": "Abstract High entropy alloys represent a unique class of metal alloys, comprising nominally five or more elements in near equiatomic proportions. High entropy alloys have gained significant interest on the basis that the high configurational entropy of such alloy systems is purported to result in a single-phase solid solution structure. While such a single-phase structure can occur in unique systems, it is now appreciated that the definition of high entropy alloys can be broader, with systems comprising only four elements possible of forming single phases, and most five (or more) element systems actually being multi (>2) phases. To this end, the notion of compositionally complex alloys is a more general description, with the concise review herein focusing on the corrosion of compositionally complex alloys (inclusive of high entropy alloys). It is noted that generally, in spite of complex compositions and in many cases complicated microstructural heterogeneity, compositionally complex alloys are nominally corrosion-resistant. This is discussed and aspects of the status and needs are presented.",
+    "abstract": "High entropy alloys represent a unique class of metal alloys, comprising nominally five or more elements in near equiatomic proportions. High entropy alloys have gained significant interest on the basis that the high configurational entropy of such alloy systems is purported to result in a single-phase solid solution structure. While such a single-phase structure can occur in unique systems, it is now appreciated that the definition of high entropy alloys can be broader, with systems comprising only four elements possible of forming single phases, and most five (or more) element systems actually being multi (>2) phases. To this end, the notion of compositionally complex alloys is a more general description, with the concise review herein focusing on the corrosion of compositionally complex alloys (inclusive of high entropy alloys). It is noted that generally, in spite of complex compositions and in many cases complicated microstructural heterogeneity, compositionally complex alloys are nominally corrosion-resistant. This is discussed and aspects of the status and needs are presented.",
     "authors": [
       "Yao Qiu",
       "S. Thomas",
@@ -2091,7 +2091,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/s41529-017-0009-y",
     "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-    "citation_count": 627,
+    "citation_count": 659,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "npj Materials Degradation",
@@ -2142,7 +2142,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1002/eem2.12056",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-    "citation_count": 506,
+    "citation_count": 504,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Energy & environment materials",
@@ -2628,7 +2628,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1002/wcms.1125",
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcms.1125",
-    "citation_count": 285,
+    "citation_count": 284,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",

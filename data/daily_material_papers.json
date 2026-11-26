@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T06:00:52.729831Z",
+  "updated_at": "2026-11-26T05:53:02.484302Z",
   "count": 24,
   "papers": [
     {
@@ -14,7 +14,7 @@
       "year": 2015,
       "doi": "https://doi.org/10.1007/978-3-319-23871-5",
       "pdf_url": "",
-      "citation_count": 213,
+      "citation_count": 148,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Springer series in materials science",
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 8279,
+      "citation_count": 8263,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -140,7 +140,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1121,
+      "citation_count": 1117,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
@@ -167,7 +167,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1002/advs.201500324",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.201500324",
-      "citation_count": 709,
+      "citation_count": 706,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Advanced Science",
@@ -218,7 +218,7 @@
       "year": 1994,
       "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
       "pdf_url": "",
-      "citation_count": 331,
+      "citation_count": 301,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Kluwer international series in engineering and computer science",
@@ -244,7 +244,7 @@
       "year": 2022,
       "doi": "https://doi.org/10.1103/prxenergy.1.031002",
       "pdf_url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.031002",
-      "citation_count": 67,
+      "citation_count": 68,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "PRX Energy",
@@ -310,29 +310,56 @@
       "subfield": "solid state battery materials"
     },
     {
-      "id": "10.1007/s42114-026-01642-9",
-      "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
+      "id": "37955406",
+      "title": "Post-Graphene 2D Materials: Structures, Properties, and Cancer Therapy Applications",
       "abstract": "",
       "authors": [
-        "Abdallah Kamal",
-        "Baosong Li",
-        "Suhail K. Siddique",
-        "Dawei Zhang",
-        "Kishor B. Shingare"
+        "Kuang F",
+        "Hui T",
+        "Chen Y",
+        "Qiu M",
+        "Gao X."
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1007/s42114-026-01642-9",
+      "year": 2024,
+      "doi": "https://doi.org/10.1002/adhm.202302604",
       "pdf_url": "",
-      "citation_count": 7,
-      "source_api": "Crossref",
+      "citation_count": 5,
+      "source_api": "Europe PMC",
       "journal": {
-        "journal_name": "Advanced Composites and Hybrid Materials",
+        "journal_name": "Adv Healthc Mater",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Springer Science and Business Media LLC"
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "graphene 2D materials"
+    },
+    {
+      "id": "32435844",
+      "title": "Using Post-graphene 2D Materials to Detect and Remove Pesticides: Recent Advances and Future Recommendations",
+      "abstract": "",
+      "authors": [
+        "Yang Q",
+        "Lu L",
+        "Xu Q",
+        "Tang S",
+        "Yu Y."
+      ],
+      "year": 2021,
+      "doi": "https://doi.org/10.1007/s00128-020-02868-z",
+      "pdf_url": "",
+      "citation_count": 4,
+      "source_api": "Europe PMC",
+      "journal": {
+        "journal_name": "Bull Environ Contam Toxicol",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
       },
       "subfield": "graphene 2D materials"
     },
@@ -387,33 +414,6 @@
       "subfield": "graphene 2D materials"
     },
     {
-      "id": "https://openalex.org/W4396606210",
-      "title": "Bismuth tri-iodide – Graphene 2D material",
-      "abstract": "",
-      "authors": [
-        "L. Fornaro",
-        "Camila Maidana",
-        "Heinkel Bentos Pereira",
-        "Ana Lía Noguera",
-        "Álvaro Olivera"
-      ],
-      "year": 2024,
-      "doi": "https://doi.org/10.1016/j.jcrysgro.2024.127738",
-      "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "OpenAlex",
-      "journal": {
-        "journal_name": "Journal of Crystal Growth",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "graphene 2D materials"
-    },
-    {
       "id": "https://openalex.org/W2951539866",
       "title": "High-entropy alloys",
       "abstract": "",
@@ -425,7 +425,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5533,
+      "citation_count": 5504,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -434,6 +434,33 @@
         "h_index": 0,
         "quartile": "Q2",
         "quality_tier": "High Quality (Q2)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "high entropy alloys"
+    },
+    {
+      "id": "https://openalex.org/W2748869433",
+      "title": "Corrosion of high entropy alloys",
+      "abstract": "High entropy alloys represent a unique class of metal alloys, comprising nominally five or more elements in near equiatomic proportions. High entropy alloys have gained significant interest on the basis that the high configurational entropy of such alloy systems is purported to result in a single-phase solid solution structure. While such a single-phase structure can occur in unique systems, it is now appreciated that the definition of high entropy alloys can be broader, with systems comprising only four elements possible of forming single phases, and most five (or more) element systems actually being multi (>2) phases. To this end, the notion of compositionally complex alloys is a more general description, with the concise review herein focusing on the corrosion of compositionally complex alloys (inclusive of high entropy alloys). It is noted that generally, in spite of complex compositions and in many cases complicated microstructural heterogeneity, compositionally complex alloys are nominally corrosion-resistant. This is discussed and aspects of the status and needs are presented.",
+      "authors": [
+        "Yao Qiu",
+        "S. Thomas",
+        "Mark A. Gibson",
+        "Hamish L. Fraser",
+        "N. Birbilis"
+      ],
+      "year": 2017,
+      "doi": "https://doi.org/10.1038/s41529-017-0009-y",
+      "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
+      "citation_count": 659,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "npj Materials Degradation",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
         "publisher": "Academic Publisher"
       },
       "subfield": "high entropy alloys"
@@ -485,33 +512,6 @@
       "subfield": "high entropy alloys"
     },
     {
-      "id": "42778713",
-      "title": "Adsorption-conversion synthesis of ultrathin intermetallics and high-entropy alloys",
-      "abstract": "",
-      "authors": [
-        "Zhang P",
-        "Zhao F",
-        "Wang X",
-        "Wang H",
-        "Si K"
-      ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1038/s41563-026-02752-x",
-      "pdf_url": "",
-      "citation_count": 1,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Nat Mater",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "high entropy alloys"
-    },
-    {
       "id": "https://openalex.org/W2065608088",
       "title": "Density functional theory methods for characterization of porous materials",
       "abstract": "",
@@ -549,7 +549,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1002/eem2.12056",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eem2.12056",
-      "citation_count": 506,
+      "citation_count": 504,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Energy & environment materials",
@@ -573,7 +573,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1002/wcms.1125",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcms.1125",
-      "citation_count": 285,
+      "citation_count": 284,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Wiley Interdisciplinary Reviews Computational Molecular Science",

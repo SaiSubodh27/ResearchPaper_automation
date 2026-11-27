@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T05:53:02.484302Z",
+  "updated_at": "2026-11-27T05:46:45.708661Z",
   "count": 24,
   "papers": [
     {
@@ -114,7 +114,7 @@
       "year": 2014,
       "doi": "https://doi.org/10.1038/nphoton.2014.134",
       "pdf_url": "",
-      "citation_count": 8263,
+      "citation_count": 8280,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Photonics",
@@ -140,7 +140,7 @@
       "year": 2016,
       "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
       "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-      "citation_count": 1117,
+      "citation_count": 1119,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Solar Energy Materials and Solar Cells",
@@ -213,7 +213,7 @@
       "abstract": "",
       "authors": [
         "Christian M Julien",
-        "Gholam‐Abbas Nazri"
+        "G. Abbas Nazri"
       ],
       "year": 1994,
       "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
@@ -283,83 +283,52 @@
       "subfield": "solid state battery materials"
     },
     {
-      "id": "41189429",
-      "title": "Non-Equilibrium Manufacturing for High-Energy-Input Solid-State Battery Materials",
+      "id": "10.2172/2326225",
+      "title": "Sulfide Glass Solid-State Electrolyte Separators for Semi-Solid Li-S Batteries",
       "abstract": "",
       "authors": [
-        "Shen H",
-        "Jia Z",
-        "Zhang Y",
-        "Chen S",
-        "Huang Z"
+        "Tom Yersak"
       ],
-      "year": 2026,
-      "doi": "https://doi.org/10.1002/adma.202515467",
+      "year": 2023,
+      "doi": "https://doi.org/10.2172/2326225",
       "pdf_url": "",
-      "citation_count": 3,
-      "source_api": "Europe PMC",
+      "citation_count": 0,
+      "source_api": "Crossref",
       "journal": {
-        "journal_name": "Adv Mater",
+        "journal_name": "TechBlick - Battery Materials and Solid-State Batteries",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
+        "publisher": "US DOE"
       },
       "subfield": "solid state battery materials"
     },
     {
-      "id": "37955406",
-      "title": "Post-Graphene 2D Materials: Structures, Properties, and Cancer Therapy Applications",
+      "id": "10.1007/s42114-026-01642-9",
+      "title": "Tailoring triply periodic minimal surface architectures with Ti₃C₂Tₓ MXene for high-performance absorptive EMI shielding",
       "abstract": "",
       "authors": [
-        "Kuang F",
-        "Hui T",
-        "Chen Y",
-        "Qiu M",
-        "Gao X."
+        "Abdallah Kamal",
+        "Baosong Li",
+        "Suhail K. Siddique",
+        "Dawei Zhang",
+        "Kishor B. Shingare"
       ],
-      "year": 2024,
-      "doi": "https://doi.org/10.1002/adhm.202302604",
+      "year": 2026,
+      "doi": "https://doi.org/10.1007/s42114-026-01642-9",
       "pdf_url": "",
-      "citation_count": 5,
-      "source_api": "Europe PMC",
+      "citation_count": 7,
+      "source_api": "Crossref",
       "journal": {
-        "journal_name": "Adv Healthc Mater",
+        "journal_name": "Advanced Composites and Hybrid Materials",
         "is_peer_reviewed": true,
         "citation_score": 0.0,
         "h_index": 0,
         "quartile": "Q4",
         "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
-      },
-      "subfield": "graphene 2D materials"
-    },
-    {
-      "id": "32435844",
-      "title": "Using Post-graphene 2D Materials to Detect and Remove Pesticides: Recent Advances and Future Recommendations",
-      "abstract": "",
-      "authors": [
-        "Yang Q",
-        "Lu L",
-        "Xu Q",
-        "Tang S",
-        "Yu Y."
-      ],
-      "year": 2021,
-      "doi": "https://doi.org/10.1007/s00128-020-02868-z",
-      "pdf_url": "",
-      "citation_count": 4,
-      "source_api": "Europe PMC",
-      "journal": {
-        "journal_name": "Bull Environ Contam Toxicol",
-        "is_peer_reviewed": true,
-        "citation_score": 0.0,
-        "h_index": 0,
-        "quartile": "Q4",
-        "quality_tier": "Indexed (Q4)",
-        "publisher": "Academic Publisher"
+        "publisher": "Springer Science and Business Media LLC"
       },
       "subfield": "graphene 2D materials"
     },
@@ -414,6 +383,33 @@
       "subfield": "graphene 2D materials"
     },
     {
+      "id": "https://openalex.org/W4396606210",
+      "title": "Bismuth tri-iodide – Graphene 2D material",
+      "abstract": "",
+      "authors": [
+        "L. Fornaro",
+        "Camila Maidana",
+        "Heinkel Bentos Pereira",
+        "Ana Lía Noguera",
+        "Álvaro Olivera"
+      ],
+      "year": 2024,
+      "doi": "https://doi.org/10.1016/j.jcrysgro.2024.127738",
+      "pdf_url": "",
+      "citation_count": 1,
+      "source_api": "OpenAlex",
+      "journal": {
+        "journal_name": "Journal of Crystal Growth",
+        "is_peer_reviewed": true,
+        "citation_score": 0.0,
+        "h_index": 0,
+        "quartile": "Q4",
+        "quality_tier": "Indexed (Q4)",
+        "publisher": "Academic Publisher"
+      },
+      "subfield": "graphene 2D materials"
+    },
+    {
       "id": "https://openalex.org/W2951539866",
       "title": "High-entropy alloys",
       "abstract": "",
@@ -425,7 +421,7 @@
       "year": 2019,
       "doi": "https://doi.org/10.1038/s41578-019-0121-4",
       "pdf_url": "",
-      "citation_count": 5504,
+      "citation_count": 5512,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Nature Reviews Materials",
@@ -452,7 +448,7 @@
       "year": 2017,
       "doi": "https://doi.org/10.1038/s41529-017-0009-y",
       "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-      "citation_count": 659,
+      "citation_count": 661,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "npj Materials Degradation",
@@ -523,7 +519,7 @@
       "year": 2013,
       "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
       "pdf_url": "",
-      "citation_count": 1430,
+      "citation_count": 1432,
       "source_api": "OpenAlex",
       "journal": {
         "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",

@@ -431,7 +431,7 @@
     "year": 2019,
     "doi": "https://doi.org/10.1038/s41578-019-0121-4",
     "pdf_url": "",
-    "citation_count": 5504,
+    "citation_count": 5512,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Reviews Materials",
@@ -759,7 +759,7 @@
     "year": 2014,
     "doi": "https://doi.org/10.1038/nphoton.2014.134",
     "pdf_url": "",
-    "citation_count": 8263,
+    "citation_count": 8280,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Nature Photonics",
@@ -1119,7 +1119,7 @@
     "year": 2013,
     "doi": "https://doi.org/10.1016/j.colsurfa.2013.01.007",
     "pdf_url": "",
-    "citation_count": 1430,
+    "citation_count": 1432,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Colloids and Surfaces A Physicochemical and Engineering Aspects",
@@ -1826,7 +1826,7 @@
     "abstract": "",
     "authors": [
       "Christian M Julien",
-      "Gholam‐Abbas Nazri"
+      "G. Abbas Nazri"
     ],
     "year": 1994,
     "doi": "https://doi.org/10.1007/978-1-4615-2704-6",
@@ -1934,7 +1934,7 @@
     "year": 2016,
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.025",
     "pdf_url": "http://handle.unsw.edu.au/1959.4/unsworks_38687",
-    "citation_count": 1117,
+    "citation_count": 1119,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "Solar Energy Materials and Solar Cells",
@@ -2091,7 +2091,7 @@
     "year": 2017,
     "doi": "https://doi.org/10.1038/s41529-017-0009-y",
     "pdf_url": "https://www.nature.com/articles/s41529-017-0009-y.pdf",
-    "citation_count": 659,
+    "citation_count": 661,
     "source_api": "OpenAlex",
     "journal": {
       "journal_name": "npj Materials Degradation",
